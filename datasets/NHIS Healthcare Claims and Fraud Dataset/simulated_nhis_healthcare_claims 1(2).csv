@@ -1,0 +1,1501 @@
+Patient ID,Age,Gender,Date Admitted,Date Discharged,Diagnosis,Treatment,Amount Billed,Fraud Type
+9b484756-3a0d-47f4-ada3-fb63ed2d1082,82,Male,2023-02-06,2023-02-06,Appendectomy,Appendectomy,144764.37,No Fraud
+0240f93e-8c46-4c2a-a4cb-827ecf527d36,29,Male,2022-09-03,2022-09-04,Cesarean Section,Fake Cesarean Section,531434.03,Fake Treatment
+0e0e0476-cf0f-4b87-828c-a34bdd780e68,70,Male,2022-10-02,2022-10-17,Advanced Spinal Surgery,Phantom Procedure,128604.41,Phantom Billing
+ad669adf-568d-4346-b60e-a26a3374f00d,12,Male,2023-11-15,2023-11-20,Peptic Ulcer,Peptic Ulcer,304989.18,No Fraud
+9c0cc9c5-ff6f-442b-9c25-60ad3f1a4400,72,Male,2022-11-15,2022-12-04,Appendectomy,Appendectomy,277021.33,No Fraud
+4351f251-fae3-413e-b045-a6a5f816b104,29,Female,2024-01-23,2024-02-01,Tuberculosis,Tuberculosis,406620.92,No Fraud
+4bb192a8-ea9f-4fda-8d57-99028d877589,1,Male,2024-03-13,2024-03-24,HIV/AIDS,HIV/AIDS,146156.96,No Fraud
+66ba6bfa-505e-454f-89c9-58e982421277,28,Female,2023-04-08,2023-04-10,Hypertension,Fake Hypertension,296952.75,Fake Treatment
+8a9726c3-8d70-4cfa-8317-15e9b4f363a0,46,Female,2024-01-04,2024-01-21,Tuberculosis,Tuberculosis,405492.85,Ghost Enrollee
+8cfc29f0-458b-4051-ba96-1f1e9e943efb,94,Female,2024-01-29,2024-02-08,Organ Transplant,Phantom Procedure,975804.19,Phantom Billing
+577f02e3-4831-4edf-aa16-465f006f24af,49,Male,2023-07-19,2023-07-28,Tuberculosis,Tuberculosis,416408.29,No Fraud
+6cb6d701-114e-40c5-b309-590dafbb33d6,80,Female,2024-07-06,2024-07-19,Asthma,Fake Asthma,507971.69,Fake Treatment
+bad349a3-7792-4e0b-b0f0-f3c6a857da31,6,Male,2022-12-08,2022-12-10,Organ Transplant,Phantom Procedure,869785.95,Phantom Billing
+49c42872-2b71-457c-b76a-0966b4d752f4,13,Female,2023-02-13,2023-02-19,Hepatitis B,Hepatitis B,321485.38,No Fraud
+950a7a40-6bba-4598-8ed7-893116b273b8,47,Male,2024-02-19,2024-02-25,HIV/AIDS,HIV/AIDS,112658.45,No Fraud
+b4845b4a-9344-45b0-b87a-ea0ce21e04fe,35,Male,2022-10-24,2022-10-29,Cesarean Section,Cesarean Section,93857.94,No Fraud
+587b16f6-ff20-4db4-9ff1-2825fc353217,94,Male,2023-08-14,2023-08-14,Hepatitis B,Hepatitis B,195933.17,No Fraud
+7c5a1e70-906c-4776-8fd4-b9a4296bb345,82,Male,2024-03-26,2024-03-27,Kidney Disease,Kidney Disease,386473.65,No Fraud
+63532f40-7f18-4482-83b5-83c98877108e,8,Male,2024-07-17,2024-07-17,Stroke,Stroke,164571.99,No Fraud
+70cf2195-edb0-48c0-a968-7f52a968cc38,35,Male,2023-04-12,2023-04-17,Cataract Surgery,Cataract Surgery,439420.14,No Fraud
+eab6eea9-19bc-452d-bbe5-0b4a756c6e64,41,Male,2023-02-24,2023-03-15,Hepatitis B,Hepatitis B,203859.63,Ghost Enrollee
+97c5c858-a597-42dc-a12e-40c1da04ab18,83,Female,2022-10-31,2022-11-03,Tuberculosis,Tuberculosis,78418.86,No Fraud
+192407fd-9087-4886-80f8-eabfac22f91a,96,Female,2022-11-18,2022-11-28,Gastroenteritis,Gastroenteritis,449933.21,No Fraud
+647daa4d-34b0-49a2-8684-e71ce0adb6e4,52,Female,2023-02-12,2023-02-13,Pneumonia,Pneumonia,259667.88,No Fraud
+b5c2df33-34f2-414f-a5dd-e6ea996f8c19,12,Male,2023-10-09,2023-10-11,Pneumonia,Pneumonia,317448.56,No Fraud
+d4ec5d89-d5a2-4977-b4de-cc7307952be9,88,Female,2022-12-15,2022-12-24,Organ Transplant,Phantom Procedure,446290.58,Phantom Billing
+ef875f56-4ea2-4f2b-bf99-933b6d3a8f58,77,Female,2024-07-28,2024-07-31,Tuberculosis,Tuberculosis,485828.41,No Fraud
+77ee242b-d4b4-467c-a651-31fb07f84bed,2,Male,2023-10-05,2023-10-12,Stroke,Stroke,140744.34,No Fraud
+fa3a50ca-7b87-433b-803e-0f7274a1f946,83,Female,2023-04-26,2023-04-28,Tuberculosis,Tuberculosis,223034.97,No Fraud
+56b584c1-f1e0-4560-b874-7182ff003bb0,59,Male,2024-04-07,2024-04-12,Peptic Ulcer,Peptic Ulcer,383361.48,No Fraud
+59ad7eb0-8867-44b3-9d68-2f735ec35d77,65,Male,2024-01-05,2024-01-19,Tuberculosis,Tuberculosis,422417.98,Ghost Enrollee
+d54bb729-ea0e-4de6-8489-29ea90e1446c,65,Male,2023-04-21,2023-04-21,HIV/AIDS,HIV/AIDS,383630.29,No Fraud
+b3651b24-b76f-4912-8195-703c2281befa,70,Male,2024-08-03,2024-08-10,HIV/AIDS,HIV/AIDS,249416.8,No Fraud
+33b2c01a-d92f-434e-ab8f-426b88d691a1,15,Female,2023-08-07,2023-08-12,Asthma,Fake Asthma,87651.36,Fake Treatment
+cb3478c7-6c45-4915-8e09-e91686f223a4,73,Male,2024-08-28,2024-08-28,Appendectomy,Fake Appendectomy,365893.8,Fake Treatment
+208c25df-99e0-4959-8906-b2035426e5ac,9,Male,2023-06-01,2023-06-04,Epilepsy Surgery,Phantom Procedure,952163.81,Phantom Billing
+9f6ff6a9-7c9b-4d4e-94ee-ea971ec4a9ad,22,Female,2022-11-08,2022-11-08,Kidney Disease,Kidney Disease,307231.02,No Fraud
+837df2d4-fa09-438d-94d3-d3dff32bb9ca,28,Male,2023-06-10,2023-06-17,Gastroenteritis,Gastroenteritis,497623.18,No Fraud
+0cb2ca2f-c8d7-4f53-9222-3aa6f4f210d7,84,Female,2024-04-07,2024-04-14,Peptic Ulcer,Peptic Ulcer,231228.21,Ghost Enrollee
+e150cde4-7e0a-4f3d-ba74-b36b2bf7d34e,32,Male,2024-07-20,2024-07-21,HIV/AIDS,HIV/AIDS,20306.79,No Fraud
+46eb233a-6cf7-4c76-9949-35a32c6d4774,71,Male,2024-04-12,2024-04-23,Asthma,Asthma,13523.51,No Fraud
+771e9431-ac85-48b8-b94f-5fb469aada35,91,Male,2022-11-13,2022-11-13,Hypertension,Hypertension,453655.81,No Fraud
+5b7d2bda-dde2-4635-9251-f94c4405364c,43,Male,2024-07-03,2024-07-15,Asthma,Asthma,146453.86,No Fraud
+45103dfb-3a30-4756-a417-ed6392988efe,63,Male,2023-06-13,2023-06-14,Pneumonia,Fake Pneumonia,520179.17,Fake Treatment
+64427ec5-faa7-4bc1-9615-e9b422c0a96b,74,Female,2023-03-06,2023-03-08,Stroke,Stroke,241756.74,No Fraud
+504e5f2a-d9db-48c2-9b21-416102fdc4e7,53,Male,2024-02-21,2024-02-21,Hypertension,Hypertension,332901.55,Ghost Enrollee
+dca5d576-4e40-4824-9f6c-1d3d3f19173c,46,Female,2023-01-06,2023-01-14,Hepatitis B,Hepatitis B,433280.01,No Fraud
+53a610ed-8ad7-4c59-9fed-90c90c83ee10,7,Male,2022-11-07,2022-11-07,Gastroenteritis,Gastroenteritis,366824.66,No Fraud
+3dd580db-7132-40f4-b760-9a2bba909f07,14,Male,2024-05-31,2024-06-01,Asthma,Asthma,272780.02,No Fraud
+d50f7c97-7ff4-42de-810e-f6de749e4d27,18,Female,2023-11-12,2023-11-15,Tuberculosis,Tuberculosis,236687.75,No Fraud
+b63be6be-9cac-4540-b7de-1999fe26c753,10,Female,2022-09-24,2022-09-29,Hypertension,Fake Hypertension,82882.41,Fake Treatment
+e76e6b6b-d3ab-486a-8311-ae3a001b07a4,70,Male,2022-09-09,2022-09-10,Complex Heart Surgery,Phantom Procedure,249680.0,Phantom Billing
+0f76fb5c-9f2d-4efb-b269-24bb494c6727,63,Female,2024-07-23,2024-07-26,Kidney Disease,Fake Kidney Disease,310676.19,Fake Treatment
+9400f8f4-c2e0-434e-ab6f-3ce24bf7aec0,8,Male,2022-09-28,2022-09-28,Diabetes,Fake Diabetes,690450.75,Fake Treatment
+46e53872-9c1e-4a6b-8ebe-ec67dffef0a5,34,Female,2023-10-12,2023-10-20,Gastroenteritis,Gastroenteritis,351329.84,No Fraud
+dbcfdec1-07f4-43d6-bd95-6b5d1cd5a622,94,Female,2022-12-28,2022-12-28,Asthma,Fake Asthma,242860.09,Fake Treatment
+d22bb261-a364-46be-b180-f28830ddebb0,8,Male,2023-07-09,2023-07-18,Diabetes,Diabetes,34569.75,No Fraud
+1f7952dc-885d-4721-a85c-6e25d6920ced,62,Male,2024-07-22,2024-07-22,Peptic Ulcer,Peptic Ulcer,49254.62,No Fraud
+1cf36c1a-fd36-4325-bb16-015e7502bc32,24,Male,2024-06-07,2024-06-11,Hypertension,Hypertension,340854.15,No Fraud
+9470ffac-e5ac-4ea7-975b-0fc58311528e,31,Female,2023-06-10,2023-06-12,Cataract Surgery,Cataract Surgery,130645.52,No Fraud
+847eec60-c328-4945-ae07-c1ea2e0c182b,77,Male,2024-05-24,2024-06-07,Hypertension,Hypertension,215420.21,No Fraud
+e1ee5256-afd3-4126-90e5-dd83f3702882,75,Female,2023-11-21,2023-11-28,Asthma,Asthma,338165.73,No Fraud
+0c27dd0b-a1dc-4a64-aca8-53d8e92ea14b,41,Male,2024-07-28,2024-08-04,Advanced Spinal Surgery,Phantom Procedure,217790.45,Phantom Billing
+2cb02bce-3659-4bbb-8c87-961c91267f27,83,Female,2023-02-23,2023-03-07,HIV/AIDS,HIV/AIDS,465218.98,No Fraud
+0e1b65fd-5103-4c1b-83d0-1acd507da252,10,Male,2024-03-07,2024-03-15,Cataract Surgery,Cataract Surgery,499242.68,No Fraud
+00395385-465f-4349-9aa9-d871c566631e,13,Male,2023-07-16,2023-07-28,Asthma,Asthma,257883.5,No Fraud
+777d693f-9331-4bec-8859-f8a7eb948f3d,17,Female,2023-04-15,2023-04-16,Asthma,Asthma,191068.27,No Fraud
+b006c937-a510-4ea6-af0d-4c202acd12a0,21,Female,2024-05-25,2024-06-06,Infertility Treatment (IVF),Phantom Procedure,650509.99,Phantom Billing
+ec9fa9a5-ce15-42a2-9244-56e615b866dd,84,Male,2023-09-22,2023-10-02,Tuberculosis,Tuberculosis,466560.46,No Fraud
+3d42973b-7450-450e-9567-24f85864082c,14,Male,2023-03-08,2023-03-14,Hypertension,Fake Hypertension,628313.26,Fake Treatment
+5d5a1f92-a678-48b7-a81f-5e961f3d68d3,96,Male,2022-09-02,2022-09-06,Infertility Treatment (IVF),Phantom Procedure,644346.84,Phantom Billing
+e6817fca-5c5c-450d-9724-d132d89b3e70,92,Female,2024-04-16,2024-04-17,Cesarean Section,Cesarean Section,320776.6,No Fraud
+8c69b815-b115-4d30-977a-60b7c4c147e4,34,Female,2023-01-02,2023-01-04,Kidney Disease,Kidney Disease,34891.46,No Fraud
+30470a49-990f-47f5-bffd-d30988c2057b,82,Female,2023-02-07,2023-02-12,Cancer Treatment,Phantom Procedure,103191.12,Phantom Billing
+a9e599e3-e09d-4458-b276-043ad9f0f70e,99,Male,2023-08-03,2023-08-08,Infertility Treatment (IVF),Phantom Procedure,245423.78,Phantom Billing
+0c008193-206f-4fbe-aae1-eac7e4149846,57,Female,2024-04-02,2024-04-08,Cancer Treatment,Phantom Procedure,200686.49,Phantom Billing
+80a5ce14-6032-4282-ab04-e18ac960f3c0,89,Male,2023-05-06,2023-05-22,Cancer Treatment,Phantom Procedure,851135.52,Phantom Billing
+7715fdfb-7454-4712-9cd7-0049ebea845d,75,Male,2024-02-22,2024-02-27,Pneumonia,Pneumonia,30496.14,No Fraud
+a275c737-625c-4db3-bfbf-4faf14c4e04b,47,Male,2022-12-11,2022-12-14,Asthma,Asthma,344212.68,No Fraud
+f52a3cb3-de6b-45c4-bfb8-aacb4c56a623,86,Male,2024-07-11,2024-07-17,Stroke,Stroke,284342.92,No Fraud
+82b830ac-3b19-4462-81de-44af1d4769bc,53,Male,2022-09-11,2022-09-14,Kidney Disease,Fake Kidney Disease,155626.15,Fake Treatment
+f966bd11-ec00-4710-b04d-69f9324730ae,23,Female,2023-02-14,2023-02-14,Pneumonia,Pneumonia,370916.59,Ghost Enrollee
+0b95b6f9-ed8c-4931-9ed4-edbb2be00f58,43,Female,2024-04-10,2024-04-10,Tuberculosis,Tuberculosis,88006.94,No Fraud
+cef353b0-b26d-45f9-80f7-fa29e3a57955,90,Male,2023-12-22,2023-12-28,Kidney Disease,Kidney Disease,28975.06,No Fraud
+c182f3c5-6b79-495e-8a11-4c9f43842c81,61,Male,2022-12-09,2022-12-12,Kidney Disease,Kidney Disease,460041.43,No Fraud
+fe11b7a6-63a3-44a3-ae17-91eaaff4ffda,45,Female,2024-01-15,2024-01-19,Asthma,Asthma,21595.57,No Fraud
+06e2314c-826c-4679-a7d8-2709386fca17,25,Female,2024-06-09,2024-06-10,Infertility Treatment (IVF),Phantom Procedure,877917.65,Phantom Billing
+7f0d678d-d137-4457-bd45-634ad01aed67,99,Female,2024-07-06,2024-07-15,Cesarean Section,Cesarean Section,259608.78,Ghost Enrollee
+0cddf24e-7d7e-45f0-a2a4-2233ea8e53a2,87,Female,2022-11-13,2022-11-13,Hypertension,Fake Hypertension,620074.97,Fake Treatment
+21a3f63a-c90a-40ea-ab55-8f75a1efc54f,34,Male,2024-08-14,2024-08-14,Tuberculosis,Tuberculosis,28746.03,No Fraud
+1c8b839a-3048-48de-b946-cf22c4a434df,77,Female,2023-07-02,2023-07-12,Appendectomy,Appendectomy,395349.81,No Fraud
+b7070ed2-c2ea-451c-aa60-b0e15cdc992f,56,Male,2024-06-06,2024-06-06,Complex Heart Surgery,Phantom Procedure,329250.26,Phantom Billing
+12ad2c6d-58a9-4b45-bf4f-1f5ad28ae149,91,Female,2023-03-18,2023-03-18,Complex Heart Surgery,Phantom Procedure,427799.32,Phantom Billing
+9583ec85-070a-44d0-808c-3d3ddc87a507,9,Female,2024-04-13,2024-04-30,HIV/AIDS,HIV/AIDS,335059.86,No Fraud
+0b613e58-cb9d-480d-9364-db5b766d0b72,16,Female,2024-04-13,2024-04-19,Infertility Treatment (IVF),Phantom Procedure,700203.61,Phantom Billing
+a39e4bcd-0f5e-4ea9-97e7-c972cde2bfaa,42,Female,2024-05-29,2024-05-31,Peptic Ulcer,Peptic Ulcer,72371.02,No Fraud
+e43130c7-982f-4d2c-be10-c4fdae06e1fa,54,Female,2024-08-18,2024-08-21,Cataract Surgery,Cataract Surgery,288861.57,No Fraud
+037f3cae-35ea-4dab-a668-b92e3537a14e,52,Male,2023-06-12,2023-06-18,Tuberculosis,Tuberculosis,112989.52,No Fraud
+1a109b61-bbb9-4e92-ac99-48d5f4dae862,75,Female,2022-12-22,2022-12-31,Hepatitis B,Hepatitis B,226658.3,No Fraud
+0d5471e8-a88e-4313-aea3-559ec41eb041,28,Female,2024-03-14,2024-03-15,Cesarean Section,Cesarean Section,51549.81,No Fraud
+37238109-6593-4f8a-a97e-b85e9051253f,66,Female,2024-08-14,2024-08-15,Kidney Disease,Kidney Disease,476479.83,No Fraud
+0bf52dd6-15bc-4738-9904-c0954f43e289,31,Female,2024-07-28,2024-07-30,Stroke,Stroke,107573.67,Ghost Enrollee
+368c572b-8aea-4d0f-b8c3-33caab2bc3be,4,Male,2023-05-30,2023-06-03,Hepatitis B,Hepatitis B,309524.25,No Fraud
+83809948-3477-4afc-835e-47ccebcb77ba,99,Male,2024-04-23,2024-05-06,Gastroenteritis,Gastroenteritis,444207.09,No Fraud
+0ac1832c-2f96-4b3b-bd32-683d350384bb,74,Male,2022-12-14,2022-12-20,Hepatitis B,Fake Hepatitis B,309774.36,Fake Treatment
+e462ec67-4ca3-42e0-9cd5-9b1ea7c13bba,19,Male,2023-06-14,2023-06-15,Stroke,Stroke,218321.64,No Fraud
+aac9f2ee-632b-4b3b-9d5d-15fea574f182,23,Female,2023-11-15,2023-11-15,Peptic Ulcer,Peptic Ulcer,132107.16,No Fraud
+39581567-0375-4288-8b7a-72788a8f6771,16,Female,2023-10-17,2023-10-18,Epilepsy Surgery,Phantom Procedure,700819.96,Phantom Billing
+399b7c26-b2c8-41a2-9d92-618f2606c3fc,72,Female,2022-11-26,2022-11-27,Cataract Surgery,Cataract Surgery,409353.19,No Fraud
+7ac649a5-4f07-4d33-9792-dadae7f49a13,65,Female,2023-01-29,2023-02-04,Hepatitis B,Hepatitis B,449631.97,No Fraud
+32a9a503-7b59-4b84-9b5e-30b917ad0729,96,Female,2024-03-31,2024-04-11,Tuberculosis,Tuberculosis,378370.63,No Fraud
+5c8afd31-21c4-4143-b7cc-51bf8de6dd88,82,Female,2024-05-20,2024-05-25,Hepatitis B,Hepatitis B,317106.73,No Fraud
+61a19928-d7a5-4934-9ec1-98ef949e90bf,36,Female,2022-09-17,2022-09-17,Appendectomy,Fake Appendectomy,235723.3,Fake Treatment
+9751149c-a9da-473b-bfab-959c3d2b435d,35,Female,2023-08-30,2023-09-02,Organ Transplant,Phantom Procedure,224536.66,Phantom Billing
+56ad0e20-4f64-4429-91d7-795d3b864ae5,30,Female,2024-07-18,2024-07-20,Appendectomy,Appendectomy,114836.91,Ghost Enrollee
+ffdefe15-7b97-4933-981c-82e8794f2144,54,Female,2023-10-25,2023-10-31,Peptic Ulcer,Fake Peptic Ulcer,352850.8,Fake Treatment
+632eb656-a514-44f4-b735-06a7a96f6c32,8,Male,2024-01-31,2024-02-11,Advanced Spinal Surgery,Phantom Procedure,914354.63,Phantom Billing
+265dc0c8-fb1c-460e-b062-ea04cefca6fb,75,Male,2024-07-15,2024-07-28,Gastroenteritis,Gastroenteritis,243720.07,No Fraud
+47eeaafa-3b07-45bb-a106-9d31c5d2ebde,46,Female,2023-10-12,2023-10-18,Kidney Disease,Fake Kidney Disease,629567.0,Fake Treatment
+898cccb5-d4f8-4f9b-b0f6-d03b81c9fe2d,54,Male,2024-05-31,2024-06-11,Asthma,Asthma,143738.3,No Fraud
+f7e66620-f92f-4b54-8f74-b8389a48b279,63,Male,2023-12-27,2024-01-03,Neurosurgery,Phantom Procedure,701986.26,Phantom Billing
+1f5353f7-1b65-4416-8c62-5c6d3366ff31,52,Male,2023-11-07,2023-11-18,Pneumonia,Fake Pneumonia,687469.29,Fake Treatment
+92d74913-1695-4a09-a198-6f013c20e495,69,Male,2023-10-04,2023-10-08,Cataract Surgery,Cataract Surgery,286552.07,No Fraud
+56a5e059-78bc-48dc-9707-302b9c269bbb,4,Male,2023-01-08,2023-01-12,Gastroenteritis,Gastroenteritis,76492.75,No Fraud
+84ffab17-f28e-4069-959b-240650977e7d,60,Male,2022-12-01,2022-12-01,Tuberculosis,Tuberculosis,195760.89,No Fraud
+750cadf0-07f5-43b4-8285-350b98c9dc12,28,Female,2023-02-19,2023-02-20,HIV/AIDS,HIV/AIDS,383002.56,No Fraud
+27076da7-1550-4073-95c7-5639156c74e7,49,Female,2023-02-15,2023-02-22,Infertility Treatment (IVF),Phantom Procedure,851419.82,Phantom Billing
+ace4bacd-6f55-4695-8ef6-87c83700047e,61,Male,2023-10-03,2023-10-18,Diabetes,Fake Diabetes,699940.09,Fake Treatment
+5171b053-3bba-4888-b288-57db6ae87e5b,45,Male,2022-10-17,2022-10-21,Hypertension,Hypertension,392804.19,No Fraud
+b7b554ca-8455-4a10-8b5e-3a2e61f1ed88,84,Male,2024-02-18,2024-02-18,Asthma,Asthma,107686.73,No Fraud
+e6c66f52-b29d-4333-a239-bfd4c37670a6,3,Male,2023-05-15,2023-05-18,Pneumonia,Pneumonia,242044.92,No Fraud
+cd9a5b84-5a49-4e0f-bdfb-d769855af720,15,Male,2024-02-27,2024-02-28,Appendectomy,Appendectomy,135559.41,No Fraud
+10226f37-64b9-4a43-9036-e35ab8480cf5,48,Male,2023-05-27,2023-06-14,Cataract Surgery,Cataract Surgery,482230.02,No Fraud
+704ee706-e7c3-464b-9a7c-bbf570cd96a1,92,Male,2024-06-13,2024-06-15,Tuberculosis,Tuberculosis,62968.39,No Fraud
+a9bed354-fe68-4b65-aa9d-4fb6294246d7,4,Female,2023-12-14,2023-12-29,Cesarean Section,Fake Cesarean Section,640217.0,Fake Treatment
+bcb90eb6-4f1e-483c-a50e-d3b7e089d5e7,49,Female,2023-06-20,2023-06-24,Hypertension,Hypertension,300127.95,No Fraud
+cbda04f1-d0a5-415a-b294-e4a36e1f52c0,81,Male,2022-12-23,2022-12-24,Appendectomy,Appendectomy,388515.63,No Fraud
+f999d314-ad6c-4686-b983-dddff6b94d23,88,Male,2024-07-22,2024-08-03,Cancer Treatment,Phantom Procedure,412483.39,Phantom Billing
+e9987406-8eb4-4498-a1bd-ec4ce1d596da,55,Female,2023-01-07,2023-01-08,Peptic Ulcer,Peptic Ulcer,327296.19,No Fraud
+318d71e2-4d08-430b-bfed-67b08f8f4f2d,2,Female,2023-12-16,2023-12-20,Hypertension,Fake Hypertension,331790.21,Fake Treatment
+8c5d7d30-66a7-4d30-b14d-1f5f09805d9e,47,Female,2022-12-24,2022-12-26,Gastroenteritis,Fake Gastroenteritis,164489.02,Fake Treatment
+eea2baf0-76ff-467e-b759-f17c93046268,67,Female,2024-05-26,2024-06-08,Stroke,Stroke,460612.65,No Fraud
+c85f5061-18d6-4477-8652-160b34c54a84,100,Female,2024-02-23,2024-03-06,Gastroenteritis,Gastroenteritis,414609.95,No Fraud
+453c3654-120b-4773-9072-a9e0bf1871da,76,Female,2024-01-01,2024-01-03,Kidney Disease,Kidney Disease,130292.63,No Fraud
+22df08a7-69d9-4e81-8d98-96eb03ca67fd,12,Female,2023-11-08,2023-11-11,Asthma,Asthma,377733.38,No Fraud
+bdc2b1e2-3f12-42cb-9f8c-1c3dfc5ba46a,73,Female,2023-08-06,2023-08-09,Diabetes,Diabetes,252210.19,No Fraud
+537ae56d-d621-4444-b8da-b2be8990b870,42,Male,2022-11-20,2022-12-03,Asthma,Asthma,183864.23,Ghost Enrollee
+bd7be0fb-0ef3-4331-92eb-e498207ef1b3,34,Female,2023-02-16,2023-02-21,Cataract Surgery,Cataract Surgery,353580.04,No Fraud
+436afc46-669f-4ff8-8942-880efafd2d44,36,Male,2022-09-14,2022-09-25,Asthma,Asthma,51950.35,No Fraud
+ef81d35e-9552-4914-932e-a539b5837dc3,93,Female,2022-11-21,2022-11-21,Peptic Ulcer,Peptic Ulcer,381500.68,No Fraud
+1db49ee9-ce9b-4b0e-b1fd-5a462e2a06a0,89,Female,2022-12-04,2022-12-09,Appendectomy,Fake Appendectomy,369033.87,Fake Treatment
+b6cf375b-9118-476b-bf0a-864f73c6753d,3,Male,2024-07-05,2024-07-05,Asthma,Asthma,208156.55,No Fraud
+19b6dc68-0045-44ca-a32a-feda7dd76fb6,32,Female,2023-08-31,2023-09-14,HIV/AIDS,HIV/AIDS,241897.64,No Fraud
+32cb7233-f682-41cf-85dd-c64627ad40eb,68,Female,2023-03-09,2023-03-19,Appendectomy,Appendectomy,279690.35,No Fraud
+f6dbd55b-9b24-4fa2-b6bb-76c4374bdb5b,46,Female,2023-07-16,2023-07-16,Tuberculosis,Fake Tuberculosis,213412.39,Fake Treatment
+f6eb333a-4c07-4404-b4c6-a3bf5349b54b,16,Male,2022-10-16,2022-10-23,Hypertension,Hypertension,374011.72,No Fraud
+4862d37c-538e-4a97-8161-7fcdf9d72a71,98,Male,2023-04-25,2023-04-27,Asthma,Asthma,371916.28,Ghost Enrollee
+aaea8426-bf54-4584-883f-1e08ca855645,36,Female,2023-06-28,2023-06-30,Complex Heart Surgery,Phantom Procedure,366621.82,Phantom Billing
+8d250b6c-24ca-4469-b54a-31a4cd223ca3,47,Male,2024-04-16,2024-04-16,Diabetes,Diabetes,356929.06,No Fraud
+757001fd-2c0e-4a62-8770-f27ca333f6e0,17,Female,2024-08-26,2024-08-26,Cancer Treatment,Phantom Procedure,598023.07,Phantom Billing
+e16c283b-94d2-4e3a-8249-e7c2018108d0,90,Male,2023-08-03,2023-08-15,Kidney Disease,Kidney Disease,378868.17,No Fraud
+dc80e2f1-c53d-4a45-b719-3b76ca419a02,14,Male,2024-04-07,2024-04-12,Tuberculosis,Tuberculosis,240004.5,Ghost Enrollee
+c55b46a4-01cc-42e8-8e75-a3ba9efbafa4,57,Female,2023-12-02,2023-12-06,Diabetes,Diabetes,133714.41,Ghost Enrollee
+fe7ec66f-9f2e-4df2-806b-d6d313addfe1,62,Male,2024-05-25,2024-05-25,Gastroenteritis,Gastroenteritis,250955.81,No Fraud
+59853e1c-0590-4e16-9344-ebb0c928a05b,74,Male,2024-08-12,2024-08-13,Pneumonia,Pneumonia,407459.62,No Fraud
+42b69db0-724a-4746-8c7c-f2cc270b605a,39,Male,2023-11-21,2023-11-21,Organ Transplant,Phantom Procedure,602265.73,Phantom Billing
+4e241560-b3ab-4e84-b175-b762cd4e2f18,54,Male,2024-06-14,2024-06-27,Gastroenteritis,Gastroenteritis,230752.09,No Fraud
+593ed5fc-7a1c-4f00-9472-9113ca1a98f1,57,Female,2024-05-25,2024-05-30,Gastroenteritis,Gastroenteritis,159636.32,No Fraud
+850d63b6-c840-4ecb-83ab-4455bc0eb6a3,80,Male,2023-10-15,2023-10-15,Appendectomy,Appendectomy,58624.45,No Fraud
+4629130e-7e67-4f56-aa38-6f8a2a8b4373,98,Male,2023-09-14,2023-09-29,Asthma,Asthma,139676.6,No Fraud
+8e8d3497-9372-4286-a79b-458aef6d60e6,11,Male,2023-07-28,2023-07-30,Pneumonia,Pneumonia,280476.2,Ghost Enrollee
+501472f8-644c-45c0-9079-3c824d0e1d82,21,Male,2024-01-17,2024-01-28,Hepatitis B,Hepatitis B,347791.86,No Fraud
+6895b57c-fe7a-4d74-b5a0-e8f96f0da2c3,61,Female,2022-11-05,2022-11-05,Asthma,Asthma,151171.4,No Fraud
+238577e8-bbe6-4778-a7f9-7dded77580de,37,Female,2023-03-30,2023-03-31,Cesarean Section,Cesarean Section,124377.67,No Fraud
+5b390748-1e7d-4206-ad95-bddf1dcd9ec6,34,Male,2024-05-11,2024-05-21,Hypertension,Hypertension,276835.57,Ghost Enrollee
+ef7cb7a8-708b-4cee-9a23-18047f77cfa8,83,Male,2023-06-15,2023-06-22,Kidney Disease,Kidney Disease,79695.78,No Fraud
+ba8d55dc-eb9c-4646-b127-b79e6e28bcb6,8,Male,2024-02-24,2024-02-28,Cataract Surgery,Cataract Surgery,376989.28,Ghost Enrollee
+35f9af96-6e86-4f5b-9c1a-e3dc4e7965ab,73,Female,2023-10-15,2023-10-20,Hypertension,Hypertension,239662.01,No Fraud
+f819675f-8570-4ec3-9b12-df278801986b,39,Female,2024-07-12,2024-07-12,Peptic Ulcer,Fake Peptic Ulcer,400988.02,Fake Treatment
+a72f3bd3-d8cd-4b04-a123-d1de308d8d48,57,Male,2023-07-06,2023-07-19,Diabetes,Diabetes,445817.22,No Fraud
+11301ccb-4044-4f5f-ad08-f74b81b72c0f,95,Female,2022-11-24,2022-11-30,Tuberculosis,Tuberculosis,22673.8,No Fraud
+7df4c44f-2bcf-4b46-8532-19acd8f9139a,30,Male,2024-04-19,2024-04-19,Cataract Surgery,Cataract Surgery,29713.52,No Fraud
+ca325882-4b09-4ad5-a942-64a78374b639,97,Male,2022-11-26,2022-11-28,Peptic Ulcer,Fake Peptic Ulcer,473481.17,Fake Treatment
+36259271-68d6-4a75-ba62-4c6e12b6659a,36,Male,2022-12-19,2022-12-22,Gastroenteritis,Fake Gastroenteritis,462610.07,Fake Treatment
+98cc44f5-5f98-4738-ab1f-cf0fbc60ee2e,63,Male,2022-10-05,2022-10-11,HIV/AIDS,HIV/AIDS,210090.57,No Fraud
+77161330-0be9-47b9-9619-24d2e0f1ce55,42,Male,2023-05-06,2023-05-10,HIV/AIDS,HIV/AIDS,211706.09,Ghost Enrollee
+5d014024-0caa-4fc0-a31c-675b78222cee,64,Female,2022-10-15,2022-10-24,Cancer Treatment,Phantom Procedure,509343.32,Phantom Billing
+dd6a91b1-e4a3-4a66-ae7d-cec259dd36fe,41,Female,2024-06-09,2024-06-13,Hypertension,Hypertension,485390.52,No Fraud
+2141b729-3221-4d43-b17f-30866c1b0c24,52,Male,2023-07-09,2023-07-12,Hepatitis B,Hepatitis B,212491.31,No Fraud
+fef8996f-f887-4b99-ad44-c41a8311182c,25,Female,2022-10-22,2022-10-26,Stroke,Stroke,254261.62,No Fraud
+fdf826b5-672d-4e58-a5e8-0b09abc26a67,57,Male,2023-04-04,2023-04-09,Tuberculosis,Tuberculosis,279117.62,No Fraud
+cdc6e154-f23b-4b05-96f2-f1b1eb413e6a,37,Female,2023-12-20,2023-12-21,Hypertension,Fake Hypertension,68765.14,Fake Treatment
+06b31d18-6302-4928-8d54-8b3c18422d38,81,Male,2024-06-17,2024-06-19,Tuberculosis,Fake Tuberculosis,408045.35,Fake Treatment
+7e713ea7-6074-4480-b1a2-3fcd847a9747,71,Female,2023-12-13,2023-12-13,Asthma,Asthma,496206.0,Ghost Enrollee
+da520155-f448-495d-9647-bfcaf5523bd0,15,Female,2023-11-25,2023-11-25,Cesarean Section,Cesarean Section,417750.16,No Fraud
+f111a3c5-db9f-4cfc-8869-a65fa63e64fc,64,Female,2023-08-28,2023-09-09,Appendectomy,Appendectomy,143978.2,No Fraud
+fba7d3f7-287f-48c0-9441-c431166b9068,62,Female,2023-02-04,2023-02-06,Epilepsy Surgery,Phantom Procedure,596138.57,Phantom Billing
+e1048557-6209-4319-a438-f21db41de258,50,Male,2024-05-12,2024-05-19,Peptic Ulcer,Fake Peptic Ulcer,535090.15,Fake Treatment
+efd234e7-7d85-4cfe-994a-47c6292e58f9,18,Male,2024-01-18,2024-01-25,Stroke,Fake Stroke,563504.02,Fake Treatment
+b7403216-4e09-4d9b-89bf-e7bbc77d3ba2,54,Female,2022-11-18,2022-11-27,Infertility Treatment (IVF),Phantom Procedure,838494.53,Phantom Billing
+44e6ded7-d165-427a-a8f9-ac1412f6925f,37,Female,2023-09-18,2023-09-27,Cataract Surgery,Cataract Surgery,499462.14,Ghost Enrollee
+852db83c-5270-4f5e-b454-9346197f35e1,63,Male,2023-02-25,2023-02-27,Peptic Ulcer,Peptic Ulcer,247327.28,No Fraud
+95259c98-811e-4f86-b470-2794781e8d01,43,Female,2023-01-17,2023-01-29,HIV/AIDS,HIV/AIDS,436104.82,No Fraud
+ef935712-4f4d-49d5-ad0c-7eb877cb3861,90,Male,2023-01-01,2023-01-05,Gastroenteritis,Fake Gastroenteritis,201815.59,Fake Treatment
+bf040462-6ea4-49b4-bfac-5d08c7f4fc17,100,Female,2023-09-15,2023-09-15,HIV/AIDS,HIV/AIDS,374905.52,Ghost Enrollee
+50d12a43-a813-4a70-95a5-3cc9f835bc97,91,Female,2023-06-27,2023-07-04,Cesarean Section,Cesarean Section,398272.89,No Fraud
+dc64b1fb-6f82-49d2-9a36-0152ed80f537,84,Male,2023-06-03,2023-06-15,Diabetes,Diabetes,71860.67,No Fraud
+8b76ce01-ce71-4b27-a539-7666c893a4e5,76,Female,2023-05-02,2023-05-04,Kidney Disease,Kidney Disease,424069.32,Ghost Enrollee
+8c85e48e-333b-4652-b9de-4fd6b23b710b,13,Female,2024-06-14,2024-06-14,Appendectomy,Appendectomy,80636.15,No Fraud
+4517f14b-3adf-44da-ab52-f0e59f1c60a8,84,Male,2024-05-27,2024-05-28,Hepatitis B,Hepatitis B,392947.39,No Fraud
+1f860bbf-43ac-47ed-9d79-e7c416c23d60,34,Female,2023-11-06,2023-11-23,Appendectomy,Appendectomy,204766.83,No Fraud
+5f2f4c59-d1d2-4629-b3de-f95f6ecda63b,11,Female,2023-02-19,2023-03-07,Gastroenteritis,Gastroenteritis,477528.4,Ghost Enrollee
+cd33bea9-7060-48cf-be9e-b1bd7978cc06,81,Female,2024-08-27,2024-09-05,Diabetes,Diabetes,312555.14,Ghost Enrollee
+3bf422e8-a29c-429c-9051-1ad41f326011,31,Female,2022-10-01,2022-10-07,Appendectomy,Appendectomy,54285.87,No Fraud
+6c4ef1b2-7c5d-44e3-a7d9-cda31da18c8e,13,Male,2024-04-12,2024-04-14,Cosmetic Surgery,Phantom Procedure,724601.05,Phantom Billing
+c277a6b9-9e80-40b8-8052-033060b9ab62,4,Male,2023-08-30,2023-09-06,Stroke,Stroke,37498.42,No Fraud
+4cf2cf0d-4893-4998-ba20-e8b231d178b2,46,Female,2023-05-29,2023-06-03,Pneumonia,Pneumonia,129656.74,No Fraud
+5216a55f-96d5-4f40-bee9-6bdc032dccdc,53,Male,2024-08-03,2024-08-05,Cosmetic Surgery,Phantom Procedure,171071.52,Phantom Billing
+130d046a-94ee-4a27-909e-29dbb8dd26d0,49,Male,2023-02-20,2023-02-26,Cataract Surgery,Cataract Surgery,80127.68,Ghost Enrollee
+3fb4bed4-4af2-4e58-b182-e94ed822e971,60,Female,2024-04-16,2024-04-25,Infertility Treatment (IVF),Phantom Procedure,700156.65,Phantom Billing
+25469ddd-2c0d-480a-a56d-05b88a82a5af,60,Female,2024-04-17,2024-04-28,Pneumonia,Pneumonia,46192.33,Ghost Enrollee
+46345bf6-d4ed-4547-bd8f-e7959d2b8ec6,45,Female,2023-12-01,2023-12-05,Gastroenteritis,Gastroenteritis,348253.62,No Fraud
+4d0b5ba6-0618-4f17-bd51-ff71ebf13d4d,59,Female,2023-01-20,2023-01-20,Gastroenteritis,Gastroenteritis,428134.37,No Fraud
+e920dfe6-5c1a-4e3c-bd9a-978b453a403c,14,Male,2022-09-11,2022-09-19,Cataract Surgery,Cataract Surgery,185889.99,No Fraud
+90dfa06a-6829-4660-ad84-d69630ad5e68,38,Female,2022-09-13,2022-09-13,Kidney Disease,Kidney Disease,332532.61,No Fraud
+bff3bd0c-9b54-40bf-937a-7bf52ad8136b,36,Male,2023-08-22,2023-08-25,Kidney Disease,Kidney Disease,346041.75,No Fraud
+eef61a19-0c80-4a56-ac1a-141e17cb4d1e,96,Male,2023-07-25,2023-08-05,Appendectomy,Fake Appendectomy,372872.74,Fake Treatment
+366a8b37-e2fe-4fe6-9d15-f5a26a052db9,37,Male,2023-02-22,2023-02-28,Stroke,Stroke,182637.27,No Fraud
+b28a968b-a48c-4d78-be27-34737aac5ee1,82,Male,2022-09-10,2022-09-13,Tuberculosis,Fake Tuberculosis,490546.9,Fake Treatment
+aa4b24a7-b718-41f5-b61b-7fe49e5344be,93,Male,2022-09-25,2022-09-29,Hypertension,Hypertension,452667.81,Ghost Enrollee
+07e166e2-c795-4224-9c6d-77f4502759b7,83,Male,2024-04-13,2024-04-14,Epilepsy Surgery,Phantom Procedure,130028.08,Phantom Billing
+6d04e3cd-e717-4f65-9bb0-b0a7a900f1bd,47,Male,2023-10-14,2023-10-14,Tuberculosis,Tuberculosis,170092.37,No Fraud
+166e2021-e416-4529-aab1-7e7408805c06,54,Male,2024-07-07,2024-07-08,Pneumonia,Pneumonia,395391.28,No Fraud
+61409518-a6c2-4360-b4a5-ed5953b2d941,47,Female,2022-09-29,2022-10-01,Tuberculosis,Tuberculosis,457883.99,No Fraud
+767fc74e-81ae-479d-9e1d-05619707e7df,62,Female,2022-12-17,2022-12-17,Stroke,Stroke,66433.16,No Fraud
+fcc8e05e-cdb0-4aed-98ae-ec2cbaa2a044,10,Male,2024-02-18,2024-02-21,Advanced Spinal Surgery,Phantom Procedure,970542.77,Phantom Billing
+ef4aeed1-fc48-4248-8b10-d1950c7ac880,72,Female,2023-02-27,2023-02-28,Stroke,Stroke,203341.53,No Fraud
+0c649780-5b80-404e-8267-53289ba20646,34,Male,2023-11-11,2023-11-14,HIV/AIDS,HIV/AIDS,339685.91,No Fraud
+9299113d-adaf-43d1-98f4-5308ff3f4da7,87,Female,2023-08-11,2023-08-25,Gastroenteritis,Gastroenteritis,412984.48,Ghost Enrollee
+90a1cae1-66b6-4f28-86c8-e85b31061347,48,Male,2022-11-06,2022-11-12,Hepatitis B,Hepatitis B,22262.08,No Fraud
+7b9451bc-d8e4-4c3d-a0e4-6241641a35a6,72,Female,2023-04-15,2023-04-18,Asthma,Fake Asthma,470974.05,Fake Treatment
+7d8ac54a-4e24-4d0c-aa1f-65e4b7942f09,82,Female,2023-07-21,2023-07-28,Cesarean Section,Fake Cesarean Section,315392.31,Fake Treatment
+3e783645-2bad-48f9-bd2b-9acbbb643a22,18,Male,2024-06-25,2024-06-25,Tuberculosis,Fake Tuberculosis,697352.79,Fake Treatment
+8c1d4319-d26d-40aa-b954-a98fe19fb2c2,15,Male,2023-09-13,2023-09-14,Peptic Ulcer,Peptic Ulcer,76475.38,No Fraud
+0a79f3f9-2bb0-408b-a1da-e1e3796a1e9f,59,Female,2023-07-13,2023-07-13,Gastroenteritis,Gastroenteritis,297796.77,No Fraud
+dddc897a-9946-4392-a9a7-826067c2c23c,94,Male,2023-05-08,2023-05-08,Cesarean Section,Fake Cesarean Section,114364.06,Fake Treatment
+aaa08929-e89f-4c91-8f5f-2885ead59e77,63,Female,2023-03-03,2023-03-03,Diabetes,Diabetes,348237.53,No Fraud
+3872e463-6288-4d05-ba0b-f20033a95a10,28,Female,2024-06-18,2024-06-18,Asthma,Fake Asthma,606042.63,Fake Treatment
+a365e4ef-9228-42da-9518-7d5250db41c6,13,Female,2024-07-05,2024-07-10,Cesarean Section,Fake Cesarean Section,283138.0,Fake Treatment
+573e57ec-bf1b-41a2-9a23-828147ae3347,51,Female,2022-11-21,2022-11-21,Hypertension,Fake Hypertension,666857.01,Fake Treatment
+e54e6900-24b8-4ed4-997d-f2a0f2bef6c1,59,Male,2024-04-06,2024-04-09,Cesarean Section,Cesarean Section,323351.53,No Fraud
+458a9463-56f7-4dd7-9452-cb1f82ac71f2,3,Male,2023-02-01,2023-02-04,Asthma,Asthma,494522.24,No Fraud
+4e681b81-aedd-490f-8dfd-a001d995b297,73,Male,2024-07-26,2024-07-27,Kidney Disease,Fake Kidney Disease,547352.29,Fake Treatment
+a4ccbb8c-1e86-4a49-af63-5457b5b44742,27,Male,2022-10-10,2022-10-16,HIV/AIDS,HIV/AIDS,389440.6,No Fraud
+6338d961-b74c-4bac-8c12-d3af9b020644,77,Male,2023-04-27,2023-05-02,Kidney Disease,Kidney Disease,492173.78,No Fraud
+fd02820b-daba-48e1-902c-cb3a49b9e210,17,Female,2023-02-16,2023-02-20,Hypertension,Hypertension,333918.24,No Fraud
+1224d834-cd4e-4b59-9985-b51a72ace9a4,4,Male,2024-05-14,2024-05-14,HIV/AIDS,Fake HIV/AIDS,563490.03,Fake Treatment
+b890db7d-5dda-4c32-93e5-ae5026a59bdb,31,Female,2023-06-18,2023-06-18,Pneumonia,Pneumonia,140030.08,Ghost Enrollee
+6eef3bea-4282-470a-b018-c2d3b5f14373,17,Female,2024-06-06,2024-06-12,Hypertension,Hypertension,375375.98,No Fraud
+2a028521-2cdb-4ae3-ad79-8de50fb0d311,61,Female,2024-01-18,2024-01-21,Peptic Ulcer,Peptic Ulcer,300896.35,No Fraud
+c4b9901e-f31b-4876-98fc-d9aeeed26461,58,Male,2023-05-25,2023-06-02,Diabetes,Diabetes,366349.07,Ghost Enrollee
+6121b853-32e9-4de3-8bb7-6f3104b0d4a7,85,Female,2023-06-27,2023-07-10,Cesarean Section,Fake Cesarean Section,676617.02,Fake Treatment
+429dab96-ee9c-4b8e-9387-af81d310b725,8,Female,2022-10-14,2022-10-23,Gastroenteritis,Gastroenteritis,346187.77,No Fraud
+223f90a4-d05b-4042-a8f6-72d7faa8ef64,63,Female,2024-06-27,2024-06-27,Hypertension,Hypertension,167834.79,No Fraud
+223ef02d-5018-4114-b372-4c904fe03207,19,Male,2024-07-23,2024-07-24,Tuberculosis,Fake Tuberculosis,455806.37,Fake Treatment
+4298eeea-f460-4b97-9af3-5c328d834840,75,Female,2024-07-26,2024-08-03,Infertility Treatment (IVF),Phantom Procedure,508343.88,Phantom Billing
+5a14d633-9adb-4229-b0c0-0d90f4770b89,78,Female,2024-06-29,2024-06-30,Stroke,Stroke,353871.92,Ghost Enrollee
+a9a6409f-ed28-4210-8de7-e78318699819,84,Male,2022-12-04,2022-12-11,Epilepsy Surgery,Phantom Procedure,899281.92,Phantom Billing
+c9646f25-b349-47ee-b34f-3711f6b7a44a,53,Female,2023-10-27,2023-10-27,Gastroenteritis,Gastroenteritis,213834.93,No Fraud
+3deb945a-6be7-4d91-8d18-8c5c555f6d17,13,Female,2022-12-26,2023-01-01,HIV/AIDS,HIV/AIDS,335902.85,No Fraud
+d9776068-0646-4649-99b9-42146ee45337,48,Male,2023-03-25,2023-04-01,Organ Transplant,Phantom Procedure,182102.31,Phantom Billing
+276f9416-c66c-4898-85c7-4ba838495cf7,11,Male,2023-08-19,2023-08-20,Organ Transplant,Phantom Procedure,770130.07,Phantom Billing
+730cb38e-aa58-4084-bc56-fe1b391d06f7,48,Male,2024-05-01,2024-05-13,Diabetes,Fake Diabetes,431202.3,Fake Treatment
+ebb6a1d0-2638-4fbf-b5db-3f9ddd296900,72,Female,2023-11-01,2023-11-03,Gastroenteritis,Fake Gastroenteritis,279838.75,Fake Treatment
+1a96b78c-6c5d-452f-ba65-eb47bc33f6c3,86,Female,2022-10-02,2022-10-02,Tuberculosis,Tuberculosis,304200.94,No Fraud
+8b7fff56-aff4-45df-bc3d-a61329128e98,46,Male,2023-01-26,2023-02-09,Peptic Ulcer,Peptic Ulcer,114242.01,No Fraud
+b3948a40-029d-4d4c-9926-87efda4e47bd,85,Female,2023-10-24,2023-10-25,Organ Transplant,Phantom Procedure,415102.59,Phantom Billing
+f1da7787-1736-442d-b26d-8876815fa960,72,Female,2024-03-20,2024-03-21,Stroke,Stroke,146498.42,Ghost Enrollee
+a848cacf-338c-417c-9be2-08476b94b472,29,Female,2023-05-18,2023-05-20,Cancer Treatment,Phantom Procedure,648095.42,Phantom Billing
+190d3e5e-fdaf-4649-bac4-66842db89b2a,85,Female,2023-09-05,2023-09-05,Cosmetic Surgery,Phantom Procedure,345943.35,Phantom Billing
+45a94913-6adf-43a4-a2f9-4e9ad6f87fff,98,Female,2024-08-28,2024-09-03,HIV/AIDS,Fake HIV/AIDS,53968.76,Fake Treatment
+2313eefb-faa7-425e-8e19-4c9e137bf506,19,Female,2022-09-11,2022-09-11,Pneumonia,Pneumonia,373074.84,No Fraud
+b944ea2c-b1e4-44a7-b210-876d10681719,4,Male,2022-10-12,2022-10-22,Asthma,Asthma,194335.26,No Fraud
+253cc631-5788-48ad-94b9-e2f7f3c7c39e,59,Female,2022-10-02,2022-10-03,HIV/AIDS,HIV/AIDS,162702.31,No Fraud
+702fbe8a-e65f-4e5b-8240-fb575e10e544,42,Male,2023-05-22,2023-05-22,Pneumonia,Pneumonia,87130.85,No Fraud
+970bf117-6ea8-46f6-83b9-e1e744aeb43c,80,Male,2024-02-26,2024-02-26,Tuberculosis,Tuberculosis,227125.36,No Fraud
+8fda0c26-5a42-4c4e-bcde-ab37e4ececed,55,Female,2023-11-22,2023-11-29,Hepatitis B,Hepatitis B,212950.03,No Fraud
+62cb64bf-b132-4da5-b447-257ae4f9fbf8,28,Male,2023-01-13,2023-01-21,Gastroenteritis,Gastroenteritis,64335.99,No Fraud
+4580e861-9e5a-4993-a633-0da60d15d6fa,87,Female,2023-06-09,2023-06-22,Cesarean Section,Cesarean Section,161125.5,No Fraud
+86b7aaec-4aa9-49ce-982c-70f92c3677ef,29,Female,2022-12-06,2022-12-11,Diabetes,Diabetes,13766.67,No Fraud
+460f1d10-422b-40bf-8656-e4fa83f5679f,39,Male,2023-05-15,2023-05-17,Stroke,Stroke,135204.56,No Fraud
+efa6c9ef-7780-4c15-8dbe-fd758c7af7d2,42,Male,2023-07-27,2023-07-27,Hepatitis B,Hepatitis B,376036.92,No Fraud
+6202327f-4639-472c-8aa3-152ce970d645,23,Male,2023-01-22,2023-01-24,Complex Heart Surgery,Phantom Procedure,550236.11,Phantom Billing
+5e9e26ec-caef-4323-9959-d5a478721658,86,Female,2024-03-26,2024-03-26,Gastroenteritis,Gastroenteritis,432264.54,No Fraud
+c178d40b-b33e-46d9-bf79-97720ea65c0e,6,Female,2023-09-01,2023-09-01,Hepatitis B,Hepatitis B,461369.59,No Fraud
+7e14bb18-6195-4e81-9702-d5ff0f814c8c,41,Female,2024-02-10,2024-02-25,Gastroenteritis,Gastroenteritis,357654.49,No Fraud
+81713672-af70-453a-b830-8d8856e20d3b,54,Female,2022-11-25,2022-11-25,Advanced Spinal Surgery,Phantom Procedure,118770.9,Phantom Billing
+056a666d-4ecf-4e45-91db-e87963027014,42,Male,2024-01-20,2024-01-24,Hepatitis B,Hepatitis B,417692.7,No Fraud
+a06a6c05-8ade-417b-bbc5-e1e983b8b81f,47,Male,2023-07-27,2023-08-07,Kidney Disease,Kidney Disease,61872.94,Ghost Enrollee
+3c348715-6fc8-4708-87e0-3d685ce276bf,56,Female,2023-10-19,2023-10-20,Hypertension,Hypertension,203925.68,No Fraud
+a8ef4787-ff41-49f1-9a27-2e774a88ff6a,40,Female,2024-06-16,2024-06-16,HIV/AIDS,HIV/AIDS,391767.76,No Fraud
+7113d8ba-5f1c-4380-85bf-af4806d0f9b0,10,Male,2024-01-04,2024-01-05,Peptic Ulcer,Peptic Ulcer,105012.82,No Fraud
+df8d1297-3316-4491-9508-5aae1f61e8c5,100,Female,2024-04-05,2024-04-11,Appendectomy,Appendectomy,479529.44,No Fraud
+2056428c-d3c3-4f75-a3e5-c8b132ecf0a3,83,Male,2023-09-18,2023-09-21,Hypertension,Hypertension,81757.67,Ghost Enrollee
+2d3628b9-58e6-401c-a646-c4641d6986ae,26,Male,2024-07-26,2024-07-26,Cosmetic Surgery,Phantom Procedure,784193.77,Phantom Billing
+5fd5a76f-7e92-4301-abe6-8aa90d35be0d,84,Male,2023-02-28,2023-03-03,Stroke,Fake Stroke,458166.7,Fake Treatment
+41bb2953-5b0c-4535-b4b3-6c279cda8331,60,Female,2022-11-25,2022-12-08,Cesarean Section,Cesarean Section,321296.18,No Fraud
+c4faddeb-ad89-46ca-bde2-42759d6176e4,80,Female,2023-11-20,2023-12-09,HIV/AIDS,HIV/AIDS,83969.13,No Fraud
+e6499b0d-7887-48d0-a5e8-badaec27a2d8,9,Female,2023-02-07,2023-02-16,Infertility Treatment (IVF),Phantom Procedure,816696.71,Phantom Billing
+b2f0f46c-99d6-404a-b6ad-9a30cd6ca691,76,Male,2024-07-05,2024-07-05,Peptic Ulcer,Peptic Ulcer,46353.42,No Fraud
+78487887-1075-4314-bfc8-86564ce359aa,60,Female,2023-06-16,2023-06-16,Diabetes,Diabetes,190681.42,No Fraud
+315cf776-66b4-4a65-ab18-f22d05a2a412,37,Male,2023-08-04,2023-08-05,Kidney Disease,Kidney Disease,488910.58,No Fraud
+6d865e29-d5b4-4b5c-bc40-8daf60283875,12,Female,2023-06-09,2023-06-11,Cataract Surgery,Cataract Surgery,281615.02,No Fraud
+d34d26c0-4b79-4a8c-b8e7-40c7a87dac45,95,Male,2022-12-14,2022-12-15,Stroke,Fake Stroke,421576.85,Fake Treatment
+37c3cd28-f4c6-468d-a521-937156748502,25,Female,2024-07-23,2024-07-26,Epilepsy Surgery,Phantom Procedure,551230.57,Phantom Billing
+ffe892fe-8574-4c36-95ae-023258023f36,8,Female,2023-07-15,2023-07-15,Stroke,Stroke,450572.15,Ghost Enrollee
+0a9aca8a-9b52-4383-8529-c55ebdd0302b,44,Male,2023-08-06,2023-08-17,Cesarean Section,Cesarean Section,94553.87,No Fraud
+e02b56b9-fece-4615-b032-5f21bfa8ff35,32,Female,2023-02-23,2023-02-28,Peptic Ulcer,Peptic Ulcer,266146.54,No Fraud
+a68d3a1e-c0b0-4f79-a329-272dd2e8f881,21,Female,2024-03-06,2024-03-14,Tuberculosis,Tuberculosis,199834.11,No Fraud
+f023ba82-d238-4bc1-9b92-8b4dec9dcea0,100,Female,2022-10-10,2022-10-21,Diabetes,Diabetes,396721.2,No Fraud
+aa0c2b6f-bef5-4172-a5b2-3878a962907d,83,Female,2024-06-23,2024-06-23,HIV/AIDS,HIV/AIDS,56307.91,No Fraud
+9f5c2212-fc2b-4352-a53d-818a5c522017,87,Female,2023-08-23,2023-08-26,Infertility Treatment (IVF),Phantom Procedure,751360.29,Phantom Billing
+65ebcecd-c405-4146-8715-4a5ac2b692f0,85,Male,2024-02-26,2024-02-26,Hypertension,Hypertension,295542.36,Ghost Enrollee
+51d9877b-3d91-4dc1-b9b8-f95d94b908b9,19,Female,2024-07-09,2024-07-15,Cesarean Section,Cesarean Section,352255.18,No Fraud
+ca543d96-eaed-49f5-9f06-6ae3daac73e7,51,Male,2022-11-27,2022-12-02,Appendectomy,Fake Appendectomy,659701.43,Fake Treatment
+530a9f2c-9824-4d09-abe2-e8888313a146,40,Female,2024-07-27,2024-08-04,Neurosurgery,Phantom Procedure,831866.31,Phantom Billing
+b8fb95a0-4814-4ade-9b06-7a2c4b8694b2,86,Male,2022-09-04,2022-09-17,Cesarean Section,Cesarean Section,217469.12,No Fraud
+908e13cd-cfae-4c69-bc34-26ee04dd32b2,47,Male,2023-01-30,2023-02-09,Tuberculosis,Tuberculosis,98328.83,Ghost Enrollee
+81dacfcc-c735-4bf4-8ac8-b789bf25bf70,28,Female,2023-04-27,2023-05-02,Asthma,Asthma,121006.09,No Fraud
+dc010196-f52b-4ea1-a1fc-6c994e495a89,18,Male,2023-07-11,2023-07-11,Tuberculosis,Tuberculosis,423769.91,No Fraud
+b90cac4b-b957-431e-82c1-850883df1664,13,Male,2024-07-16,2024-07-19,Stroke,Stroke,312835.42,No Fraud
+8e3876a2-204d-4932-a170-17e5e3bc9449,77,Female,2023-07-27,2023-07-30,Cosmetic Surgery,Phantom Procedure,262761.37,Phantom Billing
+ee8a00a2-af8f-4aa8-9a81-e39f507c8e98,89,Male,2024-03-22,2024-03-24,Diabetes,Diabetes,211320.72,No Fraud
+b3bb529e-8533-47a5-9c51-b80be5023c71,87,Male,2023-12-10,2023-12-19,Cataract Surgery,Cataract Surgery,149614.69,No Fraud
+13807305-8963-42a8-9c5c-09900190f143,96,Female,2024-04-05,2024-04-08,Peptic Ulcer,Peptic Ulcer,127192.56,No Fraud
+3ec0935e-481f-4cfa-bafd-8cadd78edebc,61,Male,2023-01-30,2023-01-31,Cesarean Section,Cesarean Section,474093.78,No Fraud
+70e8a82a-15a8-45c4-8866-83a8a15a4ba7,57,Female,2022-11-07,2022-11-14,Stroke,Fake Stroke,298217.08,Fake Treatment
+0c82045e-1b9c-48ac-9b6c-cf2734dff48d,68,Female,2023-09-22,2023-09-24,Complex Heart Surgery,Phantom Procedure,821133.3,Phantom Billing
+0079fe66-e992-444d-96fc-72e7bd041f93,18,Female,2023-08-09,2023-08-09,Cesarean Section,Cesarean Section,245489.42,No Fraud
+53be3efb-7bbc-42ce-a7c0-1c3ab4729736,48,Male,2023-08-25,2023-08-29,Kidney Disease,Kidney Disease,71092.11,No Fraud
+0dd6df9d-4855-4139-b357-5b1a8e50b308,11,Male,2023-08-21,2023-08-24,Hepatitis B,Hepatitis B,453600.04,No Fraud
+fdde6d6c-af4c-435c-a71c-303f96320e79,19,Female,2023-10-13,2023-10-13,Asthma,Asthma,410184.6,No Fraud
+2649c0bc-4b03-4a28-ae9c-ffe2fbc354df,45,Male,2023-01-11,2023-01-20,Diabetes,Diabetes,204262.44,No Fraud
+b3b1fd71-4816-4f57-b323-b42fbd7cd11b,48,Male,2023-07-15,2023-07-25,Hypertension,Hypertension,193707.21,No Fraud
+68ff6810-994b-4002-86fa-cba9212f50f0,4,Female,2023-08-23,2023-08-25,Kidney Disease,Kidney Disease,360205.09,No Fraud
+5667afb8-3544-4a3a-98c7-3e40f845a09e,43,Male,2023-07-18,2023-07-20,Diabetes,Diabetes,150570.9,Ghost Enrollee
+43f21bab-7de9-4931-bb7f-a2cc94e5acd0,61,Male,2023-12-29,2023-12-29,Hepatitis B,Hepatitis B,311520.65,Ghost Enrollee
+25302a25-6147-499e-a3e9-c5896ee58207,11,Male,2023-09-29,2023-10-06,Asthma,Asthma,419131.92,No Fraud
+0bdbe6bd-3442-4ff5-8fa6-118b7ccf5011,71,Female,2023-04-19,2023-04-21,Stroke,Stroke,151169.77,No Fraud
+baeaeff9-2882-417a-9c88-b3fa6363ef34,39,Male,2024-05-02,2024-05-02,Asthma,Asthma,215714.52,Ghost Enrollee
+71b54f94-9634-42ee-810c-9375ef32d667,80,Female,2024-07-26,2024-07-27,Hypertension,Hypertension,419976.98,No Fraud
+7f5a2cfb-1d33-4211-885f-9e2f1cae45d2,64,Male,2023-09-18,2023-10-06,Peptic Ulcer,Fake Peptic Ulcer,423780.85,Fake Treatment
+b7d76855-f543-4371-b094-3a1b0dded4e0,92,Male,2024-05-01,2024-05-04,Gastroenteritis,Gastroenteritis,10766.52,Ghost Enrollee
+260dd5b9-af8e-4be4-b9ba-7fe1db816f24,46,Male,2023-06-25,2023-07-01,Gastroenteritis,Gastroenteritis,101783.82,No Fraud
+d607a85a-e57e-48a8-b41e-313062eabbc2,86,Male,2023-06-08,2023-06-20,HIV/AIDS,HIV/AIDS,43162.87,No Fraud
+02dd2dfa-1272-47d4-bc2a-5600366757ba,68,Male,2023-03-21,2023-03-31,Kidney Disease,Kidney Disease,240366.19,Ghost Enrollee
+68f80a4c-80ae-4898-82cb-f5fc592a3a51,82,Female,2024-08-29,2024-09-04,Tuberculosis,Tuberculosis,376185.13,No Fraud
+382b51d4-29fe-45d3-8cef-cafa8694f2d9,46,Male,2022-12-26,2023-01-04,Asthma,Asthma,369141.1,No Fraud
+408daa0b-fa3e-4452-a237-cf8aea541eaf,81,Male,2024-01-27,2024-02-03,Appendectomy,Fake Appendectomy,541841.3,Fake Treatment
+9a7bba4d-b6a6-4942-a5cb-e07202332710,18,Male,2022-09-10,2022-09-18,Peptic Ulcer,Peptic Ulcer,175888.16,No Fraud
+aa21c732-c801-4a53-964b-9f2792df6f38,83,Male,2023-06-02,2023-06-07,Appendectomy,Appendectomy,244480.27,No Fraud
+cec7f97d-59f7-4936-b911-bfa041c41049,24,Male,2023-02-01,2023-02-02,Appendectomy,Appendectomy,390333.3,Ghost Enrollee
+6583d518-8233-4c94-98de-e715a434e324,59,Male,2023-09-21,2023-09-28,Asthma,Asthma,31465.08,No Fraud
+e91c1047-4130-40f5-8b84-1c46ab282032,26,Male,2023-03-20,2023-03-21,Tuberculosis,Tuberculosis,262537.96,No Fraud
+6780df80-c757-4c2a-9f08-3bdcfaf9bab1,70,Female,2024-08-18,2024-08-24,Diabetes,Fake Diabetes,539639.1,Fake Treatment
+effe983e-6008-4358-9b36-781817ee4f1c,25,Female,2022-09-28,2022-10-04,Kidney Disease,Kidney Disease,392612.37,No Fraud
+49b0491a-322f-4787-9be7-d193495bf1a8,84,Female,2024-03-31,2024-04-06,Hypertension,Fake Hypertension,569572.57,Fake Treatment
+e9142cfd-bce4-4ac4-a841-1d28451108b3,56,Female,2024-06-29,2024-07-02,Gastroenteritis,Fake Gastroenteritis,270373.81,Fake Treatment
+0dc4875d-b83e-4480-b37b-8b0b8a15f0bc,24,Female,2024-04-09,2024-04-12,HIV/AIDS,HIV/AIDS,462912.13,No Fraud
+57cb482b-2231-4cd4-9ddf-01fe400cc2d5,67,Female,2022-09-29,2022-09-30,Appendectomy,Appendectomy,218004.83,No Fraud
+eba6ffd5-5166-4508-a696-347772dac2fd,56,Male,2023-01-26,2023-02-11,Tuberculosis,Tuberculosis,167393.6,No Fraud
+a62301f2-dd88-4039-a20a-c27ea2cdd9c9,11,Female,2024-04-27,2024-04-29,Tuberculosis,Tuberculosis,228498.72,No Fraud
+0d46d9b5-e1ea-4e24-a674-bb510cc21bb4,92,Female,2022-11-30,2022-11-30,Appendectomy,Appendectomy,227515.11,No Fraud
+ca6035f9-fbbd-4094-900d-f9bd630fe440,58,Male,2023-01-21,2023-01-23,Cataract Surgery,Cataract Surgery,499093.79,Ghost Enrollee
+c058c224-573e-4a5f-b2c8-f6429cc27f18,36,Male,2023-11-06,2023-11-07,Cesarean Section,Cesarean Section,322381.14,No Fraud
+0aeb4583-0b8c-44bd-85bb-62107b6f951a,47,Male,2022-12-19,2022-12-19,Pneumonia,Pneumonia,425847.96,No Fraud
+f745dd8d-aee7-4afb-b37a-2b3e52cc09b3,87,Female,2024-04-18,2024-04-18,Cosmetic Surgery,Phantom Procedure,160510.03,Phantom Billing
+b43a1af7-a7c9-4eb3-bc0d-6f5133ceffc7,100,Female,2023-02-13,2023-02-22,Gastroenteritis,Gastroenteritis,475238.88,No Fraud
+dd10f48c-e182-4e57-9eb2-e519935f2fef,5,Male,2024-03-06,2024-03-11,Neurosurgery,Phantom Procedure,434812.04,Phantom Billing
+c468cf2b-aadc-419c-b6bb-98967f990d42,98,Male,2023-06-10,2023-06-23,Pneumonia,Pneumonia,269435.34,No Fraud
+2d60fd9a-5c46-41b5-84d6-7546c845c503,51,Female,2024-02-01,2024-02-16,Tuberculosis,Tuberculosis,132309.71,No Fraud
+8a74e34a-0580-4b0c-9c41-5be6775258e4,15,Male,2023-01-22,2023-01-24,Hepatitis B,Hepatitis B,263695.18,Ghost Enrollee
+bfbd6b9f-a59d-4bf7-b41a-0bc8851dbdb7,72,Male,2023-05-21,2023-05-28,Stroke,Stroke,137541.99,Ghost Enrollee
+12084aaa-1a72-4191-8415-10f4f1d92f12,58,Male,2023-08-07,2023-08-20,Tuberculosis,Fake Tuberculosis,501087.42,Fake Treatment
+2274ec5a-4ad4-4d95-a273-159192ef0feb,63,Male,2023-10-06,2023-10-08,Cosmetic Surgery,Phantom Procedure,867543.66,Phantom Billing
+97cd2ee7-00a5-41e4-a38a-2c1113637684,58,Male,2023-05-23,2023-06-04,Organ Transplant,Phantom Procedure,829461.9,Phantom Billing
+3751f652-71b5-4783-9199-b2d28ed6988e,41,Female,2024-05-10,2024-05-10,Peptic Ulcer,Peptic Ulcer,275663.97,No Fraud
+77d25012-778c-4039-8400-b962fb0f50c4,39,Male,2024-07-23,2024-08-04,Pneumonia,Pneumonia,398911.23,No Fraud
+8c540cdf-2009-46d8-84cd-3b38ae25e247,66,Male,2024-07-22,2024-07-24,Complex Heart Surgery,Phantom Procedure,812859.11,Phantom Billing
+0d769193-c9bc-4022-a4e5-f522868b4ab9,31,Female,2024-07-27,2024-07-27,Neurosurgery,Phantom Procedure,598619.29,Phantom Billing
+70457b02-9212-45ee-a7ca-065f3985f591,48,Female,2023-10-12,2023-10-25,Pneumonia,Fake Pneumonia,447766.44,Fake Treatment
+c30abc12-bafd-4f1a-905a-e5282f4a56cf,12,Male,2024-08-30,2024-09-02,Gastroenteritis,Gastroenteritis,499801.57,No Fraud
+892e8e93-5af0-4c38-b3e7-f03ef43632ef,93,Female,2024-02-01,2024-02-03,Gastroenteritis,Gastroenteritis,386890.63,No Fraud
+91f3f4a4-abd0-4dd7-878f-3911a4e19a90,74,Male,2023-08-29,2023-08-30,Neurosurgery,Phantom Procedure,678104.73,Phantom Billing
+c8dcc03e-73b6-4d46-a7b1-60d4039052c8,58,Female,2023-10-07,2023-10-07,HIV/AIDS,HIV/AIDS,72883.96,No Fraud
+2725b124-ae23-49df-a906-444f00b812cf,100,Male,2024-05-04,2024-05-04,Gastroenteritis,Fake Gastroenteritis,376861.46,Fake Treatment
+c6d438de-8b6e-4985-8efd-695d7f57fc3c,8,Male,2024-04-17,2024-04-28,Pneumonia,Fake Pneumonia,247680.95,Fake Treatment
+d51ba118-c64f-49bd-b79f-ac61466887d3,21,Female,2022-12-19,2022-12-25,HIV/AIDS,HIV/AIDS,474266.74,No Fraud
+79d3e640-b9d5-4301-bb67-84ddea10b1c6,67,Female,2023-07-07,2023-07-07,Infertility Treatment (IVF),Phantom Procedure,276671.73,Phantom Billing
+2fd37ef2-14ea-47c5-9c3a-a06e382f7086,71,Female,2022-09-18,2022-09-19,Infertility Treatment (IVF),Phantom Procedure,652985.45,Phantom Billing
+2e749fa8-9885-49ed-9f6b-7a3e00bbabc5,12,Male,2022-12-05,2022-12-11,Cataract Surgery,Cataract Surgery,85555.19,No Fraud
+24fc644d-eacb-4d9d-aa36-a9ac2e8b6246,85,Female,2024-07-08,2024-07-15,Diabetes,Fake Diabetes,586403.57,Fake Treatment
+15c6103a-6ed9-47a5-84f7-d3dc1b21a9a3,4,Male,2022-10-30,2022-10-30,Cesarean Section,Cesarean Section,387800.96,No Fraud
+ea79fee8-eebc-4074-8d1a-6e032939554c,34,Male,2024-01-26,2024-02-08,Advanced Spinal Surgery,Phantom Procedure,656297.58,Phantom Billing
+9a1279a4-becb-4405-b48c-8f47a0c39a6b,4,Female,2022-11-11,2022-11-28,Peptic Ulcer,Peptic Ulcer,151939.11,No Fraud
+c3985f05-395a-4508-872a-7a8452d9de67,39,Female,2022-09-15,2022-09-19,Stroke,Fake Stroke,574777.05,Fake Treatment
+70a6b6fa-34b1-4fd4-8ef1-74cb3bf4b1bd,52,Female,2023-08-30,2023-09-07,Hypertension,Hypertension,347420.65,No Fraud
+5bce0117-4577-45f6-8fc3-bec40d61f321,21,Female,2023-09-18,2023-09-23,Hepatitis B,Hepatitis B,237576.66,No Fraud
+d92737d9-90eb-45b4-84a5-a9c69ba8a950,44,Male,2022-12-26,2023-01-02,Kidney Disease,Fake Kidney Disease,516935.88,Fake Treatment
+9393cfb8-8e49-4c61-a047-959344878833,94,Female,2024-05-19,2024-05-26,Pneumonia,Pneumonia,382725.85,No Fraud
+936a1d16-62bd-4834-aaa3-f2904b9cc05f,66,Male,2022-11-30,2022-12-05,Asthma,Asthma,238571.56,No Fraud
+a0ed156c-6a70-41d0-b332-da2cbbc5b4fc,35,Female,2022-12-15,2022-12-17,Pneumonia,Fake Pneumonia,112927.57,Fake Treatment
+ac1aaba8-839a-4e49-a0f6-8ed2d37ea1dc,38,Female,2022-11-29,2022-12-03,Gastroenteritis,Fake Gastroenteritis,211375.68,Fake Treatment
+6f7c6982-fc8c-403e-b09e-98c7e768faf1,21,Female,2023-09-30,2023-10-05,Appendectomy,Appendectomy,163230.31,No Fraud
+93b7e777-db3e-4697-a469-59b95044cdb3,98,Male,2024-06-11,2024-06-21,Peptic Ulcer,Peptic Ulcer,238739.41,Ghost Enrollee
+e7ded50c-6658-450e-b902-280db966597c,40,Female,2023-11-20,2023-11-20,Hypertension,Hypertension,473164.07,No Fraud
+70927818-ab13-47da-86ca-02644a6236f2,65,Female,2024-08-05,2024-08-10,Asthma,Asthma,295838.61,No Fraud
+6120e2c6-094f-4033-a629-25f2c93c616a,7,Male,2023-01-08,2023-01-09,Hepatitis B,Hepatitis B,302784.2,No Fraud
+3f599a8d-2f26-48ff-ad6f-cd7b8fafca27,84,Female,2022-11-22,2022-11-30,Peptic Ulcer,Peptic Ulcer,14006.93,Ghost Enrollee
+a2116f7e-ccc0-4392-a577-f7460cea0ad3,14,Female,2023-08-07,2023-08-08,Infertility Treatment (IVF),Phantom Procedure,754757.26,Phantom Billing
+014c87e3-5dab-407f-8151-5135e88dc097,98,Female,2024-05-17,2024-05-21,Cancer Treatment,Phantom Procedure,460523.46,Phantom Billing
+e858675c-ca16-4bdb-aa98-0df861e4fea8,73,Male,2024-05-09,2024-05-11,Infertility Treatment (IVF),Phantom Procedure,166178.57,Phantom Billing
+4dd7e39b-2c89-4d64-b957-201434ecca82,65,Female,2023-10-17,2023-10-18,Tuberculosis,Tuberculosis,414402.55,No Fraud
+ecb53148-7475-444f-a453-af96a7b7dc1a,80,Male,2023-05-04,2023-05-04,Hypertension,Hypertension,203012.82,No Fraud
+62d4e9bf-7c5d-4728-9c3c-00a119fa0a4c,44,Female,2023-03-09,2023-03-11,Asthma,Asthma,305206.85,No Fraud
+7c0a85e2-9a1f-4b44-9ef3-2558957a1ca6,52,Male,2022-10-06,2022-10-06,Diabetes,Diabetes,77147.82,No Fraud
+81f88fa9-020d-4ede-aab0-30d86651333a,43,Female,2023-02-23,2023-03-08,Hepatitis B,Hepatitis B,82980.93,No Fraud
+5f08fc4b-f0e3-4aea-86e3-e2d79939cb9b,66,Male,2023-05-16,2023-05-23,Cataract Surgery,Fake Cataract Surgery,257044.52,Fake Treatment
+d88cac1d-1019-4851-8097-77e5c2863a37,51,Female,2023-03-24,2023-04-06,HIV/AIDS,HIV/AIDS,258584.34,No Fraud
+6000f322-3849-43f1-a005-e70aa01a6659,66,Female,2023-02-01,2023-02-05,Tuberculosis,Tuberculosis,242697.37,No Fraud
+5b8c17b5-a814-4870-a554-ccf3a59d92db,3,Female,2024-04-29,2024-04-29,Cesarean Section,Cesarean Section,63706.25,No Fraud
+702b31dc-1569-49bd-8051-246432ca34aa,54,Female,2024-01-12,2024-01-18,Cancer Treatment,Phantom Procedure,637218.65,Phantom Billing
+69a4db11-ac53-47e2-ac50-e5a45ac50d18,34,Male,2023-07-22,2023-07-22,Cataract Surgery,Cataract Surgery,245419.9,Ghost Enrollee
+e6f6a44a-24c4-4f3a-b2d9-e97f0e24651e,68,Female,2023-04-13,2023-04-14,Kidney Disease,Kidney Disease,343556.18,No Fraud
+f885481f-9e64-464a-b083-af63873f342d,5,Male,2024-05-27,2024-06-01,Diabetes,Diabetes,226108.9,No Fraud
+d7286acf-a9c5-436e-a42c-92add5d65ea7,54,Male,2023-12-15,2023-12-21,Complex Heart Surgery,Phantom Procedure,469339.67,Phantom Billing
+83e7d3a2-14f7-4463-9e3b-49c80052b0f6,100,Female,2023-10-30,2023-10-30,Appendectomy,Appendectomy,77660.42,No Fraud
+77e1013b-1d2b-411e-a97d-d99f90a0d83c,27,Female,2024-08-08,2024-08-12,Advanced Spinal Surgery,Phantom Procedure,382377.34,Phantom Billing
+42b28652-8d3b-4996-a77f-df7e37535122,23,Female,2023-09-02,2023-09-18,Neurosurgery,Phantom Procedure,591645.9,Phantom Billing
+8f421d8a-dbda-4b4b-b4f1-4377e49d15c4,87,Female,2024-03-15,2024-03-20,Hepatitis B,Hepatitis B,104209.44,No Fraud
+e32c4784-5ac3-45d5-b277-fa35dbe3cc4f,32,Female,2023-04-06,2023-04-14,Tuberculosis,Tuberculosis,120184.85,No Fraud
+6b785cde-0697-4728-a419-0f9db5710ccf,39,Female,2024-07-31,2024-08-05,Appendectomy,Fake Appendectomy,508242.37,Fake Treatment
+df4bbab1-e93a-4687-a834-a740164cf70d,41,Female,2024-06-07,2024-06-12,Peptic Ulcer,Peptic Ulcer,467513.18,No Fraud
+94390e79-45d1-4ef0-ac31-810463021274,93,Female,2023-03-05,2023-03-10,Hypertension,Hypertension,291003.63,No Fraud
+ac164c1d-61d3-45c2-880e-94cc716f658d,70,Female,2024-02-14,2024-02-16,Neurosurgery,Phantom Procedure,959147.98,Phantom Billing
+1e3f10e7-2984-43ff-bbb4-a3d7a99e0dc9,19,Female,2023-10-09,2023-10-09,Tuberculosis,Fake Tuberculosis,670953.92,Fake Treatment
+4f1b1274-2200-4f07-9069-dd347364ef14,11,Female,2023-12-31,2024-01-08,Cesarean Section,Fake Cesarean Section,216688.58,Fake Treatment
+c3c51a40-6a18-499f-9139-8a95481d2c79,62,Male,2023-03-02,2023-03-07,Infertility Treatment (IVF),Phantom Procedure,939721.54,Phantom Billing
+2d886baf-fd52-499a-ad62-e1ba4e3de42f,90,Female,2024-01-26,2024-01-29,Hypertension,Hypertension,311681.75,No Fraud
+b7b0b65b-8934-4fa9-871a-7fc1d7096d69,76,Male,2024-06-26,2024-07-02,Diabetes,Diabetes,338218.64,No Fraud
+27ccf378-4789-4a64-9ae3-2d5505f3843e,68,Male,2023-06-07,2023-06-07,Complex Heart Surgery,Phantom Procedure,147242.0,Phantom Billing
+135dec61-b241-4e34-ac82-032e144cdbe5,53,Female,2023-02-12,2023-02-16,Hypertension,Hypertension,343784.07,No Fraud
+e617cb23-23e1-4b04-8873-f49ea8d47c76,18,Male,2024-05-26,2024-06-11,Pneumonia,Pneumonia,209384.65,No Fraud
+9d66d2b8-6e1e-4ce5-8035-f7c288212ecf,61,Female,2024-01-31,2024-02-08,Asthma,Fake Asthma,541342.19,Fake Treatment
+aff2816c-b58f-44da-8a11-11b42cd80ba2,37,Female,2024-07-12,2024-07-14,Cesarean Section,Cesarean Section,38989.67,No Fraud
+b9da447c-29a2-4590-be24-b91678cd18d4,99,Male,2023-03-15,2023-04-03,Cataract Surgery,Cataract Surgery,123787.9,No Fraud
+43c1b115-fb44-4727-a19b-cfebcd8f657d,95,Male,2024-06-26,2024-06-27,Gastroenteritis,Gastroenteritis,442300.04,No Fraud
+73078af6-7997-49c6-92f9-fd19c27465cd,23,Male,2023-12-18,2023-12-20,Stroke,Stroke,252738.11,No Fraud
+3a65b87b-dbbb-42c6-acc4-085724ecb0e5,96,Female,2024-07-29,2024-07-29,Diabetes,Diabetes,156212.18,No Fraud
+e73a9b1c-358b-451a-be01-db4d0a34045f,78,Male,2024-02-08,2024-02-11,Tuberculosis,Tuberculosis,232631.05,No Fraud
+32113125-e078-469c-a174-997b9a1685be,83,Female,2023-11-24,2023-11-27,Kidney Disease,Kidney Disease,257064.21,No Fraud
+f9ff1924-47ed-47f0-90cd-e17cba9140fe,35,Male,2024-08-19,2024-08-20,HIV/AIDS,HIV/AIDS,89622.19,Ghost Enrollee
+6f396db9-219b-4a51-b078-4e9273025f87,59,Female,2024-08-20,2024-08-20,Cancer Treatment,Phantom Procedure,762956.11,Phantom Billing
+0cde6f61-c34e-4425-9818-2089e74ba540,38,Male,2022-11-03,2022-11-07,Cataract Surgery,Cataract Surgery,429511.79,No Fraud
+f4c33eae-216f-4a4d-964c-73140226b7be,52,Female,2024-04-17,2024-04-29,HIV/AIDS,Fake HIV/AIDS,106379.55,Fake Treatment
+d8e4a39f-e53d-446d-89fe-68768919fd67,86,Male,2023-05-15,2023-05-17,Pneumonia,Pneumonia,243952.51,No Fraud
+1b2358b1-fcc0-4d9d-b7a3-229c64dbb227,32,Male,2022-12-14,2022-12-21,Gastroenteritis,Gastroenteritis,125405.41,No Fraud
+3fe8fcd2-a2c1-444f-94f3-d8fcbedd0973,97,Female,2023-06-11,2023-06-17,Tuberculosis,Fake Tuberculosis,428599.49,Fake Treatment
+00247454-c907-4f61-9b69-bbdff285bf08,74,Male,2023-07-15,2023-07-15,Cesarean Section,Cesarean Section,186180.52,No Fraud
+cc7f3622-b9e2-469b-b1e9-8a70b4f86ecc,31,Male,2023-01-28,2023-01-30,Hepatitis B,Fake Hepatitis B,249424.12,Fake Treatment
+2266419e-188a-4a10-b9e4-7a5b4f7ff680,52,Female,2023-10-02,2023-10-04,Cesarean Section,Cesarean Section,458903.89,No Fraud
+2fefb3f2-da6b-48d5-b424-05d2412a708c,38,Female,2023-04-13,2023-04-16,Asthma,Fake Asthma,192433.59,Fake Treatment
+783340f3-c9bc-4a0a-b88a-ce7f153f5beb,18,Female,2024-07-14,2024-07-15,Hepatitis B,Hepatitis B,376390.07,No Fraud
+16b8c485-f239-4ba2-be91-adb9a57a30cd,78,Female,2024-06-24,2024-07-01,Appendectomy,Fake Appendectomy,407002.43,Fake Treatment
+89dbcaa6-53e3-4ced-a150-35150e0cc016,61,Male,2023-04-19,2023-04-25,Cesarean Section,Cesarean Section,379822.38,No Fraud
+bff93b27-83e2-4e98-9a47-a98c53d1d478,11,Female,2023-04-01,2023-04-09,Appendectomy,Fake Appendectomy,285160.16,Fake Treatment
+14da4b4f-a2c8-46da-af11-f2e85b1ccdbf,73,Male,2024-07-05,2024-07-05,Kidney Disease,Kidney Disease,278348.13,No Fraud
+e4bc660e-1b99-4bde-9100-c84596aabc4d,65,Male,2023-07-17,2023-07-21,Peptic Ulcer,Peptic Ulcer,83427.67,No Fraud
+c547969d-ab4b-4cb5-a5df-a914500926c0,42,Female,2024-05-02,2024-05-04,Cesarean Section,Fake Cesarean Section,183510.97,Fake Treatment
+ec6c6a21-e231-4e46-9df5-d7390d9345ab,75,Female,2023-03-06,2023-03-07,Peptic Ulcer,Peptic Ulcer,228286.52,No Fraud
+628f8555-bca6-4947-bf7d-09f717e0df9d,8,Female,2024-07-23,2024-07-24,Peptic Ulcer,Peptic Ulcer,213558.04,Ghost Enrollee
+a1bb8407-5a89-433c-843f-16b74f9ed3fc,73,Male,2023-09-06,2023-09-06,Hepatitis B,Hepatitis B,339656.18,Ghost Enrollee
+f48e4a50-22e8-4b23-bed8-971c7cf2f044,40,Male,2022-11-11,2022-11-12,Tuberculosis,Tuberculosis,410062.08,No Fraud
+1a4f377c-aadb-4843-8889-0bea099df3da,96,Male,2023-08-22,2023-09-04,Hypertension,Hypertension,32192.0,Ghost Enrollee
+cd3f0db0-2d98-4090-97fa-793408195833,45,Male,2022-11-30,2022-12-01,Diabetes,Diabetes,467945.57,No Fraud
+41810554-e4ee-40cd-bd88-3554bf138f00,9,Female,2023-04-30,2023-04-30,Tuberculosis,Fake Tuberculosis,315763.51,Fake Treatment
+5cc82163-c23e-40d4-9ace-ac132d391a3b,99,Male,2022-12-24,2023-01-07,Appendectomy,Appendectomy,326481.6,No Fraud
+a3b700b5-ca30-4f35-b474-1d491c010d1d,54,Female,2023-01-21,2023-01-30,Hepatitis B,Hepatitis B,436113.94,No Fraud
+d6474c05-b8be-4bd1-8a01-7b72dba42198,49,Female,2024-04-18,2024-04-19,Cesarean Section,Fake Cesarean Section,676693.84,Fake Treatment
+0c2c938f-ae6a-472c-93ca-d2f2dd739e79,70,Male,2024-02-04,2024-02-09,Kidney Disease,Fake Kidney Disease,276050.43,Fake Treatment
+36692faf-5efa-42a1-ae62-2bb647eab1cd,23,Female,2023-07-15,2023-07-28,Pneumonia,Pneumonia,366650.49,No Fraud
+d3b527ba-e3ea-4e2d-ac99-e48e6cad71ca,29,Male,2024-05-02,2024-05-02,Tuberculosis,Tuberculosis,236871.91,Ghost Enrollee
+5f998399-830d-411b-bd6a-10f655975fb5,93,Female,2024-01-28,2024-02-10,Gastroenteritis,Gastroenteritis,413446.61,No Fraud
+2e0c4ac4-30a6-48bd-8166-f1ddbe0d5526,32,Female,2022-10-30,2022-11-07,Pneumonia,Pneumonia,145068.37,No Fraud
+95d807b7-5ff1-45ed-a85d-3a4a7b14b372,93,Male,2022-09-20,2022-09-20,Stroke,Stroke,333496.87,No Fraud
+e4253f1a-45c1-4871-a0bd-2cb011d76d85,79,Male,2023-02-24,2023-03-02,Asthma,Asthma,42972.54,No Fraud
+b41e3e91-1257-403a-ab0c-284702e5ea2b,77,Male,2024-03-17,2024-03-24,Cataract Surgery,Cataract Surgery,339291.58,No Fraud
+0fcdc227-bc6f-419b-9909-4be291c23016,7,Male,2023-08-27,2023-08-27,Gastroenteritis,Gastroenteritis,225091.78,No Fraud
+be7b7a42-4557-468a-b4bf-1d2da8afcb9c,70,Male,2022-09-17,2022-09-17,Pneumonia,Fake Pneumonia,377532.3,Fake Treatment
+02ca1c26-a3e7-4324-92ed-ebd673209ef8,38,Male,2024-03-16,2024-03-29,HIV/AIDS,Fake HIV/AIDS,425358.63,Fake Treatment
+4a22e371-db0c-427c-94ab-63f6ab0ca037,99,Female,2024-02-19,2024-02-20,Tuberculosis,Tuberculosis,439366.58,Ghost Enrollee
+fb1df3d2-2b54-4b37-9a9e-b0badebebfaa,85,Male,2023-08-14,2023-08-22,Tuberculosis,Tuberculosis,144825.42,No Fraud
+fa355437-3c4f-4e53-a407-b478fa53b7b8,72,Male,2023-09-30,2023-10-07,Cesarean Section,Cesarean Section,219328.29,No Fraud
+e413ee68-9b90-4c53-8b88-25071b29a6fa,64,Male,2023-10-02,2023-10-03,Advanced Spinal Surgery,Phantom Procedure,807224.14,Phantom Billing
+6f57d4cb-f01b-433a-8bde-e074b2fd7ddb,41,Female,2023-11-20,2023-11-23,Pneumonia,Pneumonia,156945.36,Ghost Enrollee
+9a3081e7-b883-4379-81cd-1587937b8922,24,Female,2022-11-27,2022-11-29,Kidney Disease,Kidney Disease,120418.83,No Fraud
+68848f65-3c4d-4bf1-a446-b57881e977cb,91,Male,2023-09-29,2023-10-06,Diabetes,Fake Diabetes,415550.87,Fake Treatment
+64c55bfa-3a8c-4cfb-9c24-2520ec30a950,54,Male,2023-07-09,2023-07-19,Complex Heart Surgery,Phantom Procedure,329496.08,Phantom Billing
+0bb3e5c7-b699-4fa3-a665-f50e6800b0a1,43,Male,2022-09-19,2022-09-24,Kidney Disease,Fake Kidney Disease,291200.37,Fake Treatment
+5ed3287b-2383-405d-9bdd-0abb8772adac,69,Male,2023-11-20,2023-11-20,Infertility Treatment (IVF),Phantom Procedure,439451.18,Phantom Billing
+c3cf20b5-6730-4e22-a4d8-9265fb035052,78,Male,2023-11-08,2023-11-09,Asthma,Asthma,404278.8,Ghost Enrollee
+0630192c-e948-4ae8-9afd-69f1808833e4,76,Male,2024-03-17,2024-03-29,Asthma,Asthma,436042.19,No Fraud
+3991383e-e176-468a-839e-335c5533e05c,43,Female,2024-01-18,2024-01-18,Asthma,Fake Asthma,659153.85,Fake Treatment
+3f7390b5-7eb6-4adf-8ec4-33ea226e7962,95,Male,2023-08-22,2023-08-27,Asthma,Fake Asthma,502157.09,Fake Treatment
+e0bd48e6-eaa0-4fe9-a26f-3bc2b7f27465,91,Male,2022-12-21,2022-12-24,Asthma,Asthma,280518.85,No Fraud
+15253360-f4b7-47ad-8f8e-40154056616e,100,Female,2023-04-26,2023-04-27,Hepatitis B,Hepatitis B,271488.56,No Fraud
+6ca4cedd-06ca-4aff-beb5-005886aa9de6,46,Female,2022-11-08,2022-11-09,HIV/AIDS,HIV/AIDS,261280.1,No Fraud
+0bbc22d7-9c91-4d73-84ff-d5c90d2edddf,64,Female,2023-05-15,2023-05-15,Epilepsy Surgery,Phantom Procedure,785466.07,Phantom Billing
+281c63e9-a348-44fd-9a07-8e69b56a7db3,41,Male,2023-06-18,2023-06-23,HIV/AIDS,Fake HIV/AIDS,319054.61,Fake Treatment
+feea1360-09c0-431a-8c0f-6059a0dd1c47,73,Male,2024-03-14,2024-03-15,Diabetes,Diabetes,137779.31,No Fraud
+c6611d17-1e64-43af-953c-18815f948e05,75,Female,2023-02-12,2023-02-18,Pneumonia,Pneumonia,106133.97,No Fraud
+a08810e1-45be-40c9-8230-b46f2d26a66d,30,Female,2024-04-27,2024-05-11,Kidney Disease,Kidney Disease,130407.71,No Fraud
+1c19e1a8-0082-4117-8c00-989fc8d97e33,71,Female,2024-03-21,2024-03-26,Stroke,Fake Stroke,584034.76,Fake Treatment
+abe7fa78-afab-428d-9189-43185d724403,93,Female,2022-11-21,2022-11-28,Cosmetic Surgery,Phantom Procedure,759495.01,Phantom Billing
+2a145286-60b6-4141-af22-5746e9201699,46,Male,2023-02-20,2023-02-22,Epilepsy Surgery,Phantom Procedure,265643.0,Phantom Billing
+83804ab0-775d-4a50-aa91-5fe648b10c53,70,Male,2023-10-04,2023-10-06,Diabetes,Diabetes,421143.56,No Fraud
+419b6e7c-e775-44fc-99a4-8452ae4efc4d,10,Male,2022-09-06,2022-09-06,Gastroenteritis,Gastroenteritis,77370.85,No Fraud
+a76f074f-85bb-44c5-9572-eae801399527,81,Male,2022-11-19,2022-11-19,Appendectomy,Appendectomy,84004.53,No Fraud
+2e90db60-774c-4556-a7d3-d8e9be7745a1,28,Female,2023-04-08,2023-04-12,Diabetes,Diabetes,312739.27,No Fraud
+58836381-3554-4899-928d-2ba444f5ede6,86,Female,2023-09-20,2023-09-30,Diabetes,Fake Diabetes,54298.03,Fake Treatment
+ff3d26e5-0bb6-418d-984b-3351861af207,71,Female,2023-09-14,2023-09-14,Cancer Treatment,Phantom Procedure,576475.88,Phantom Billing
+c74ea235-df5e-4fd1-9c33-887bde56ac5e,36,Female,2024-07-08,2024-07-08,Peptic Ulcer,Fake Peptic Ulcer,578552.19,Fake Treatment
+0e3203fc-caf1-45b7-a4b7-e94e6b691747,87,Female,2024-08-05,2024-08-07,Hypertension,Fake Hypertension,646731.75,Fake Treatment
+a08ca362-6a9a-445a-98b4-53c3a33a0756,68,Male,2024-07-27,2024-07-29,Asthma,Asthma,313692.61,No Fraud
+aa24c3de-9f49-4be3-bca2-ab1f3d8f4a5b,33,Female,2024-03-21,2024-03-28,Advanced Spinal Surgery,Phantom Procedure,171117.32,Phantom Billing
+1db18d81-096e-4f63-9222-b145902e762b,52,Female,2022-10-02,2022-10-19,Asthma,Fake Asthma,693651.47,Fake Treatment
+969963f7-4193-4c5d-b326-1043c534d22e,29,Female,2024-07-28,2024-07-29,Cancer Treatment,Phantom Procedure,184150.45,Phantom Billing
+18e3efbf-1fe5-4dd1-9818-16085ced242a,49,Female,2022-12-27,2022-12-27,Hepatitis B,Hepatitis B,37496.32,No Fraud
+7d7785bc-4e13-4ff6-997c-c92a03a65c7e,2,Male,2024-03-28,2024-03-29,Hepatitis B,Hepatitis B,424211.6,No Fraud
+0170c297-fc31-46f7-b169-93476042ee23,83,Female,2023-09-24,2023-10-04,Kidney Disease,Kidney Disease,487181.48,No Fraud
+e47c9bfd-442f-47d8-8565-5343724731ac,68,Male,2024-06-07,2024-06-07,Asthma,Fake Asthma,635827.42,Fake Treatment
+c790fa96-b445-4b67-a18b-f6581ff18410,89,Female,2023-07-09,2023-07-14,Diabetes,Diabetes,462838.04,Ghost Enrollee
+44455986-be98-4402-abe1-4bc9465d5b9a,88,Female,2023-07-09,2023-07-22,Cataract Surgery,Cataract Surgery,332473.53,No Fraud
+d1236519-90d4-4e40-bc7f-359a6cf4fe59,23,Female,2023-08-06,2023-08-06,Asthma,Asthma,297647.69,Ghost Enrollee
+78b9188f-fdbf-4c53-a962-275f3b8abfed,97,Female,2024-01-13,2024-01-14,Tuberculosis,Tuberculosis,89600.62,Ghost Enrollee
+f84b4382-e04d-4a3c-8381-7cc7edfb65d7,31,Female,2024-02-29,2024-03-08,HIV/AIDS,HIV/AIDS,198084.64,No Fraud
+678d50df-77fd-4c3b-8d3b-a82e069ec902,95,Male,2024-04-27,2024-04-27,Peptic Ulcer,Peptic Ulcer,375273.72,No Fraud
+9d2d451c-8f8f-47dc-9bf0-a5fd27f8664c,45,Male,2023-08-13,2023-08-13,Gastroenteritis,Gastroenteritis,123750.56,Ghost Enrollee
+69518ef8-ea01-47af-8824-a96866e4572b,10,Female,2024-05-15,2024-05-21,Stroke,Stroke,310793.96,No Fraud
+561caf40-0438-40bc-9810-654d5d4e062a,77,Female,2023-08-03,2023-08-07,Cancer Treatment,Phantom Procedure,670710.65,Phantom Billing
+f6f00fcb-be54-4c54-92bc-384a92b06172,58,Female,2024-02-09,2024-02-13,HIV/AIDS,HIV/AIDS,280988.49,No Fraud
+0ce3c3df-6be5-4df2-9b9d-c49064b00b6c,49,Female,2023-10-01,2023-10-03,Cesarean Section,Fake Cesarean Section,430818.83,Fake Treatment
+c5c92806-5bb5-4674-a042-72d4f025cd96,49,Male,2024-06-26,2024-06-27,Tuberculosis,Tuberculosis,401047.04,No Fraud
+9bcb358e-4bd6-4fba-b2fd-193ea5fb7793,92,Male,2024-08-23,2024-08-24,Tuberculosis,Tuberculosis,85568.27,No Fraud
+fbd46366-4949-4719-a00d-10935d5dd48a,92,Male,2024-01-30,2024-02-07,HIV/AIDS,Fake HIV/AIDS,284455.15,Fake Treatment
+0dc79311-1235-4b89-a0f1-3f0cda8a314f,12,Male,2024-01-19,2024-01-19,Hepatitis B,Hepatitis B,186359.57,No Fraud
+3c590701-f95e-45d9-b215-e73ce38fa884,35,Male,2022-10-30,2022-11-01,Hypertension,Hypertension,101821.97,No Fraud
+7a0d0d1a-79a2-430e-ac38-f3ab09353e19,58,Female,2024-08-17,2024-08-19,Diabetes,Diabetes,53913.23,No Fraud
+5ad7dd76-5f4f-40ed-9283-7dc754b9c245,71,Male,2023-08-05,2023-08-05,Neurosurgery,Phantom Procedure,877346.36,Phantom Billing
+3d49210f-3d49-46f1-80b7-a627972446f2,2,Female,2023-09-25,2023-09-26,Gastroenteritis,Gastroenteritis,391792.86,Ghost Enrollee
+36d7642f-bf66-4a45-b111-86045fa2d4db,93,Male,2024-05-09,2024-05-22,Cosmetic Surgery,Phantom Procedure,716784.39,Phantom Billing
+cb451d6c-c063-4b5e-aef2-c0d7a1e75692,22,Male,2023-06-11,2023-06-15,Tuberculosis,Tuberculosis,141519.33,No Fraud
+83a62526-3453-446a-9032-045e056ae810,19,Male,2023-11-06,2023-11-07,Gastroenteritis,Gastroenteritis,145221.32,No Fraud
+babae783-dd7b-4ee9-9a4f-962e7493ae61,39,Female,2022-12-20,2022-12-21,HIV/AIDS,HIV/AIDS,133332.87,No Fraud
+1121f890-b16f-4d02-8a3d-08c494b8035c,32,Female,2023-05-09,2023-05-10,Cataract Surgery,Cataract Surgery,105818.63,No Fraud
+a695d54d-903b-409a-a7a1-f8b9d014d3dc,14,Male,2023-11-06,2023-11-11,Diabetes,Diabetes,474923.5,No Fraud
+8d297491-25cd-4956-b1cf-0362c493ea9f,43,Female,2024-07-03,2024-07-09,Hepatitis B,Hepatitis B,174020.75,No Fraud
+656d2ed4-5951-40a9-b9c1-dcee1dd35600,84,Male,2023-07-22,2023-07-22,HIV/AIDS,HIV/AIDS,305573.52,No Fraud
+824238bd-ca53-4f81-acdd-2d11bc420e8c,89,Male,2024-08-15,2024-08-26,HIV/AIDS,Fake HIV/AIDS,165464.23,Fake Treatment
+d128f29a-c85e-48e3-b31c-7063ebbb34de,51,Female,2023-06-09,2023-06-17,Appendectomy,Appendectomy,350529.31,No Fraud
+7d859117-af5d-461e-81ae-9600dbb69889,63,Male,2022-12-01,2022-12-10,Gastroenteritis,Gastroenteritis,147347.07,No Fraud
+569d24c0-7661-46a7-8401-3c9e414d73d0,51,Female,2024-04-15,2024-04-17,Complex Heart Surgery,Phantom Procedure,633004.33,Phantom Billing
+05dd3abc-d4c0-4d02-9a8c-7a8546858ccb,70,Male,2023-10-21,2023-10-25,Diabetes,Diabetes,476972.26,No Fraud
+ad8d1168-8e37-4774-ac36-715a4d109a75,60,Male,2024-06-24,2024-06-29,Stroke,Stroke,152752.29,Ghost Enrollee
+df0c1288-79ed-47b2-917c-a7588ce79eea,89,Male,2024-05-12,2024-05-18,Cesarean Section,Fake Cesarean Section,374547.09,Fake Treatment
+b1cee9bb-ded1-4bdb-9aee-d74f70640c1e,82,Female,2023-05-13,2023-05-14,Tuberculosis,Fake Tuberculosis,478130.93,Fake Treatment
+88c59d6e-1a54-4c8b-bb81-41d66a493ef9,92,Female,2024-07-24,2024-07-27,Hypertension,Hypertension,230042.69,No Fraud
+c10d463a-f72a-4910-9c4a-d8863037f6c1,77,Female,2023-10-18,2023-10-25,Gastroenteritis,Fake Gastroenteritis,397338.81,Fake Treatment
+856ef145-0860-4c8a-9548-00aa3065c567,89,Female,2023-01-21,2023-01-24,Diabetes,Diabetes,397453.25,No Fraud
+eef23267-644f-43aa-9557-1142329cc5c4,47,Male,2024-04-05,2024-04-05,Stroke,Stroke,131633.17,No Fraud
+98edc07a-aa33-46db-9689-b7cc7eb13900,86,Female,2024-03-10,2024-03-14,Cesarean Section,Cesarean Section,310212.17,No Fraud
+4ba869bd-3c3d-4cf1-a94f-b4e837143054,73,Female,2024-08-27,2024-09-03,Stroke,Fake Stroke,329796.1,Fake Treatment
+e65b77e3-3fa1-42c6-8a1a-344a8ca19551,2,Male,2024-06-25,2024-06-30,Asthma,Asthma,260231.36,No Fraud
+330bdfa5-c524-4eaf-bb0e-91ffbe3b191b,67,Male,2023-08-19,2023-08-29,HIV/AIDS,HIV/AIDS,201655.74,No Fraud
+8d1aed8e-953f-4554-8ffa-d74896d4a52b,99,Male,2024-04-30,2024-05-08,Diabetes,Diabetes,246557.83,Ghost Enrollee
+a8b75ffb-9d2c-4b77-b350-2c3cc94fcd8e,38,Female,2023-10-04,2023-10-04,Hypertension,Hypertension,417345.69,No Fraud
+9602224a-7c92-4959-b599-4fdb9df60ae8,94,Male,2023-07-23,2023-07-25,Tuberculosis,Tuberculosis,178102.67,No Fraud
+fbbcf644-68ec-4614-9e20-07d78a9742dc,27,Female,2024-06-03,2024-06-06,Hepatitis B,Hepatitis B,57835.29,No Fraud
+a868aba0-eec9-416d-b619-487798035896,93,Female,2024-07-08,2024-07-13,Hypertension,Hypertension,157129.4,No Fraud
+0637015d-897b-41ba-ba2f-8eef1b4d697a,91,Male,2023-03-30,2023-03-30,Kidney Disease,Kidney Disease,178108.19,No Fraud
+105f5bbf-ca24-4a64-af42-7e1e79dc0c3b,14,Male,2024-05-27,2024-05-27,Peptic Ulcer,Peptic Ulcer,95482.08,No Fraud
+6da9d759-2321-4b51-ab85-74571d1980f4,21,Female,2024-03-09,2024-03-18,Gastroenteritis,Gastroenteritis,479646.68,Ghost Enrollee
+831f76de-8476-4aef-a485-1c3a48aa4fe8,30,Female,2024-07-31,2024-08-09,Pneumonia,Pneumonia,101329.59,No Fraud
+26969bd8-dd4c-4914-a5c1-cd7857fbda52,85,Female,2024-07-23,2024-07-24,Diabetes,Diabetes,371320.3,No Fraud
+8bbcfad0-96bc-4cba-9cac-a7beb351674a,26,Female,2022-10-01,2022-10-02,Gastroenteritis,Fake Gastroenteritis,302743.26,Fake Treatment
+b966fb0b-ac73-4f0f-9363-72af0f5f3bea,91,Male,2022-12-09,2022-12-13,Tuberculosis,Tuberculosis,378639.49,No Fraud
+b55dbefc-ee44-429e-b3ca-a5838c147f4e,9,Male,2023-03-02,2023-03-03,Pneumonia,Pneumonia,189238.58,Ghost Enrollee
+edb969d1-e51a-4a85-abd6-a63a7f39ed9e,26,Female,2024-03-06,2024-03-08,Tuberculosis,Tuberculosis,338643.7,No Fraud
+a61ec41a-27cb-418b-9dea-9594dbabcd23,63,Female,2023-03-07,2023-03-19,Gastroenteritis,Gastroenteritis,309541.13,No Fraud
+f40a9dbf-22f6-4c5b-8c95-560606c59659,76,Male,2023-02-04,2023-02-07,HIV/AIDS,HIV/AIDS,424303.72,No Fraud
+6e9342f3-684b-49c6-975a-7b084e506e68,80,Male,2023-02-20,2023-02-20,Cataract Surgery,Cataract Surgery,299182.5,No Fraud
+86b50555-0119-4949-9360-63ea30b7033f,87,Male,2024-03-19,2024-03-22,Hypertension,Hypertension,126900.64,No Fraud
+6ba72bf4-356d-4600-913e-1157b0bd2fc1,15,Male,2022-10-20,2022-10-21,Appendectomy,Appendectomy,79265.69,No Fraud
+f999f3c2-7b8f-4161-8641-402091a205e7,50,Female,2023-10-28,2023-10-31,Pneumonia,Pneumonia,291654.96,No Fraud
+41105cff-26d1-4452-b409-430f3cd576f0,55,Male,2022-10-30,2022-11-02,Cesarean Section,Cesarean Section,273315.84,No Fraud
+9f578f98-29ec-4e61-9e2d-bd0eecaa2435,83,Male,2022-10-22,2022-10-25,Pneumonia,Pneumonia,249924.59,No Fraud
+305a2593-543b-4092-85ee-1177931c12dd,18,Male,2023-07-06,2023-07-10,Kidney Disease,Kidney Disease,230990.48,No Fraud
+04e68877-279b-4549-9a26-c37e96b8c2c6,7,Female,2022-11-07,2022-11-07,Hepatitis B,Hepatitis B,76902.01,No Fraud
+3d716936-454c-4c33-aab1-1c06b2ce6c47,50,Female,2024-05-28,2024-06-05,Cesarean Section,Cesarean Section,250945.68,No Fraud
+516a1206-f2de-48f3-8707-2f09b65210d5,91,Female,2024-07-12,2024-07-17,Pneumonia,Pneumonia,50508.61,Ghost Enrollee
+ec94f4c9-7399-4aac-b28b-5d9e7a864044,4,Male,2023-02-15,2023-02-18,Diabetes,Diabetes,144677.93,No Fraud
+7c8aaeba-1eeb-499a-ab62-acc9e046d0ed,69,Female,2024-01-02,2024-01-04,Epilepsy Surgery,Phantom Procedure,609085.42,Phantom Billing
+4a236c18-7d93-4eaf-ac8e-b9feac76be80,99,Female,2023-01-09,2023-01-21,Peptic Ulcer,Peptic Ulcer,65473.39,Ghost Enrollee
+28424076-2b8f-492a-9059-e148d3f84ff1,15,Female,2024-07-08,2024-07-19,Kidney Disease,Kidney Disease,495537.87,No Fraud
+c3ea6c65-0ee2-42be-9e33-ece4f9a72305,70,Male,2022-09-20,2022-09-29,Peptic Ulcer,Fake Peptic Ulcer,192052.26,Fake Treatment
+1a6aefa8-2736-4075-99a0-9dfb76289d4e,55,Male,2022-10-24,2022-10-28,Stroke,Fake Stroke,210895.56,Fake Treatment
+f19bf2f3-93e8-4df5-8a33-d97d16a9bd4d,5,Female,2023-08-20,2023-08-25,HIV/AIDS,HIV/AIDS,432477.82,No Fraud
+3bb4401c-c69b-42d6-b9f8-385bb23c01b1,12,Female,2023-08-02,2023-08-04,Stroke,Stroke,407825.57,No Fraud
+04f9a0fd-b251-4a9f-9206-6e650ec668be,27,Female,2023-08-09,2023-08-27,Advanced Spinal Surgery,Phantom Procedure,249383.46,Phantom Billing
+ddaf975b-9df5-49d3-bf96-533fa590c327,18,Male,2022-12-19,2022-12-24,Cancer Treatment,Phantom Procedure,613066.91,Phantom Billing
+476c423a-88a2-4652-9c86-58a27de946ac,69,Female,2024-06-14,2024-06-24,Peptic Ulcer,Peptic Ulcer,92504.91,No Fraud
+fd99808f-3b78-4e4c-adf7-d785555d94eb,91,Female,2022-12-06,2022-12-14,Cataract Surgery,Cataract Surgery,140998.1,No Fraud
+a8b265c0-fa26-46fb-85b7-693b10a4a69b,66,Male,2022-09-14,2022-09-16,Stroke,Stroke,394988.61,No Fraud
+5a6813aa-0c88-46c9-a102-6dfcb887fa1b,8,Female,2023-01-06,2023-01-16,Pneumonia,Pneumonia,353699.0,No Fraud
+f209074c-7fd2-41dd-854e-720f0abe31fe,17,Male,2024-06-09,2024-06-10,Appendectomy,Appendectomy,167827.39,Ghost Enrollee
+b8f7ea78-7c07-4b76-aadc-10f5e0768310,32,Female,2023-03-26,2023-04-01,Pneumonia,Pneumonia,292938.51,No Fraud
+1b71e71c-8648-4bc4-bae8-d5a670470444,35,Female,2023-12-04,2023-12-10,Hepatitis B,Hepatitis B,47002.97,No Fraud
+5e7d6498-0ceb-4fce-81e4-1e802088a5bc,99,Male,2023-09-01,2023-09-11,Infertility Treatment (IVF),Phantom Procedure,725233.25,Phantom Billing
+b29801a4-615b-4bf2-82c0-ffacc641a096,48,Female,2024-07-12,2024-07-24,HIV/AIDS,HIV/AIDS,295158.22,No Fraud
+c81e0809-0964-4c47-ada0-4e643010b5b4,100,Male,2023-03-21,2023-03-24,Cesarean Section,Cesarean Section,335430.47,No Fraud
+1c5e492e-1a25-4d16-8d67-6b82360393b8,46,Male,2024-01-20,2024-01-25,Advanced Spinal Surgery,Phantom Procedure,296046.94,Phantom Billing
+08da6cbd-7dd3-4f91-9c33-1bfcd15ea606,55,Male,2024-08-09,2024-08-22,Tuberculosis,Fake Tuberculosis,259862.35,Fake Treatment
+7e2e9c7c-961f-419a-b048-66c9507cf3a3,37,Female,2023-01-07,2023-01-09,Cataract Surgery,Cataract Surgery,73991.18,No Fraud
+0a410dbe-a0a8-48da-b7c7-f5460444e8ec,63,Female,2024-08-14,2024-08-14,Diabetes,Diabetes,58791.62,No Fraud
+30c72567-d545-4c08-8a5e-e9548b4f76f9,59,Male,2024-05-07,2024-05-07,Kidney Disease,Kidney Disease,87411.92,No Fraud
+75102f5a-b7df-4179-9cae-bfd62fb6bf29,59,Male,2023-04-30,2023-04-30,Asthma,Asthma,497890.09,No Fraud
+a84bb967-b4df-4688-91d5-fd9a9fefd9d9,17,Female,2023-01-04,2023-01-05,Kidney Disease,Kidney Disease,467035.53,No Fraud
+b542026a-4ebe-4e9f-b269-00e154a9c9fe,36,Male,2023-01-10,2023-01-16,HIV/AIDS,HIV/AIDS,132690.75,No Fraud
+29599121-e3fe-4bff-9602-3bcf34d91bea,48,Male,2022-09-04,2022-09-04,Gastroenteritis,Gastroenteritis,316546.09,No Fraud
+953bf98b-5ad0-423d-af25-074a43c269a7,93,Male,2024-01-19,2024-01-20,Cesarean Section,Cesarean Section,54687.6,No Fraud
+0466add1-c5ad-4cf6-ae11-3e98713f9354,13,Male,2024-07-11,2024-07-13,Hepatitis B,Hepatitis B,48189.97,No Fraud
+080772f0-bd0a-4364-b834-6788c24db758,76,Male,2023-09-15,2023-09-16,Cesarean Section,Cesarean Section,228082.77,No Fraud
+e5d96674-561c-4173-868d-2bc1911e88e0,2,Female,2023-03-08,2023-03-08,Kidney Disease,Kidney Disease,216933.83,No Fraud
+a70e04c1-a7be-46ef-8ce6-4701404348c7,17,Female,2024-03-04,2024-03-05,Asthma,Asthma,197704.26,No Fraud
+355bcda1-be8b-4c28-a040-937356061c7c,94,Male,2023-03-30,2023-03-30,HIV/AIDS,HIV/AIDS,190105.23,No Fraud
+32db7a89-9734-4df9-b6da-e2c971afd97d,39,Male,2023-06-26,2023-07-04,Stroke,Fake Stroke,578689.15,Fake Treatment
+848bdd36-0f18-4111-985e-1923d16811d9,18,Male,2024-01-01,2024-01-01,Peptic Ulcer,Peptic Ulcer,286012.7,No Fraud
+128e6c18-bc71-48a5-bc8e-d9d35cb8c3fb,79,Male,2023-09-24,2023-09-27,HIV/AIDS,HIV/AIDS,363991.69,Ghost Enrollee
+8a2e90b6-a65d-45bd-a2d4-1d142f9a31ed,81,Male,2024-07-09,2024-07-20,Epilepsy Surgery,Phantom Procedure,873966.27,Phantom Billing
+f43fab19-ef7c-45a1-8384-c924c4ae6b18,12,Male,2023-11-13,2023-11-15,Stroke,Stroke,70347.04,No Fraud
+cfcecb8d-67b2-47e8-b417-7d0cbb05ef6b,94,Female,2023-01-08,2023-01-17,Gastroenteritis,Gastroenteritis,164106.8,No Fraud
+744f6e8b-5cd7-4875-9678-44e130bdb8f7,18,Male,2023-07-14,2023-07-17,Cesarean Section,Cesarean Section,51281.87,No Fraud
+5fa2bc0f-f1f4-484a-8abe-4bfc3bb84c12,71,Female,2023-11-11,2023-11-11,Kidney Disease,Kidney Disease,425064.31,No Fraud
+4a160575-3511-46a9-a3f0-292240cb5479,39,Male,2024-08-22,2024-09-03,Complex Heart Surgery,Phantom Procedure,773059.28,Phantom Billing
+d77a7cd8-119f-4d40-95ba-61a65cace192,38,Male,2023-12-14,2023-12-19,Hepatitis B,Hepatitis B,199083.93,No Fraud
+d0bb6a12-eacf-4d1f-a8c9-cd27003d10e8,31,Female,2024-04-26,2024-05-09,Cataract Surgery,Cataract Surgery,44795.88,No Fraud
+83c67de0-9e0f-4a41-b5e6-f7d31de8b993,2,Female,2024-06-14,2024-06-18,Pneumonia,Pneumonia,199550.74,No Fraud
+9a17cc73-e42e-450a-ad84-061ada335069,73,Female,2024-01-05,2024-01-09,Peptic Ulcer,Peptic Ulcer,344641.6,No Fraud
+4f49c7ba-0e63-4a72-9384-29b76d3cb1bd,98,Female,2022-12-04,2022-12-04,Diabetes,Diabetes,297808.11,Ghost Enrollee
+cf9953f2-4d17-4a2a-aabd-aa2053ae3c90,2,Female,2023-06-18,2023-06-20,Diabetes,Diabetes,462063.85,No Fraud
+9a15eb14-baad-4c8a-adc6-b612ab71a23c,51,Female,2023-05-27,2023-06-14,Appendectomy,Appendectomy,255513.99,No Fraud
+11ec115c-58e2-4e5c-80d8-9e9387a65d30,54,Female,2023-09-07,2023-09-14,Hypertension,Fake Hypertension,466349.24,Fake Treatment
+d85eea4d-635e-4c1f-ab83-92b53854627e,69,Male,2023-11-28,2023-11-28,Hypertension,Hypertension,161854.37,Ghost Enrollee
+daf93b2a-e69f-4c88-a6aa-5e1061848b22,66,Male,2023-08-13,2023-08-15,Peptic Ulcer,Peptic Ulcer,170107.65,No Fraud
+030b04f7-f9a2-463d-abb5-74e489be8485,76,Male,2023-08-15,2023-08-20,Appendectomy,Appendectomy,224368.16,No Fraud
+f8dcd291-e538-4fbf-885b-1aaf25fd3bf4,31,Male,2023-03-14,2023-03-14,Hypertension,Hypertension,463067.6,No Fraud
+0845cc5c-a871-487d-bc50-87bd940e1b58,15,Female,2023-07-06,2023-07-15,Cataract Surgery,Cataract Surgery,36964.02,No Fraud
+7b0e647b-4c05-4ed7-a70d-d007b6cf499e,86,Male,2023-09-01,2023-09-01,Diabetes,Diabetes,356871.3,No Fraud
+9f14d2a0-08d3-4343-bbdc-44b04f360131,90,Male,2022-12-25,2022-12-27,Hepatitis B,Hepatitis B,476977.94,No Fraud
+dde59150-ef1d-4e88-aedc-7939dfcba42c,67,Female,2023-11-18,2023-11-22,HIV/AIDS,HIV/AIDS,72196.0,No Fraud
+617f8367-a354-4f3d-aad6-0dc13e735288,100,Female,2023-10-19,2023-10-20,Stroke,Stroke,450949.74,No Fraud
+e8529494-bbd3-40c6-bd72-00c4e7252726,43,Female,2022-11-05,2022-11-09,Peptic Ulcer,Fake Peptic Ulcer,91516.79,Fake Treatment
+2e983cd3-110a-49be-a349-5930e5581cb0,92,Male,2024-04-12,2024-04-18,Hepatitis B,Hepatitis B,260283.12,No Fraud
+06c2b906-2490-4cd1-a4f1-fca747ab5850,8,Female,2023-05-17,2023-05-27,Pneumonia,Pneumonia,190167.01,No Fraud
+96798fd1-c43d-4b91-95de-75b41dfbf188,33,Male,2022-10-30,2022-11-03,Cesarean Section,Cesarean Section,364161.4,No Fraud
+b1e780ac-9d5d-40ec-95ed-4323b7f25500,30,Male,2023-11-02,2023-11-02,Kidney Disease,Fake Kidney Disease,610903.52,Fake Treatment
+1ee7ec40-f58f-411d-925c-fbed5c585518,32,Male,2024-04-11,2024-04-24,HIV/AIDS,HIV/AIDS,197659.94,No Fraud
+da69a2f1-e566-4d3d-b6b2-fab9e61afb71,20,Male,2024-02-29,2024-02-29,Peptic Ulcer,Peptic Ulcer,403526.59,No Fraud
+405baf73-3ebf-49fb-bf14-372af504d813,92,Female,2023-05-08,2023-05-09,HIV/AIDS,Fake HIV/AIDS,211371.07,Fake Treatment
+64127217-c681-4807-9d49-c3132b5a5994,93,Female,2024-05-08,2024-05-09,Kidney Disease,Fake Kidney Disease,100626.6,Fake Treatment
+683eaaa3-a3c8-4847-96e6-16a939718341,48,Male,2023-02-02,2023-02-13,Cancer Treatment,Phantom Procedure,261409.92,Phantom Billing
+b6319fb4-facd-4231-8201-e93ebb25668c,67,Male,2024-04-25,2024-05-06,Hypertension,Hypertension,439725.71,No Fraud
+f06e2956-def8-4ca5-9a9a-f481ea341376,37,Female,2023-03-17,2023-03-26,Hypertension,Hypertension,281014.78,No Fraud
+331b9f63-44f3-43e2-88e9-c5f2f36c0f8e,2,Female,2023-01-17,2023-01-22,Tuberculosis,Tuberculosis,286265.3,Ghost Enrollee
+206fd7c5-6cf0-4a87-80fb-c8a5e56d5fae,39,Male,2022-12-12,2022-12-24,HIV/AIDS,Fake HIV/AIDS,434599.11,Fake Treatment
+cb384c00-d809-45b8-88e8-c270646cf785,64,Male,2022-10-15,2022-10-15,Stroke,Stroke,400027.04,No Fraud
+b7a198c6-ccd6-4a85-ba21-0c61fdedadbd,20,Male,2024-02-20,2024-03-03,Diabetes,Diabetes,124168.89,No Fraud
+0b72a0b1-6e92-494b-8dbd-49af7960628f,45,Male,2023-08-16,2023-08-23,Diabetes,Diabetes,381875.29,No Fraud
+a2323004-0a42-43b2-9685-1c7f25e4357e,49,Female,2024-04-18,2024-04-18,Complex Heart Surgery,Phantom Procedure,576833.04,Phantom Billing
+65a06f96-c4ff-4083-a628-f88d1db0a287,31,Female,2023-10-27,2023-11-05,Diabetes,Diabetes,486554.03,No Fraud
+c139487b-36ae-44b8-81a3-d733e5256338,19,Female,2023-06-03,2023-06-03,Diabetes,Diabetes,461424.46,No Fraud
+c0562a35-d87d-49ee-a229-bdeaaafa2ba9,67,Female,2023-08-04,2023-08-12,Hepatitis B,Hepatitis B,487531.85,No Fraud
+fb6d216c-ff51-4de0-8277-9bd3e05bfcb6,11,Male,2024-05-22,2024-05-27,Pneumonia,Pneumonia,322235.68,No Fraud
+99f7b50d-a067-40b9-a4f1-6541c511c838,51,Male,2024-01-14,2024-01-16,Cataract Surgery,Cataract Surgery,40518.6,No Fraud
+918b49c3-c734-4256-bc62-a6ba3bb68c25,85,Male,2024-01-18,2024-01-24,Tuberculosis,Tuberculosis,137885.56,No Fraud
+a91c6aec-6f14-4b12-9e7f-779e8818f3f5,41,Female,2023-06-03,2023-06-10,HIV/AIDS,HIV/AIDS,231851.35,Ghost Enrollee
+bb315fca-2ad7-4202-9a32-92f172a7e7b4,30,Male,2023-12-17,2023-12-22,Pneumonia,Pneumonia,392169.12,No Fraud
+181c5db8-23c7-4d02-9ddf-84ce5ea06e05,75,Male,2023-11-23,2023-11-24,Hypertension,Hypertension,90543.74,No Fraud
+aae558fd-2983-4578-86f6-1400dcddf5f8,60,Female,2023-03-31,2023-04-09,Hypertension,Hypertension,272603.03,No Fraud
+e9b81a60-1758-405a-9ba9-d0312218cb62,99,Male,2023-11-14,2023-11-23,Tuberculosis,Tuberculosis,237039.83,No Fraud
+60f5387e-6249-46ce-a316-044ffb5e4e18,16,Male,2023-02-16,2023-02-19,Stroke,Stroke,346166.87,No Fraud
+1a0adfbc-ed99-4c7b-a16c-4a65de7fc5be,91,Male,2024-04-19,2024-04-21,Kidney Disease,Kidney Disease,429720.9,No Fraud
+72a57bd6-3ef6-42c5-8b1f-7f535206bd8d,19,Male,2022-10-05,2022-10-06,HIV/AIDS,HIV/AIDS,204159.79,No Fraud
+64fe825e-ff89-4cfb-834d-8c961228dfdf,7,Female,2024-03-11,2024-03-12,Kidney Disease,Kidney Disease,495431.54,No Fraud
+e7c57174-a700-46c0-ba2f-f21b5635445f,4,Female,2023-09-22,2023-09-26,Peptic Ulcer,Peptic Ulcer,376558.44,No Fraud
+1263ac25-f063-42c0-ba82-7da1e71dec2c,32,Male,2023-05-18,2023-05-26,Hypertension,Fake Hypertension,572532.89,Fake Treatment
+d35515f1-8e79-430d-b2cd-04180da7be6a,18,Male,2023-07-02,2023-07-02,Diabetes,Diabetes,416882.44,No Fraud
+07845f03-799a-4c69-ad23-59cbdb55d57a,29,Male,2023-01-17,2023-01-22,Advanced Spinal Surgery,Phantom Procedure,435015.77,Phantom Billing
+10d4c64c-7562-40d2-ac7a-fcdbdf1276cb,81,Male,2023-04-24,2023-04-26,Cataract Surgery,Cataract Surgery,136822.12,No Fraud
+007f1eea-977f-4c56-abaf-a97e484a96b2,10,Male,2023-08-26,2023-08-26,Asthma,Asthma,452223.08,Ghost Enrollee
+25df0a1c-cc09-4431-97d2-17400fc2386f,57,Male,2022-10-04,2022-10-05,Neurosurgery,Phantom Procedure,210274.89,Phantom Billing
+4fe5eb2f-f49a-466d-9984-319b2829e341,60,Male,2023-09-26,2023-09-26,Cataract Surgery,Cataract Surgery,222246.62,No Fraud
+e89d9124-c93b-4efb-b121-48b5195435b7,93,Female,2024-06-22,2024-06-24,Diabetes,Diabetes,197537.42,No Fraud
+eec50477-25e1-4d0a-a0d8-62e115a97515,55,Male,2023-02-18,2023-02-24,Asthma,Asthma,455069.07,No Fraud
+e8876068-cf62-4b5e-846c-bc749f9b5bcc,36,Female,2022-10-19,2022-10-27,Pneumonia,Pneumonia,26978.23,No Fraud
+2b29fdd4-519a-4b14-9289-77d03124b3eb,80,Male,2024-01-25,2024-02-13,Tuberculosis,Fake Tuberculosis,374279.55,Fake Treatment
+31e6612e-c5d7-4a6b-a419-1a906de2ad39,71,Female,2023-08-22,2023-08-22,Organ Transplant,Phantom Procedure,351798.39,Phantom Billing
+03351c37-64e6-4716-9d14-121bc6b8015e,18,Female,2024-01-15,2024-01-20,Cesarean Section,Fake Cesarean Section,625024.14,Fake Treatment
+a2171280-2bab-41f0-a727-b9f47a741ba6,68,Male,2022-09-02,2022-09-07,Stroke,Stroke,276391.77,No Fraud
+187b4880-45da-4ade-bac1-54c8131f7442,3,Female,2023-10-22,2023-10-31,Epilepsy Surgery,Phantom Procedure,590066.03,Phantom Billing
+3ac738af-819a-48f1-9d92-a38ff9943575,63,Female,2024-07-15,2024-07-20,Peptic Ulcer,Fake Peptic Ulcer,259042.87,Fake Treatment
+58617cb2-dc53-41f9-9e81-a8e653738148,35,Male,2023-02-09,2023-02-09,HIV/AIDS,HIV/AIDS,302587.01,No Fraud
+a72fbee7-7455-4e85-bc94-201cd02572d1,4,Female,2023-03-22,2023-03-22,Stroke,Stroke,495850.35,No Fraud
+1ba1992f-d844-4dcb-a022-80621c33bd16,68,Female,2023-07-01,2023-07-01,Complex Heart Surgery,Phantom Procedure,976581.88,Phantom Billing
+642fa536-1fc4-4d1a-a862-58269ee880a4,13,Male,2023-01-16,2023-01-19,Tuberculosis,Tuberculosis,271507.89,No Fraud
+170106ab-24cb-42d9-8934-db3132a3fecf,95,Male,2023-10-02,2023-10-04,Advanced Spinal Surgery,Phantom Procedure,419324.17,Phantom Billing
+7e8fc61b-9cfb-41c0-8206-edd16cc15964,23,Male,2024-01-10,2024-01-15,Cataract Surgery,Cataract Surgery,165822.14,No Fraud
+ab2257d3-6659-47fe-9777-8878a2efac58,95,Female,2024-05-20,2024-05-22,Cancer Treatment,Phantom Procedure,733107.59,Phantom Billing
+27b5e7a2-83ff-41b4-8fb3-b2be43ec7ac5,46,Male,2024-04-03,2024-04-19,Asthma,Asthma,419981.45,No Fraud
+1227f1b8-d04a-4594-afce-f66ddd74f4bf,64,Female,2023-05-05,2023-05-08,Hepatitis B,Hepatitis B,28602.23,No Fraud
+3ab72dad-ee2e-40fb-bad0-f1dde0ea47d4,8,Male,2024-03-25,2024-04-09,Asthma,Asthma,19764.72,No Fraud
+ed061e88-04a6-4c4c-aef3-1181921d1f8f,62,Male,2023-08-26,2023-08-28,Complex Heart Surgery,Phantom Procedure,825800.87,Phantom Billing
+64f11eee-9857-4e57-b166-13d67e91b4d1,44,Male,2022-10-28,2022-10-31,Diabetes,Diabetes,20737.32,Ghost Enrollee
+c467413b-d1cf-4593-907f-8ef5caecc75e,76,Male,2023-06-02,2023-06-02,Kidney Disease,Kidney Disease,267884.49,No Fraud
+669bdd41-e367-4b60-b9cb-a2b3591b082b,47,Male,2024-03-22,2024-03-31,Appendectomy,Appendectomy,471542.37,No Fraud
+2da4e1c5-3dbf-4fc4-8686-dadb525e2f4d,51,Male,2023-08-04,2023-08-05,Tuberculosis,Fake Tuberculosis,259692.08,Fake Treatment
+6a0a50a7-870a-4adc-909e-a3cd01bd9db4,21,Female,2023-02-17,2023-03-02,Hepatitis B,Hepatitis B,328098.33,No Fraud
+a85c5895-1e25-4c74-9bb9-3ab786f52813,23,Female,2023-12-07,2023-12-13,Cosmetic Surgery,Phantom Procedure,440545.7,Phantom Billing
+68098c2d-874f-4fe8-a169-513b240ab12f,94,Female,2023-11-15,2023-11-15,Pneumonia,Pneumonia,367127.17,No Fraud
+44d4184f-f8c2-4083-a3d8-36efd7c83110,90,Female,2024-08-25,2024-09-04,Diabetes,Diabetes,99220.06,No Fraud
+6f8b9ecf-39e8-44e8-8e85-42b6d7bca6f3,41,Male,2024-02-23,2024-02-27,Cataract Surgery,Cataract Surgery,61014.01,No Fraud
+06fce334-8384-4c25-be2e-908d6f9848b6,64,Male,2023-10-02,2023-10-09,Appendectomy,Appendectomy,48125.25,No Fraud
+24e8611e-84ac-443a-ad35-cadc5fd8915e,45,Female,2022-11-15,2022-11-15,Organ Transplant,Phantom Procedure,839495.62,Phantom Billing
+bf83e98e-816b-465d-8637-1d4d75555d63,86,Female,2022-10-12,2022-10-18,Diabetes,Diabetes,139954.1,No Fraud
+79b4000c-32a7-437d-be4e-4bd9fe4395a1,32,Male,2024-06-05,2024-06-12,Tuberculosis,Tuberculosis,395639.8,No Fraud
+cdadd581-9958-4777-b7b9-a8ff409ba8b4,93,Male,2023-12-10,2023-12-10,Gastroenteritis,Fake Gastroenteritis,334843.09,Fake Treatment
+d1069d15-3d31-400f-b68c-7753ef439393,54,Male,2023-04-05,2023-04-08,Hepatitis B,Hepatitis B,442067.62,No Fraud
+b59400c5-3715-4666-a5e5-f5294966fdc5,45,Female,2023-10-29,2023-10-30,Kidney Disease,Kidney Disease,244949.73,No Fraud
+443b19c0-3796-4c71-a69b-1fc4c56b6dfa,74,Male,2022-09-13,2022-09-16,Hepatitis B,Fake Hepatitis B,97911.1,Fake Treatment
+b0f3dc9a-519e-44f7-b4a0-9fc4a1acbb0a,5,Female,2024-02-14,2024-02-14,HIV/AIDS,HIV/AIDS,137952.58,Ghost Enrollee
+6bc93c81-954c-4959-b8da-78692c3aaa82,14,Male,2022-09-02,2022-09-04,Pneumonia,Pneumonia,445086.32,No Fraud
+df8e506c-9f6f-490e-b751-4dc5b348206d,21,Male,2023-01-23,2023-01-30,Hypertension,Fake Hypertension,269667.88,Fake Treatment
+a1c7a5cb-3afe-44f1-9da2-1da4d71d29de,79,Female,2024-08-13,2024-08-13,Gastroenteritis,Gastroenteritis,471796.71,Ghost Enrollee
+7d66b50f-6332-4e88-9bac-b0627de1ff1f,22,Female,2024-04-29,2024-04-30,Diabetes,Diabetes,59616.33,No Fraud
+a2922945-6be3-42dd-9bc6-9fed58a1c548,27,Male,2023-08-09,2023-08-14,Appendectomy,Appendectomy,281515.09,No Fraud
+3d21a25b-5add-4218-b4e5-d13b8db7a005,94,Female,2023-05-16,2023-05-18,Infertility Treatment (IVF),Phantom Procedure,313793.46,Phantom Billing
+51f3074f-1378-4910-b119-083d36c38f80,7,Female,2024-02-10,2024-02-21,Peptic Ulcer,Peptic Ulcer,421528.71,Ghost Enrollee
+79b4805d-2c1b-4651-8199-35b62e56efe3,20,Male,2024-03-28,2024-04-07,Diabetes,Diabetes,219526.92,No Fraud
+cbdf2c5f-7446-4d3d-a089-449f8ca5d326,38,Female,2022-11-13,2022-11-18,Hypertension,Fake Hypertension,66728.2,Fake Treatment
+e564258a-78fe-44d4-8803-335fd842ac88,22,Female,2024-05-22,2024-05-22,Epilepsy Surgery,Phantom Procedure,859392.17,Phantom Billing
+db572746-e196-4bbb-8456-c5d78b1e0d0a,40,Female,2023-02-20,2023-02-25,Hepatitis B,Hepatitis B,448489.97,No Fraud
+01fbe3e3-2a9e-464e-a5c8-256905156aa7,34,Male,2022-10-20,2022-10-20,Peptic Ulcer,Peptic Ulcer,199888.29,No Fraud
+96d0a8ef-f736-4780-b2db-3b03a184c773,48,Female,2024-05-24,2024-05-29,Pneumonia,Pneumonia,228429.88,No Fraud
+320c8a99-fa0b-46e6-9053-a32a4ccacb4e,34,Female,2024-08-12,2024-08-20,Infertility Treatment (IVF),Phantom Procedure,303618.05,Phantom Billing
+06318a6c-c02e-4b8f-990f-2f9604e6406e,35,Male,2023-06-16,2023-06-16,Stroke,Stroke,351270.77,No Fraud
+d65ba57b-85d4-43d4-9675-9ade96361bf2,13,Male,2024-06-30,2024-07-07,Stroke,Stroke,275310.01,No Fraud
+5d3269c7-2858-41bb-9f3b-5e898d381255,97,Male,2023-11-28,2023-12-05,Cancer Treatment,Phantom Procedure,856717.45,Phantom Billing
+35c12188-7b3a-4174-86eb-175307d44d4e,67,Female,2023-07-02,2023-07-04,Cesarean Section,Fake Cesarean Section,613481.11,Fake Treatment
+7463d189-7f0b-4f34-8e8f-a3984fb85cbe,61,Male,2024-05-22,2024-05-25,Tuberculosis,Tuberculosis,48687.97,No Fraud
+eb63f528-6e13-4b35-aa8e-a3394b0547a6,92,Male,2023-05-19,2023-06-03,Cosmetic Surgery,Phantom Procedure,208253.69,Phantom Billing
+b424f2b8-23aa-4134-b530-83c4510723df,97,Female,2022-12-02,2022-12-02,Pneumonia,Pneumonia,486360.79,No Fraud
+c868fa0b-1adc-4c35-9def-2037f95797bd,25,Male,2024-04-02,2024-04-02,Advanced Spinal Surgery,Phantom Procedure,170531.67,Phantom Billing
+f37ec948-ae5a-409a-b993-121bd6fa2202,88,Female,2022-09-06,2022-09-07,Kidney Disease,Kidney Disease,317340.84,No Fraud
+7db0bce3-acd4-4667-bb6a-7dbcb337990f,77,Female,2023-03-19,2023-03-24,Appendectomy,Appendectomy,457945.23,No Fraud
+47e498d1-6419-4038-95fc-db313c44e4d5,9,Male,2022-11-21,2022-11-30,Advanced Spinal Surgery,Phantom Procedure,596848.77,Phantom Billing
+4aced348-01db-4fd6-b410-fd0df556f749,36,Female,2022-09-07,2022-09-07,Stroke,Stroke,353201.94,No Fraud
+e81b05a7-7901-4780-b877-9ebfa8ac7ed4,76,Female,2023-05-22,2023-05-24,Gastroenteritis,Gastroenteritis,83324.74,No Fraud
+a8b115f0-d341-45b6-a441-7e7986c9fe48,73,Male,2024-06-22,2024-06-22,Organ Transplant,Phantom Procedure,807171.07,Phantom Billing
+515ddfcf-3131-479c-a264-9581e8e3b364,69,Female,2023-02-26,2023-03-10,Infertility Treatment (IVF),Phantom Procedure,444739.13,Phantom Billing
+32d82ac2-286e-451b-97e5-fe340fc82838,63,Female,2024-04-10,2024-04-10,Pneumonia,Pneumonia,144952.93,Ghost Enrollee
+5a78f08e-d983-47cf-a16e-9d26520aaa5f,19,Female,2024-04-16,2024-04-16,Gastroenteritis,Gastroenteritis,445891.36,Ghost Enrollee
+4df3fd89-8a9c-4d39-baa9-46eff000eb32,43,Male,2024-05-05,2024-05-05,Appendectomy,Appendectomy,242856.91,No Fraud
+f44aaddf-9de5-4c79-a95a-9404968d6394,35,Female,2023-08-31,2023-08-31,HIV/AIDS,HIV/AIDS,410519.1,No Fraud
+ca8a906c-a786-4ace-8dc9-f3620180d80e,39,Female,2023-03-14,2023-03-19,Kidney Disease,Kidney Disease,250893.41,No Fraud
+b0d79c1d-aea7-4ab3-8042-dcaf268c1e6b,90,Male,2023-01-12,2023-01-15,Pneumonia,Pneumonia,157235.42,No Fraud
+8d069a4b-da34-4597-ac44-a57032f37039,96,Female,2023-03-17,2023-03-26,Tuberculosis,Fake Tuberculosis,523719.62,Fake Treatment
+4a889e71-1819-464b-9b1b-a9bd846546f5,78,Male,2022-09-30,2022-10-04,Hepatitis B,Hepatitis B,113581.35,No Fraud
+bd9873df-f707-4003-8a5d-fb15868d7c2e,53,Female,2023-05-01,2023-05-16,Kidney Disease,Kidney Disease,193216.0,No Fraud
+34d71b0c-809c-4fb4-8122-c2154363417e,8,Male,2022-12-19,2022-12-20,Tuberculosis,Tuberculosis,357689.01,No Fraud
+2404abeb-e78b-4cfc-8438-315ecc88bfb8,52,Male,2023-08-30,2023-09-06,Cataract Surgery,Fake Cataract Surgery,68816.3,Fake Treatment
+7b72f003-023a-4c60-9fce-9acd8cff494d,25,Male,2024-06-12,2024-06-12,Asthma,Asthma,26204.81,No Fraud
+3b0f6043-8869-478f-9812-7d64a3586ee1,7,Female,2024-05-28,2024-06-02,Tuberculosis,Tuberculosis,190492.44,No Fraud
+d7398206-271e-446e-9027-4d11cd89434f,60,Female,2023-06-21,2023-07-10,Hypertension,Hypertension,343775.44,No Fraud
+4abd854c-6133-4a7d-8021-57aa622b083c,31,Female,2024-07-26,2024-08-08,Cataract Surgery,Cataract Surgery,228590.68,Ghost Enrollee
+dad844a5-68b4-419c-b231-d55e67ce8563,61,Female,2023-12-13,2023-12-19,Pneumonia,Pneumonia,420450.35,No Fraud
+8e1f3a70-5aa0-4545-b29b-277cf8147b91,34,Male,2022-10-15,2022-10-21,Diabetes,Fake Diabetes,301267.69,Fake Treatment
+56be95f3-4a37-47eb-aa61-d67dd59aad76,21,Male,2023-02-01,2023-02-01,Cesarean Section,Fake Cesarean Section,196322.83,Fake Treatment
+69b94590-095c-459f-84f0-6a0dedd11d42,27,Female,2022-12-07,2022-12-16,Gastroenteritis,Gastroenteritis,261507.8,No Fraud
+8620c710-c1d3-4512-b185-c92a02291cde,100,Male,2023-01-04,2023-01-17,Pneumonia,Pneumonia,327212.06,Ghost Enrollee
+31637058-ec88-4db8-8236-8c444ecb1387,77,Male,2023-09-23,2023-09-28,Tuberculosis,Fake Tuberculosis,445423.52,Fake Treatment
+aa19e936-2f8b-4c3e-9a9d-ad799d622b10,40,Female,2023-04-23,2023-04-26,Advanced Spinal Surgery,Phantom Procedure,866427.56,Phantom Billing
+185fb82d-86b8-41b2-aead-4b651b559aa1,59,Female,2023-01-07,2023-01-07,Hepatitis B,Hepatitis B,158051.09,No Fraud
+f7e6aafc-34b9-44de-96da-81f465ca76c6,67,Female,2023-10-16,2023-10-26,Hypertension,Hypertension,13600.31,No Fraud
+668d5210-37c6-408f-ad9e-a1d9b455be7c,85,Female,2024-01-28,2024-02-02,Cesarean Section,Cesarean Section,300948.55,Ghost Enrollee
+820017ba-1022-46c1-9de8-4ad89ebd9f4f,37,Female,2022-10-03,2022-10-04,Hepatitis B,Hepatitis B,41280.16,No Fraud
+fcfe9078-d338-45fb-aa10-75cfc914ba07,36,Female,2023-06-07,2023-06-08,Infertility Treatment (IVF),Phantom Procedure,690507.64,Phantom Billing
+c716f418-9102-4a59-8a8a-bf1b010978fe,84,Female,2023-05-20,2023-05-24,Pneumonia,Fake Pneumonia,386240.83,Fake Treatment
+af9b053e-5a31-4fe6-830f-9956fc3c08d5,31,Male,2023-03-02,2023-03-05,Gastroenteritis,Fake Gastroenteritis,479344.71,Fake Treatment
+32dbcba6-b37b-454e-8b25-30325854dfed,88,Male,2024-08-10,2024-08-10,Cesarean Section,Cesarean Section,253712.69,No Fraud
+7ffd04cd-a06e-4b58-8ddf-e3d5f218dabe,38,Female,2024-06-30,2024-07-09,Gastroenteritis,Gastroenteritis,200254.71,No Fraud
+0c49120e-98f1-48a7-9299-ecb1ffcb8a96,5,Male,2022-09-22,2022-09-28,Appendectomy,Fake Appendectomy,513690.04,Fake Treatment
+0f232a81-529b-44b0-a4f9-d6b4d5c521bf,88,Female,2023-11-29,2023-12-04,Infertility Treatment (IVF),Phantom Procedure,860877.32,Phantom Billing
+b196cb71-ef24-4451-9552-87c78f96a573,85,Male,2024-05-15,2024-05-22,Hypertension,Hypertension,240682.63,No Fraud
+770874d0-fde3-423f-a843-719ea4a7768e,95,Female,2024-07-22,2024-07-27,Stroke,Fake Stroke,643206.1,Fake Treatment
+2262e9fe-99ed-42a1-a9bf-8fe84ebabf67,88,Female,2024-02-07,2024-02-10,Hypertension,Fake Hypertension,194464.78,Fake Treatment
+12362b85-f570-4781-b1c8-4d96af12e5da,29,Female,2023-01-27,2023-02-02,Stroke,Stroke,444553.34,No Fraud
+6b3982f3-5e93-4f91-ad1d-cc34e39e8c40,48,Female,2024-05-02,2024-05-11,Tuberculosis,Tuberculosis,237242.71,No Fraud
+7019fcfb-6c11-41f2-89df-13c46ba9d32d,16,Female,2023-01-19,2023-01-19,Kidney Disease,Kidney Disease,320854.4,No Fraud
+93297833-5876-40b8-8c2c-44808e0dbe11,75,Male,2023-04-02,2023-04-15,Asthma,Asthma,255233.91,No Fraud
+3ddbc739-fbb9-4851-b845-4d824dff0fbd,88,Female,2023-12-04,2023-12-13,Tuberculosis,Tuberculosis,212422.55,No Fraud
+52a195bd-95db-490c-b209-235175668108,20,Male,2023-09-08,2023-09-12,Neurosurgery,Phantom Procedure,468272.66,Phantom Billing
+befaae7b-4ae0-4076-9fb2-edc1c2761c85,73,Female,2024-07-25,2024-07-26,HIV/AIDS,HIV/AIDS,432573.03,No Fraud
+27641667-4a77-4707-b3de-010491ec1a62,24,Male,2023-12-02,2023-12-08,HIV/AIDS,HIV/AIDS,319206.06,No Fraud
+e86d1bf6-3b77-40e4-ae27-88ac560ae75a,23,Female,2024-05-02,2024-05-11,Diabetes,Diabetes,12309.62,No Fraud
+df028f17-65bf-449b-b587-6604a606a446,36,Male,2024-06-25,2024-06-28,Cataract Surgery,Cataract Surgery,384597.03,No Fraud
+68bb566c-3fee-4899-abb1-eed7397d2177,63,Male,2024-03-27,2024-03-27,Cataract Surgery,Fake Cataract Surgery,331912.42,Fake Treatment
+7f1c2d7b-b83e-45db-a669-86eda0799855,55,Female,2022-09-05,2022-09-08,Hepatitis B,Hepatitis B,197825.05,No Fraud
+a6e9face-8298-4c0e-8711-4a786ca4b632,5,Male,2023-07-04,2023-07-04,Diabetes,Diabetes,447083.13,No Fraud
+1360e0cc-3aca-44de-9bdc-2eb6a72e9336,97,Male,2023-01-17,2023-01-17,Cancer Treatment,Phantom Procedure,664018.24,Phantom Billing
+c2eee829-3c8b-4f74-88ad-c43c1c003351,32,Male,2022-10-22,2022-10-29,Tuberculosis,Tuberculosis,73176.09,No Fraud
+9ec5808a-9fb8-4d6f-8729-c31258b60791,50,Female,2023-02-03,2023-02-07,Hypertension,Hypertension,413683.48,No Fraud
+67903b2d-1d42-4053-b431-687865302858,39,Female,2023-10-22,2023-11-01,Appendectomy,Appendectomy,264941.32,No Fraud
+c6c9466f-7568-4a16-8238-8de26cff1e64,68,Female,2023-03-28,2023-04-07,Cesarean Section,Cesarean Section,497781.48,No Fraud
+7195f4db-3495-44f2-bcbb-91fc3320ffbc,44,Female,2023-07-20,2023-07-21,Stroke,Stroke,102328.76,No Fraud
+42e282aa-8e15-4abf-9745-ff10e5571eef,52,Male,2023-07-29,2023-08-04,Asthma,Asthma,366312.73,No Fraud
+e8bd7a36-9c5d-412f-9b32-25b00d23ec35,17,Male,2024-07-15,2024-07-15,Cataract Surgery,Cataract Surgery,257270.44,No Fraud
+a62da09c-f4c0-4a01-8d3e-37bd2eb4610d,16,Female,2023-03-17,2023-03-25,Stroke,Fake Stroke,74286.23,Fake Treatment
+0b96060f-76ea-43e1-845b-c888d8754b3f,82,Female,2024-03-14,2024-03-24,Cataract Surgery,Cataract Surgery,33807.61,No Fraud
+2e8f2410-9320-41d7-ad47-a1d7a36b3c46,7,Male,2022-11-26,2022-12-07,Kidney Disease,Kidney Disease,19673.47,No Fraud
+b02309ea-ab45-49ef-ac0b-0a4f8b6a426d,89,Male,2023-07-14,2023-07-16,Hepatitis B,Hepatitis B,196324.34,Ghost Enrollee
+fa80c014-4720-43a0-a6ea-55677eeea13e,71,Female,2022-11-29,2022-12-08,Appendectomy,Appendectomy,85032.28,No Fraud
+a5a7ffdd-ac23-41c9-88c3-2cabee4adacb,89,Male,2024-04-26,2024-05-04,Gastroenteritis,Gastroenteritis,334215.64,Ghost Enrollee
+a90f4457-f363-4600-aeb0-dba4fb933776,85,Female,2022-10-25,2022-11-07,Cataract Surgery,Cataract Surgery,353355.91,No Fraud
+6f1c44d5-d075-4c95-8844-52300d287e9c,54,Male,2024-04-11,2024-04-16,Appendectomy,Fake Appendectomy,451503.67,Fake Treatment
+0a64a6ad-e400-470f-a55d-1785b6835387,37,Male,2023-03-22,2023-03-24,Hepatitis B,Hepatitis B,107336.86,No Fraud
+84c7669a-3cef-4e0c-8f1c-d4ece6389172,26,Female,2024-03-25,2024-04-03,Asthma,Asthma,185381.7,No Fraud
+cd121fc7-83a6-4acf-932d-0a0cb1dc0c44,53,Female,2023-11-08,2023-11-12,Diabetes,Diabetes,278587.99,No Fraud
+d05cb92c-61c5-457f-a122-001feda53f12,27,Female,2024-08-02,2024-08-09,Asthma,Fake Asthma,51779.7,Fake Treatment
+d1dc8d3e-0e8f-4cee-b08b-a76f0d3afeb2,86,Male,2023-06-01,2023-06-02,Kidney Disease,Kidney Disease,291334.85,No Fraud
+fa3fc54f-6df3-4bef-917e-4ae6a40add2e,64,Male,2023-07-23,2023-07-23,Stroke,Stroke,260735.62,No Fraud
+e91dfe54-8704-43ca-836b-e695e5d081ca,93,Male,2024-08-19,2024-08-24,Cesarean Section,Cesarean Section,123268.54,No Fraud
+830485b0-77ab-4392-9a08-559bf6b4f140,38,Female,2023-04-10,2023-04-19,Cancer Treatment,Phantom Procedure,189828.02,Phantom Billing
+2152001a-3dfd-401e-8806-72fea72a7e2a,23,Male,2024-08-30,2024-09-06,HIV/AIDS,HIV/AIDS,402782.09,No Fraud
+9baf9b4c-e6c1-415c-9037-6e33227b3840,41,Female,2022-11-12,2022-11-13,Hypertension,Fake Hypertension,603309.84,Fake Treatment
+3fa6a158-5159-4765-a41a-d5c49986dec2,6,Male,2024-02-20,2024-02-23,Cesarean Section,Cesarean Section,327127.33,No Fraud
+504ed33f-2687-468c-aa8f-153892f60db8,43,Female,2024-05-09,2024-05-15,Cataract Surgery,Cataract Surgery,141471.61,No Fraud
+ecdaf947-2212-4f35-b77a-19eed769ea9e,94,Male,2023-01-31,2023-02-03,Kidney Disease,Kidney Disease,177934.13,No Fraud
+74e5e6e1-832d-4f65-9645-ccc3f2c7876e,15,Female,2022-12-20,2022-12-25,Hepatitis B,Hepatitis B,143198.21,No Fraud
+fcbb9d4d-78ae-40b1-be43-14f846e3adfa,50,Female,2022-12-25,2023-01-05,Cesarean Section,Cesarean Section,444200.7,No Fraud
+495aa850-fbad-4aed-afc0-25a0bb35b23f,22,Male,2024-07-31,2024-07-31,Appendectomy,Appendectomy,365941.44,No Fraud
+eaa1b03b-9212-443c-b596-219e7fc41bab,21,Male,2024-07-03,2024-07-15,Epilepsy Surgery,Phantom Procedure,822038.31,Phantom Billing
+44b32745-c58e-4827-a9b3-c11082b4a57f,87,Female,2023-12-18,2023-12-20,Cataract Surgery,Cataract Surgery,196077.88,No Fraud
+7940c95e-9476-4b9f-8d15-5be668e24aa4,46,Male,2024-06-09,2024-06-10,Hepatitis B,Hepatitis B,460995.01,No Fraud
+cda3b933-8479-4d33-baea-bcdfa69541b2,15,Female,2024-03-14,2024-03-14,Diabetes,Diabetes,41034.66,No Fraud
+776fb806-1c46-471c-8427-4c6f58e59a9c,84,Female,2024-05-03,2024-05-03,Appendectomy,Appendectomy,435482.81,No Fraud
+8776ec3c-d851-4953-91f3-86f16472c7ce,68,Male,2024-04-08,2024-04-15,Peptic Ulcer,Peptic Ulcer,266320.56,No Fraud
+463a5bab-8311-4590-9841-acd8891ef145,90,Male,2023-06-01,2023-06-03,Cesarean Section,Cesarean Section,366059.46,No Fraud
+7e27556e-453c-4b53-bb26-3904d9a8664a,62,Female,2023-07-17,2023-07-31,Gastroenteritis,Gastroenteritis,82840.68,No Fraud
+93e338b6-a56f-4ae2-999e-f087c496bb93,72,Male,2022-11-15,2022-11-15,Cesarean Section,Fake Cesarean Section,657341.42,Fake Treatment
+483ab233-4835-4e04-b50c-6a0b3a9bc0c6,65,Female,2023-04-24,2023-04-26,Kidney Disease,Fake Kidney Disease,157512.52,Fake Treatment
+881d987c-3a6e-43cd-b9c3-c0d0b150009f,97,Female,2022-12-12,2022-12-13,Asthma,Asthma,172138.47,No Fraud
+bd6b51e9-62c8-4b01-97f6-df159b0b6520,36,Male,2023-12-17,2023-12-29,Asthma,Asthma,279742.83,No Fraud
+83895557-e50c-407f-b28f-f03af11c5a14,49,Female,2023-04-09,2023-04-14,Hypertension,Hypertension,234956.35,Ghost Enrollee
+37e97968-26c7-4852-9ad9-3ffce45a0025,74,Female,2024-05-22,2024-05-22,Kidney Disease,Kidney Disease,254243.51,No Fraud
+ac1e5dfb-0917-4660-a420-421df847568c,41,Male,2024-04-18,2024-04-18,Appendectomy,Appendectomy,330152.77,No Fraud
+c6862d2a-9ffd-49e6-936a-9260ca155d2e,14,Female,2024-04-24,2024-05-02,Diabetes,Diabetes,282994.2,No Fraud
+f78a7423-1a1d-4578-8b24-1ee50529f114,1,Male,2024-08-31,2024-09-17,Infertility Treatment (IVF),Phantom Procedure,901099.81,Phantom Billing
+7ddde446-c431-40cf-9b73-d3ce81975e60,72,Male,2022-12-21,2023-01-05,Cesarean Section,Cesarean Section,233541.88,Ghost Enrollee
+f8b97cf8-a73e-4e70-a923-2a0f9a7483fe,44,Female,2023-01-05,2023-01-05,Kidney Disease,Kidney Disease,119229.88,No Fraud
+61055227-d092-4702-a2a3-9f6a36ac166a,59,Female,2023-01-30,2023-01-31,Stroke,Stroke,313681.41,No Fraud
+a451a99a-b4a6-4da3-a4c0-34f2cc1ed2a4,61,Female,2024-01-13,2024-01-17,Hypertension,Hypertension,57744.14,No Fraud
+22131a60-9a16-4e53-aba6-092016c2fad7,85,Male,2023-08-05,2023-08-05,HIV/AIDS,HIV/AIDS,184018.1,Ghost Enrollee
+f13f768a-37ca-403c-aeca-b29edb6f0f06,82,Female,2023-11-29,2023-11-30,Peptic Ulcer,Peptic Ulcer,193206.28,No Fraud
+88030b42-9ccb-43c5-9ea3-4c3b3f085a8c,14,Male,2022-11-27,2022-11-29,Hepatitis B,Hepatitis B,78820.1,No Fraud
+6648dddf-77a2-49e4-89e0-3bbfcca4d2f3,92,Female,2023-01-12,2023-01-14,Infertility Treatment (IVF),Phantom Procedure,649766.59,Phantom Billing
+8a91f143-cd95-46bc-934c-854f94751e59,25,Male,2023-09-16,2023-09-25,Asthma,Asthma,233952.54,No Fraud
+4a031c40-f431-4266-ae0f-4bd11d193861,25,Female,2023-09-17,2023-09-19,Stroke,Stroke,213090.47,Ghost Enrollee
+7375bc55-d035-4483-a7e2-d3d8eabc7757,82,Male,2023-12-09,2023-12-15,Hepatitis B,Hepatitis B,332643.78,No Fraud
+65e931c1-61d0-4b29-a32d-fcbf0fa543b3,65,Male,2024-07-17,2024-07-25,Diabetes,Diabetes,269878.53,No Fraud
+d35c872e-35c2-4a32-ba57-2fa45547e665,7,Female,2023-05-21,2023-05-22,Hepatitis B,Hepatitis B,462941.73,No Fraud
+f94b9b7c-0561-4f93-b89a-12c8e2eded0f,100,Male,2024-01-12,2024-01-12,Cosmetic Surgery,Phantom Procedure,757445.2,Phantom Billing
+27fcbea0-d1f1-4805-a559-20eff516c83c,17,Male,2022-11-29,2022-11-29,Cesarean Section,Fake Cesarean Section,440354.91,Fake Treatment
+a7f6646f-7808-4991-a8a7-9dd02dd06a6f,42,Female,2023-07-13,2023-07-16,Complex Heart Surgery,Phantom Procedure,346236.29,Phantom Billing
+315d603d-82de-4a44-ae20-ce3fb1e9dd39,44,Female,2022-09-15,2022-09-21,Stroke,Stroke,75352.2,No Fraud
+1c0c67ce-fa94-4df4-849a-4b839b3416dc,53,Female,2023-02-19,2023-02-21,Kidney Disease,Kidney Disease,163816.29,Ghost Enrollee
+290fd45f-23b5-49de-941a-2bebac4f7380,95,Male,2023-10-11,2023-10-14,Asthma,Asthma,315842.12,No Fraud
+703f33de-24e2-4691-bead-90c635c5f80f,38,Female,2023-01-20,2023-01-23,Appendectomy,Appendectomy,328542.33,No Fraud
+1cbccc78-aa3b-496f-82de-f82c4b9ab7bf,23,Female,2024-02-16,2024-02-16,Stroke,Fake Stroke,278954.57,Fake Treatment
+0a4b20e6-a1a7-4bfb-b4d6-01884dcb3433,62,Female,2023-12-31,2024-01-16,Tuberculosis,Tuberculosis,439963.85,No Fraud
+5c927977-9deb-4583-b8df-f5f1b58e9353,55,Male,2023-04-12,2023-04-13,Hypertension,Hypertension,22383.35,No Fraud
+1f8627f2-46b2-4216-bde3-c29b15c7740c,19,Male,2023-10-06,2023-10-06,Asthma,Asthma,140819.35,No Fraud
+2fa10fea-4737-4816-945f-137d8c7ccd78,21,Female,2024-04-22,2024-04-22,Pneumonia,Pneumonia,421297.09,No Fraud
+e8ae15bb-c08d-44b9-9446-800bfb332542,89,Female,2023-09-20,2023-09-24,Stroke,Stroke,275174.32,No Fraud
+47434484-f4bd-419b-94df-c795f5974f6f,46,Female,2023-04-07,2023-04-07,Cataract Surgery,Cataract Surgery,435337.33,No Fraud
+6404a4a2-b245-4346-917d-6f1e32f7d532,95,Male,2023-03-07,2023-03-22,Peptic Ulcer,Peptic Ulcer,200554.46,No Fraud
+68a48163-05d5-4e60-9fd8-a2969ec49975,66,Female,2023-10-15,2023-10-15,Gastroenteritis,Fake Gastroenteritis,301910.52,Fake Treatment
+2cb0fc0a-94ba-40e7-837e-25eaaeb35c74,88,Female,2023-07-24,2023-08-07,Cancer Treatment,Phantom Procedure,111668.71,Phantom Billing
+b01467a2-57d7-4878-8cd8-0aaf5f79c509,33,Male,2023-02-25,2023-03-05,Kidney Disease,Kidney Disease,392653.2,No Fraud
+c5b73209-bf4d-46c0-a5d1-13c6b905eae3,57,Male,2022-09-23,2022-10-12,Appendectomy,Appendectomy,357677.27,No Fraud
+59a43c43-d9ba-42dd-9d9b-c2f45da030d1,48,Male,2023-12-29,2023-12-30,Tuberculosis,Tuberculosis,229919.31,No Fraud
+6da27250-4bef-47de-a3e2-d04e5b6a83b2,88,Male,2023-01-01,2023-01-02,Pneumonia,Pneumonia,370188.95,No Fraud
+4c6a3c22-f422-48e9-91e1-f3ad9e6f370e,16,Female,2023-08-19,2023-08-19,Gastroenteritis,Gastroenteritis,146765.0,No Fraud
+65e7877e-322e-40ea-b5eb-b9f30fd55906,34,Male,2024-08-29,2024-09-01,Cataract Surgery,Cataract Surgery,424546.96,Ghost Enrollee
+06865faa-8abf-4968-b057-110c6e1b1d42,1,Female,2023-04-23,2023-04-28,Appendectomy,Appendectomy,469372.28,No Fraud
+f1b43672-f4a8-4b21-b109-ebd44dc53679,6,Male,2022-12-24,2022-12-25,Cataract Surgery,Cataract Surgery,34919.17,No Fraud
+e1997c79-b770-4ff3-a4f3-be4bd449f412,81,Female,2024-02-14,2024-02-27,Stroke,Stroke,290611.73,No Fraud
+f6506aae-0fe2-4a1f-8930-c4ea19983b73,46,Male,2024-04-24,2024-04-30,Peptic Ulcer,Peptic Ulcer,117781.39,No Fraud
+ad65b19f-1542-425a-8634-9f74f78a31a4,24,Male,2023-03-18,2023-03-19,Pneumonia,Fake Pneumonia,320355.31,Fake Treatment
+0e5490a2-fe6c-4d4a-bb46-a22a0ecf6944,69,Female,2023-12-09,2023-12-10,Neurosurgery,Phantom Procedure,299078.27,Phantom Billing
+88483d6c-e3bd-474e-bedb-7f7741a9b75c,28,Female,2024-05-26,2024-05-27,HIV/AIDS,HIV/AIDS,153851.44,No Fraud
+4c93d97f-a81d-416f-8638-992d684dc0df,97,Female,2022-12-10,2022-12-13,Kidney Disease,Fake Kidney Disease,538886.94,Fake Treatment
+c14268cc-8da2-44a5-ab34-e5a6d45d3a3f,84,Male,2024-01-17,2024-01-17,Cesarean Section,Cesarean Section,179543.57,No Fraud
+00feaa3d-576f-428a-819c-4ca920b554a1,31,Male,2023-06-14,2023-06-14,Cesarean Section,Fake Cesarean Section,625679.1,Fake Treatment
+7610ee82-05d8-47ee-a18a-75d4c8b45ade,49,Male,2022-12-08,2022-12-09,Infertility Treatment (IVF),Phantom Procedure,586213.58,Phantom Billing
+715cf7a7-aaff-48bb-9644-8e72c623b74d,37,Male,2023-06-13,2023-06-24,Kidney Disease,Kidney Disease,387542.22,No Fraud
+018bc0e3-e7ff-465a-b71e-ffd81b0c623f,66,Female,2023-07-15,2023-07-16,Diabetes,Diabetes,155252.65,No Fraud
+06bbaa31-5bdd-4f85-8de3-6c6da3fe58c8,84,Male,2023-09-03,2023-09-03,Peptic Ulcer,Peptic Ulcer,50349.27,No Fraud
+9f3595e3-0648-4e03-9878-d3ec3f2536db,13,Male,2024-07-05,2024-07-10,Peptic Ulcer,Peptic Ulcer,13591.99,No Fraud
+d61848a0-7f11-47da-8763-aaca1d690263,9,Male,2024-04-05,2024-04-08,Stroke,Stroke,114455.81,Ghost Enrollee
+fca305a8-d07d-4cfc-9c87-0e1e25106d2c,88,Female,2023-07-06,2023-07-06,Asthma,Asthma,273499.56,No Fraud
+3bd70f8a-0d5d-482e-842d-a39ac373bbdd,90,Female,2024-03-06,2024-03-12,Kidney Disease,Kidney Disease,470478.04,No Fraud
+0b7c7445-faf2-4735-9420-af07804c7c73,96,Male,2022-11-26,2022-11-26,Epilepsy Surgery,Phantom Procedure,745181.46,Phantom Billing
+0eff7412-8326-4357-8332-396b2daa6b03,5,Male,2024-06-10,2024-06-10,Diabetes,Fake Diabetes,165694.91,Fake Treatment
+2cde02cc-cc05-4185-a8ed-5a4459f98e75,33,Male,2023-11-30,2023-12-08,Kidney Disease,Kidney Disease,121546.36,No Fraud
+cc820042-a802-4376-8bfb-52cd19fd0a01,34,Female,2023-04-05,2023-04-05,Hepatitis B,Hepatitis B,318806.46,No Fraud
+4ae7c854-b47a-45d0-943b-a3e86146d02e,56,Female,2022-10-10,2022-10-10,Gastroenteritis,Gastroenteritis,339916.38,No Fraud
+e1951109-0b51-438f-97e9-4bb590f0e718,69,Male,2024-01-23,2024-01-27,Appendectomy,Appendectomy,312991.19,No Fraud
+8ea6c5b6-d1ad-45dc-b01c-d514976478fd,97,Male,2024-04-13,2024-04-14,HIV/AIDS,Fake HIV/AIDS,653231.04,Fake Treatment
+7c184ec4-897c-44af-8e75-de8eebfbd1a1,14,Female,2024-03-28,2024-04-04,Cataract Surgery,Cataract Surgery,52387.56,No Fraud
+3039a816-ec5c-42e8-b470-01c761f453f5,98,Female,2022-11-03,2022-11-03,Gastroenteritis,Gastroenteritis,412839.96,No Fraud
+e9c96a3c-d5c7-417e-8b34-5c61c6a3e219,4,Female,2023-03-21,2023-03-22,Peptic Ulcer,Peptic Ulcer,117734.21,No Fraud
+b73d6d28-df51-46d0-a008-c9e93284836b,96,Female,2024-07-24,2024-07-27,Tuberculosis,Tuberculosis,480465.79,No Fraud
+ee153968-f946-4a46-aa5c-a7c9c893282a,19,Female,2022-09-21,2022-10-01,HIV/AIDS,HIV/AIDS,479121.91,Ghost Enrollee
+ea8f50ab-9f99-4ee4-9f10-87ee9f3c329c,2,Male,2024-05-02,2024-05-02,Cancer Treatment,Phantom Procedure,104526.86,Phantom Billing
+9392e96f-148c-4358-9f3c-f4a0105f4ef0,77,Female,2024-08-14,2024-08-29,Peptic Ulcer,Peptic Ulcer,474019.9,No Fraud
+1b208e0c-7569-4fd0-8f0f-1d6f5db74a77,40,Male,2023-12-23,2023-12-30,Asthma,Asthma,212200.7,No Fraud
+51103f7f-ca5d-462c-a481-77078bdebf8e,83,Male,2023-05-02,2023-05-05,Pneumonia,Pneumonia,118186.1,No Fraud
+74e4b870-dcc9-4ee4-9ff1-097263c23f9a,33,Male,2023-03-07,2023-03-09,Pneumonia,Fake Pneumonia,486135.64,Fake Treatment
+b7d8aa44-2125-4160-87d9-c5f60729b11d,73,Male,2024-07-13,2024-07-29,Hepatitis B,Fake Hepatitis B,469038.43,Fake Treatment
+d324ddec-6784-4b43-95d2-b877585ee885,10,Female,2024-07-04,2024-07-04,Tuberculosis,Tuberculosis,58119.18,No Fraud
+d7c8f44c-9350-4afb-8274-c71a38b4d7bf,93,Female,2023-06-27,2023-07-02,HIV/AIDS,HIV/AIDS,72825.42,Ghost Enrollee
+1b04d021-ad75-4922-bbe8-05c704cda7b9,84,Male,2022-12-29,2022-12-31,Tuberculosis,Tuberculosis,313562.73,Ghost Enrollee
+30387128-5a2f-42f2-81b0-582e8738fda4,25,Female,2023-05-24,2023-05-29,Hepatitis B,Hepatitis B,170889.58,No Fraud
+11880a8b-f4f7-4d77-bf10-11a3540ab659,85,Female,2024-02-16,2024-02-28,Pneumonia,Fake Pneumonia,417608.81,Fake Treatment
+b7a6f29c-a2a9-45e0-bbdb-e0aa7f318ad9,47,Female,2024-04-22,2024-04-29,Pneumonia,Pneumonia,12367.62,No Fraud
+412f3da5-6f8f-47e5-90ef-3c066c6e4d82,32,Male,2023-01-11,2023-01-29,Gastroenteritis,Gastroenteritis,145573.12,No Fraud
+cfa58cbc-8492-4e51-867c-128d4a7f5475,47,Male,2024-01-08,2024-01-14,Hepatitis B,Hepatitis B,236795.7,No Fraud
+e189d2f9-8b4f-44c4-b8e0-57ec74d1b189,46,Female,2023-02-15,2023-02-25,Peptic Ulcer,Peptic Ulcer,63327.99,No Fraud
+3099f2f8-121b-4698-b4ed-e991010265e7,83,Male,2024-07-29,2024-08-04,Kidney Disease,Kidney Disease,414957.4,No Fraud
+977246d2-ed63-4ab0-a768-492bf0d860f3,69,Male,2022-12-10,2022-12-17,Organ Transplant,Phantom Procedure,754682.83,Phantom Billing
+b5c409ed-b7b2-4a15-b260-2702786c3b3d,3,Male,2022-12-06,2022-12-15,Cataract Surgery,Cataract Surgery,208515.89,No Fraud
+e48c736f-9f7a-4b29-80f1-1c8aca9b70b1,76,Male,2024-03-06,2024-03-06,Peptic Ulcer,Peptic Ulcer,137702.0,Ghost Enrollee
+38bdafd3-08da-494d-ac45-3745dece2149,70,Female,2024-04-18,2024-05-04,Stroke,Stroke,82830.16,No Fraud
+98391ba1-8b82-400e-a23f-b2566fcadecc,51,Male,2024-03-11,2024-03-20,Appendectomy,Appendectomy,430010.44,No Fraud
+9b4f30af-4be6-4024-9c98-b0e8172c038f,18,Female,2024-02-05,2024-02-18,Peptic Ulcer,Peptic Ulcer,54371.47,No Fraud
+e11bb358-1fa3-4c5f-8fd8-f117db36472e,47,Male,2023-11-10,2023-11-14,Kidney Disease,Kidney Disease,482360.13,No Fraud
+2e4f599d-ccba-44a7-9c07-e5c132a539d5,79,Male,2022-10-08,2022-10-10,Cosmetic Surgery,Phantom Procedure,501598.4,Phantom Billing
+5350d053-ccd5-4345-8439-460de2f6f6d4,23,Male,2022-11-15,2022-11-28,HIV/AIDS,HIV/AIDS,29805.71,No Fraud
+eb912283-e0f0-45fe-b729-293792572592,98,Female,2022-10-26,2022-10-29,Hypertension,Hypertension,139534.99,No Fraud
+d926c88d-fe92-4950-b67e-c47124bc44db,30,Male,2023-10-23,2023-10-28,Peptic Ulcer,Peptic Ulcer,454785.79,No Fraud
+628cfecc-5dc2-4d12-83db-ac4067e63941,47,Female,2022-10-16,2022-10-17,Hepatitis B,Hepatitis B,441960.47,Ghost Enrollee
+804d563a-f698-47c5-823e-4ab6c0b71ef8,6,Female,2023-03-01,2023-03-03,Appendectomy,Fake Appendectomy,679486.91,Fake Treatment
+6624518a-efff-4daa-88b1-c31c8d6c0810,82,Female,2023-02-07,2023-02-12,Cosmetic Surgery,Phantom Procedure,438993.61,Phantom Billing
+42bb88f6-421b-48e8-ab34-03a1710a5c51,49,Female,2024-07-20,2024-07-26,Cesarean Section,Cesarean Section,450131.04,No Fraud
+bc6163b1-622a-4715-9b65-b7ac9a3bc3a0,10,Female,2024-01-26,2024-01-29,Asthma,Asthma,263022.17,No Fraud
+e4d351f9-15b0-449c-94f2-ca95a5e8d46d,46,Female,2023-06-20,2023-07-03,Stroke,Stroke,246233.94,No Fraud
+9621f8df-d2db-4e97-b2d6-ce036d2598f6,78,Male,2022-11-29,2022-12-05,Pneumonia,Pneumonia,225550.36,No Fraud
+4c5ae8e4-524c-4ac6-8e6d-f63c10e597ab,30,Male,2024-05-24,2024-05-27,Cesarean Section,Cesarean Section,147596.66,No Fraud
+71ab2bb1-89ae-4761-a61d-9a59b27d187d,20,Male,2023-06-13,2023-06-15,HIV/AIDS,HIV/AIDS,304989.94,No Fraud
+cb3e03bc-407c-45cd-b54e-61a75d287318,16,Male,2024-06-04,2024-06-10,Stroke,Stroke,171810.13,No Fraud
+a2f65000-488f-4156-a3b1-c852fd3185e0,15,Female,2023-09-02,2023-09-16,Hepatitis B,Hepatitis B,113244.94,No Fraud
+0c3d1b71-2e65-4556-826b-47d7c88f9f1b,21,Female,2024-05-14,2024-05-14,Complex Heart Surgery,Phantom Procedure,138829.9,Phantom Billing
+93824a7f-619f-407b-aeef-1b3832cdcfe3,74,Male,2022-11-28,2022-11-30,Cesarean Section,Cesarean Section,261194.98,No Fraud
+6a98dfe9-9050-457a-a937-08a2e5e99a22,74,Male,2024-04-14,2024-04-14,Pneumonia,Pneumonia,136547.23,No Fraud
+0dbeb47c-9b8d-42c1-b9db-38f0bae583fa,24,Female,2023-05-18,2023-05-21,Cancer Treatment,Phantom Procedure,890658.08,Phantom Billing
+80b9c41d-352f-476c-a615-6a6315199f4d,94,Female,2024-06-12,2024-06-13,Asthma,Asthma,230109.65,No Fraud
+78b28f8e-0716-40e9-829b-30c832f80570,61,Female,2024-01-14,2024-01-15,Asthma,Asthma,416878.15,Ghost Enrollee
+aa56a428-1725-44e9-8235-ad298cfc78ef,77,Male,2023-11-25,2023-12-07,Kidney Disease,Kidney Disease,386070.16,No Fraud
+c77e3922-183a-45bc-9af4-0414c433f3fb,80,Female,2023-08-20,2023-08-22,Appendectomy,Appendectomy,345939.67,No Fraud
+c18114d7-21ea-4255-a7f1-02375a22feee,59,Male,2024-05-01,2024-05-06,Advanced Spinal Surgery,Phantom Procedure,446915.69,Phantom Billing
+f5498e49-ebfe-4ebf-90cd-61a853729cbb,14,Male,2023-09-22,2023-09-26,Advanced Spinal Surgery,Phantom Procedure,843862.77,Phantom Billing
+2dea237c-2159-414e-80e1-ca98afc243a5,78,Male,2023-04-18,2023-04-22,Hepatitis B,Hepatitis B,451788.03,Ghost Enrollee
+f4faee88-6821-40c0-822b-5a0260649f3b,77,Male,2024-03-03,2024-03-14,Peptic Ulcer,Peptic Ulcer,378667.74,No Fraud
+da24319a-0bcc-4eef-bc4c-1ca1b0552a55,12,Female,2024-06-18,2024-06-19,Cataract Surgery,Cataract Surgery,274250.13,No Fraud
+a50973e2-b220-4222-9328-04b4156bc06e,1,Female,2022-11-20,2022-11-30,Gastroenteritis,Gastroenteritis,191484.95,No Fraud
+8b9fbd1c-cbd9-4bec-a9a9-0834fb83993b,6,Female,2023-01-04,2023-01-10,Stroke,Stroke,246240.49,No Fraud
+276a78e5-b653-4e7a-9d59-ebaaa38465cd,99,Female,2023-01-02,2023-01-05,Cataract Surgery,Fake Cataract Surgery,573003.68,Fake Treatment
+40e65af6-7c7c-4de7-8c7d-ae181dcae640,98,Male,2023-07-09,2023-07-19,Pneumonia,Pneumonia,134713.83,No Fraud
+216c7468-821c-407b-8321-6607439eceb1,99,Male,2024-02-20,2024-02-21,Tuberculosis,Fake Tuberculosis,438890.03,Fake Treatment
+57f935f7-239a-470e-8318-dd0baa0a8b53,70,Female,2023-12-24,2023-12-31,Asthma,Asthma,12680.03,No Fraud
+fcf3d8df-5d57-45f2-b4b5-06cc3253e335,96,Male,2022-12-31,2022-12-31,Peptic Ulcer,Peptic Ulcer,67736.02,No Fraud
+82bc81ec-221e-4bc3-8d04-21ad46bf75b9,1,Female,2024-03-19,2024-04-01,Asthma,Asthma,347005.7,No Fraud
+121affd9-6720-4a0b-a3da-81d6d468b7fd,41,Female,2023-03-14,2023-03-16,Hypertension,Fake Hypertension,150606.08,Fake Treatment
+3adc6015-b960-4fca-af40-ba611eeedd43,84,Female,2023-03-07,2023-03-10,Advanced Spinal Surgery,Phantom Procedure,608203.21,Phantom Billing
+af6e43c4-fba2-445f-bfd6-3f2a857b4332,79,Female,2023-09-26,2023-10-01,Complex Heart Surgery,Phantom Procedure,471905.34,Phantom Billing
+ef90be56-44a5-42b6-830c-3981c65f7517,72,Female,2023-03-04,2023-03-08,HIV/AIDS,HIV/AIDS,283955.98,Ghost Enrollee
+b3f730d5-2a72-4ef1-9faa-170f0723482c,62,Female,2023-08-05,2023-08-08,Cataract Surgery,Cataract Surgery,178734.59,Ghost Enrollee
+0a0ca7d6-7084-4aeb-a955-8f3aa4225814,91,Female,2024-06-01,2024-06-01,Organ Transplant,Phantom Procedure,773032.78,Phantom Billing
+2afd4cf0-7341-4ba9-a34f-48695deaa419,58,Male,2023-09-12,2023-09-14,Asthma,Asthma,259088.34,No Fraud
+b0d537e0-053c-45ab-8f29-eb41d8158eea,44,Male,2022-09-15,2022-09-16,Gastroenteritis,Gastroenteritis,482639.42,No Fraud
+3520d652-ffea-486a-ac44-93d94fa38d4e,1,Male,2024-07-01,2024-07-04,Hepatitis B,Hepatitis B,463672.28,No Fraud
+eae1425e-a0e7-47b7-9462-850b5f841c40,56,Male,2022-09-13,2022-09-14,Tuberculosis,Fake Tuberculosis,194150.66,Fake Treatment
+dafdb64a-23e8-44ed-b159-f30482e2563b,11,Male,2022-12-07,2022-12-18,Gastroenteritis,Fake Gastroenteritis,449077.63,Fake Treatment
+4f9b62c7-0d2f-412e-a6ef-11fc06189151,67,Female,2022-09-26,2022-10-06,Diabetes,Diabetes,473400.77,No Fraud
+154c472e-b845-4283-b926-e68e6cb60d9c,23,Female,2022-11-09,2022-11-22,Cancer Treatment,Phantom Procedure,281536.52,Phantom Billing
+009f2e57-53dd-4ff4-bcc8-df6d4c90e03b,85,Female,2024-07-22,2024-07-24,Diabetes,Fake Diabetes,559573.64,Fake Treatment
+10637bd7-e1cb-4aa3-bf91-33c303d9a0d4,66,Male,2022-12-15,2022-12-16,Pneumonia,Pneumonia,340271.95,No Fraud
+edc072e1-6257-468a-b7e6-2f3b5d881d67,47,Male,2024-06-18,2024-06-18,Diabetes,Diabetes,488066.49,No Fraud
+15f57823-4a23-4c89-97d4-619e33487828,12,Female,2023-12-05,2023-12-14,HIV/AIDS,Fake HIV/AIDS,485280.33,Fake Treatment
+c6e8c641-06e8-4aac-8e3f-03c592c57705,52,Male,2023-08-05,2023-08-13,Diabetes,Diabetes,371093.51,No Fraud
+31743738-ba7f-4cde-8196-9d79401ef3ca,9,Male,2024-06-09,2024-06-12,Tuberculosis,Tuberculosis,365807.97,Ghost Enrollee
+adf44ea7-be5f-4f5f-9ce9-a21e6ccbc5b3,72,Female,2023-05-12,2023-05-14,Kidney Disease,Kidney Disease,145488.85,No Fraud
+12e204a2-7917-445f-8c01-6ffea82bd6e8,78,Male,2024-02-25,2024-03-03,Gastroenteritis,Fake Gastroenteritis,423689.37,Fake Treatment
+dd08a252-8492-4ac2-8289-7f98a54368f3,34,Male,2023-07-04,2023-07-07,Peptic Ulcer,Fake Peptic Ulcer,119202.22,Fake Treatment
+dbb8c719-c61d-415f-9595-22b86f2397db,10,Female,2022-09-18,2022-09-26,Hypertension,Fake Hypertension,571912.46,Fake Treatment
+45a20f5b-12b4-4063-aff9-c252beccc11a,33,Female,2024-03-28,2024-04-04,Gastroenteritis,Gastroenteritis,285952.62,No Fraud
+e5c54c82-3e02-4579-b210-2ab7c3b36604,99,Male,2024-01-16,2024-01-19,Stroke,Fake Stroke,348251.48,Fake Treatment
+08f76701-f7f8-415a-b23a-82242b3c85cc,59,Male,2023-03-24,2023-04-07,Organ Transplant,Phantom Procedure,332037.79,Phantom Billing
+3db11cd5-7c3e-492a-a9f1-e318614394d1,49,Male,2022-12-19,2022-12-19,Stroke,Stroke,164708.04,No Fraud
+53b206d3-d5a2-4a30-a475-db733d68eefa,46,Male,2022-10-13,2022-10-20,Complex Heart Surgery,Phantom Procedure,358560.62,Phantom Billing
+d1176ef4-551b-498c-bd53-c61ec90e48a9,52,Female,2024-08-05,2024-08-05,Peptic Ulcer,Peptic Ulcer,466384.16,No Fraud
+3dc2a665-3d2c-466d-b0f9-4c71e1053cd5,61,Female,2022-12-06,2022-12-12,Asthma,Asthma,448214.96,No Fraud
+dc390f2e-e62f-4e0c-ae34-9ebda8e87415,35,Male,2023-07-31,2023-08-03,Hepatitis B,Hepatitis B,371185.0,No Fraud
+b6228a09-453c-4eb6-a925-a45f09cf9002,31,Male,2023-08-28,2023-08-31,Asthma,Asthma,122311.69,No Fraud
+c5f60e48-1a42-45ca-b676-4b77003cd095,32,Female,2023-07-04,2023-07-06,Stroke,Stroke,62277.75,No Fraud
+b88e5f85-a2b7-4aec-b6f9-a7515ba4832a,11,Female,2023-10-22,2023-10-30,Diabetes,Diabetes,384479.66,Ghost Enrollee
+d5c57c97-74ee-4ebf-aa40-4f89b46d4f0f,70,Male,2023-10-04,2023-10-13,HIV/AIDS,HIV/AIDS,314127.06,No Fraud
+6de403dd-4f07-41a6-9f36-5464611b6706,64,Female,2023-02-04,2023-02-15,Cosmetic Surgery,Phantom Procedure,985955.21,Phantom Billing
+51393389-320f-43d3-a13b-1d0c42c066e8,66,Female,2024-05-26,2024-06-06,Asthma,Asthma,377583.0,No Fraud
+c8b785a7-5a8b-4bb3-9ebf-cccd08e37a94,17,Male,2024-02-03,2024-02-18,Stroke,Stroke,217356.18,No Fraud
+f3a28c65-19d3-465f-abcb-1f8e53aa90ce,70,Male,2023-12-31,2024-01-10,HIV/AIDS,HIV/AIDS,202921.29,No Fraud
+39ee54f1-ac9b-4377-abdd-bc745dea9047,88,Male,2023-04-26,2023-04-26,Organ Transplant,Phantom Procedure,728420.11,Phantom Billing
+d66c488c-5407-4478-be40-48137f4625c8,59,Female,2024-03-05,2024-03-05,Diabetes,Diabetes,340310.5,No Fraud
+d715da94-98e9-4a42-b6d6-f5359c09c5e9,49,Male,2023-12-03,2023-12-12,HIV/AIDS,HIV/AIDS,310261.27,Ghost Enrollee
+72692e46-795b-4993-980f-04f9e4b22bfb,34,Male,2023-09-27,2023-10-05,Tuberculosis,Fake Tuberculosis,204140.45,Fake Treatment
+5f73058f-290d-4c28-91f1-c9bb28c96ab4,61,Female,2024-07-20,2024-07-25,Pneumonia,Pneumonia,254397.31,Ghost Enrollee
+86760876-fe64-4379-b2b3-bab4a00474bc,27,Female,2024-07-30,2024-07-30,HIV/AIDS,HIV/AIDS,428619.78,No Fraud
+34358477-de78-4458-875b-0c3a91c756eb,36,Female,2023-12-17,2023-12-17,Cataract Surgery,Cataract Surgery,74258.19,No Fraud
+f15d8522-43f3-4d6f-8687-0227dcf8e4ab,74,Male,2022-11-29,2022-11-30,Appendectomy,Fake Appendectomy,225466.92,Fake Treatment
+dd0e7b95-f59c-429a-b60b-b42e51501349,31,Female,2023-05-07,2023-05-10,Asthma,Asthma,81463.43,No Fraud
+19b18c86-ebcd-4185-b5fe-e37fb7a655e5,95,Male,2023-01-11,2023-01-15,Stroke,Fake Stroke,56332.49,Fake Treatment
+959b3355-5f1d-44b1-9b05-b202d2b127c7,54,Female,2024-06-12,2024-06-12,Kidney Disease,Kidney Disease,319019.47,No Fraud
+22145120-e5e3-4f33-8920-8e83e8807cb9,69,Female,2023-10-16,2023-10-26,Tuberculosis,Fake Tuberculosis,213133.12,Fake Treatment
+e1115f3e-728e-40e3-8db1-17eff28f1795,73,Male,2024-07-23,2024-08-03,Organ Transplant,Phantom Procedure,721488.86,Phantom Billing
+55c9b4fd-5be7-4130-8abb-a81878a4ccd1,8,Male,2024-03-23,2024-03-26,Hepatitis B,Fake Hepatitis B,595331.61,Fake Treatment
+fdb27ad9-02f8-442f-a503-8cc79bebd235,13,Female,2024-06-27,2024-06-29,Tuberculosis,Tuberculosis,186871.39,No Fraud
+bcef7ceb-19b5-419b-be22-fa08c2b74b06,72,Female,2024-08-09,2024-08-13,Cancer Treatment,Phantom Procedure,470584.81,Phantom Billing
+fa8d9e3b-f4c4-4b2a-a337-ae2ee8303e50,45,Male,2023-06-15,2023-06-18,Cataract Surgery,Cataract Surgery,328434.09,No Fraud
+93d472d3-2d91-4ff3-b1ec-44dcf4f66bf2,69,Male,2023-03-03,2023-03-09,HIV/AIDS,HIV/AIDS,169294.24,No Fraud
+b6efde37-4531-4728-85ba-a2c94bef995c,66,Female,2024-02-02,2024-02-05,Hypertension,Hypertension,196724.79,Ghost Enrollee
+f50c7515-102e-45c2-9098-0a616e3f0a81,37,Female,2023-07-11,2023-07-21,Pneumonia,Fake Pneumonia,614367.47,Fake Treatment
+a3c33e99-aa1f-43bf-be9d-5fc7eae80e45,82,Female,2022-11-16,2022-11-20,Cesarean Section,Fake Cesarean Section,448001.59,Fake Treatment
+6cc4dcb7-5cc7-4b0a-8c4b-de20c5eb13fe,52,Male,2023-10-21,2023-10-22,Cosmetic Surgery,Phantom Procedure,409262.94,Phantom Billing
+ee39ece7-cd34-495e-a462-1d1dad17ed6b,41,Female,2023-04-15,2023-04-26,Tuberculosis,Tuberculosis,358112.41,No Fraud
+bdb08b2e-5bb6-4695-a3fc-383af3bd04a5,78,Female,2023-12-01,2023-12-05,Hepatitis B,Hepatitis B,392677.28,No Fraud
+37578443-710d-4f31-a9f1-8d5dee71b3e9,47,Female,2023-05-16,2023-05-17,Cosmetic Surgery,Phantom Procedure,265497.58,Phantom Billing
+f24373de-f965-4f61-afbe-3390215a9092,3,Male,2024-08-19,2024-08-19,Cesarean Section,Cesarean Section,133307.03,No Fraud
+6b2fe9ab-77cb-4183-9bda-0522de98c16e,96,Male,2023-08-12,2023-08-15,Pneumonia,Pneumonia,204552.34,No Fraud
+6c80f224-8071-40a6-ba58-ab35b82586bf,13,Male,2023-11-15,2023-11-19,Peptic Ulcer,Peptic Ulcer,36374.46,No Fraud
+9b0bacce-eb5a-4ffd-b105-8f5fc42c0c60,99,Female,2023-12-16,2023-12-28,Stroke,Stroke,498046.73,No Fraud
+cfb26f38-924e-453a-843c-e189dbf82b94,14,Female,2023-03-10,2023-03-22,Pneumonia,Pneumonia,51312.52,No Fraud
+8a87bd81-4960-4bf7-a1bd-87986b5a1fef,50,Female,2022-10-07,2022-10-13,Asthma,Asthma,371420.68,No Fraud
+1ba28954-ca3e-4566-b9dc-39644e8fd3b0,57,Male,2023-05-19,2023-05-22,Peptic Ulcer,Peptic Ulcer,420873.71,No Fraud
+9e9cc054-e726-4631-b035-fadef306397f,4,Male,2022-12-21,2022-12-24,Kidney Disease,Kidney Disease,458483.47,No Fraud
+1d2ac9b3-e3aa-410c-a13b-d732d7aa7ecc,61,Female,2024-08-11,2024-08-20,Tuberculosis,Fake Tuberculosis,406554.43,Fake Treatment
+b2f7aee3-7387-4493-8a0d-fb0259349960,18,Male,2024-01-16,2024-01-17,Cataract Surgery,Cataract Surgery,233706.28,No Fraud
+e0285186-bbed-445c-b226-7ac42b809cc8,96,Female,2024-07-31,2024-08-07,Cesarean Section,Cesarean Section,323368.84,No Fraud
+20f7e6a0-e439-448f-a153-ccf295a2fffa,40,Female,2024-05-01,2024-05-13,Peptic Ulcer,Peptic Ulcer,121292.94,Ghost Enrollee
+70fbca8c-c4ae-488c-838e-bfb99c513161,12,Female,2023-08-17,2023-08-25,HIV/AIDS,HIV/AIDS,211979.86,No Fraud
+4729e992-65ee-4c52-b797-4477356570ac,20,Female,2023-11-02,2023-11-02,Diabetes,Fake Diabetes,390155.56,Fake Treatment
+b4b63226-8d24-4f83-bd16-ad0461eef1f8,98,Male,2023-09-05,2023-09-06,Infertility Treatment (IVF),Phantom Procedure,522278.16,Phantom Billing
+e5e6bd09-f1af-4b09-8d39-e7f029ffad6e,2,Female,2024-04-09,2024-04-16,Tuberculosis,Tuberculosis,14474.97,No Fraud
+502fd5d3-563b-4c00-ba79-e38eff4aa340,56,Female,2023-01-16,2023-01-28,Asthma,Asthma,400416.02,No Fraud
+15ce9edb-d3eb-4130-8a7e-7fae8ea54c94,71,Female,2023-06-05,2023-06-08,Gastroenteritis,Fake Gastroenteritis,623405.34,Fake Treatment
+e44612b4-f04a-4493-b068-f9c220ac5625,56,Female,2024-03-21,2024-03-24,Pneumonia,Fake Pneumonia,514709.69,Fake Treatment
+4a39b862-ea95-4cd0-beee-82a2ea126eb9,83,Female,2023-03-08,2023-03-13,Asthma,Asthma,138860.33,No Fraud
+d8d3b715-cb2c-4662-b2ce-3df32c901b66,55,Male,2023-04-26,2023-05-10,Stroke,Stroke,401979.94,Ghost Enrollee
+b6807829-60d4-4517-b45d-3900a95385dc,79,Female,2023-06-30,2023-07-05,Cesarean Section,Cesarean Section,374034.18,No Fraud
+cdb02e1f-ea1d-4e2f-8394-aa965b2a5ba6,35,Female,2022-10-26,2022-10-31,Kidney Disease,Fake Kidney Disease,94501.57,Fake Treatment
+49a0ee5b-5965-4d80-90f6-ad43c8bb03ec,18,Female,2023-10-18,2023-10-20,Cesarean Section,Cesarean Section,233118.08,No Fraud
+27c226c2-601b-425a-9bfd-88ef616ffc52,58,Female,2023-04-14,2023-05-01,Hepatitis B,Fake Hepatitis B,172063.14,Fake Treatment
+0f3f7a09-7cf4-4b07-ad60-86bf7eb24468,3,Male,2023-10-08,2023-10-08,Peptic Ulcer,Peptic Ulcer,20844.13,Ghost Enrollee
+4524b405-8654-42cc-a7ca-49eb6fec7acc,14,Female,2024-02-26,2024-02-26,Pneumonia,Pneumonia,360446.01,Ghost Enrollee
+57ff0ec9-0c5f-4d15-ac9f-27cbe3442051,94,Male,2024-06-26,2024-06-28,Hypertension,Hypertension,83835.01,No Fraud
+42be40ba-09e9-461f-8937-947d3e46724a,64,Male,2023-06-11,2023-06-19,Gastroenteritis,Gastroenteritis,162672.58,No Fraud
+6a66a62c-f7c0-49c8-aa94-5764147f5e59,64,Female,2022-09-21,2022-09-22,Appendectomy,Appendectomy,397798.11,No Fraud
+efd3c915-cd3e-43dc-abc1-828df75b30e4,43,Male,2023-06-20,2023-06-22,Diabetes,Diabetes,140586.75,No Fraud
+01369d53-d14f-4abe-b013-1c9025a0b3e6,51,Male,2023-06-15,2023-06-29,Hepatitis B,Hepatitis B,98985.83,No Fraud
+b16475e0-eab9-471a-b60b-63dabfcac886,33,Female,2024-08-29,2024-08-29,Organ Transplant,Phantom Procedure,977138.65,Phantom Billing
+e1d4373c-7b8c-4bb4-bdc4-5300ee96b331,92,Male,2024-04-07,2024-04-14,Stroke,Stroke,487736.38,No Fraud
+d77f054c-3f88-487d-acea-eccdf731c8a7,32,Male,2023-01-18,2023-01-19,Hepatitis B,Hepatitis B,370308.16,No Fraud
+57f1531b-b652-4c08-acf4-dbd03e23c4a6,13,Male,2023-12-31,2024-01-13,Gastroenteritis,Fake Gastroenteritis,492937.51,Fake Treatment
+7ab9a53d-a56e-4ebc-8608-bf7659ce9cf2,40,Female,2023-05-12,2023-05-14,Cesarean Section,Fake Cesarean Section,523354.1,Fake Treatment
+8163a777-daf2-43fa-a3e6-196019ea880b,96,Male,2023-12-17,2023-12-23,Hepatitis B,Fake Hepatitis B,465038.01,Fake Treatment
+97102bac-e5df-4fe8-8af3-c82a36bbf502,26,Female,2023-05-14,2023-05-14,Kidney Disease,Fake Kidney Disease,483351.61,Fake Treatment
+1cb70a8d-611b-483e-85fb-726277ef8a24,15,Male,2023-09-20,2023-09-25,Gastroenteritis,Gastroenteritis,169011.61,No Fraud
+9c44f59b-a137-4b8f-bd05-80f88a67c92b,22,Female,2023-07-20,2023-07-20,Hypertension,Hypertension,203946.07,No Fraud
+9f19373f-89c1-4e75-b814-9efab1ec55fb,32,Male,2023-07-21,2023-07-21,Epilepsy Surgery,Phantom Procedure,719565.89,Phantom Billing
+8e019f24-8387-4552-948c-83f4ad9880ca,20,Female,2022-12-18,2022-12-19,Asthma,Asthma,87272.24,Ghost Enrollee
+9f9c75b0-85ff-4362-8598-65f4294b1aa6,12,Female,2023-01-16,2023-01-23,Diabetes,Diabetes,39289.81,No Fraud
+6cde9be6-e17f-4ee2-b9d3-7cf3c1d21dcb,83,Male,2024-03-31,2024-04-11,Organ Transplant,Phantom Procedure,213244.71,Phantom Billing
+cf4c3dad-ba34-4d0b-a38f-465e8f5900b3,30,Female,2024-08-27,2024-09-02,Stroke,Stroke,325876.53,No Fraud
+6d3b2af3-72cb-4406-a58d-446a8a6202bd,45,Female,2022-10-12,2022-10-16,Diabetes,Diabetes,347732.49,No Fraud
+a2840611-c665-4d88-964f-0068c64ab1c1,46,Male,2024-03-27,2024-03-27,Diabetes,Diabetes,247798.05,No Fraud
+5d82d882-f65a-4546-a7cc-b09573e78d65,57,Female,2022-10-02,2022-10-15,Appendectomy,Appendectomy,250145.08,No Fraud
+21af8596-be52-402f-b7dd-2dbfe8879685,73,Male,2023-03-08,2023-03-20,HIV/AIDS,HIV/AIDS,168603.63,No Fraud
+96fdae76-4114-4a84-b0da-c0d467222972,60,Female,2023-10-23,2023-10-23,Kidney Disease,Kidney Disease,281714.95,No Fraud
+98e2d2b0-99f4-4a7e-bd08-5e63e0edc8ef,9,Male,2023-04-06,2023-04-15,Tuberculosis,Fake Tuberculosis,582622.06,Fake Treatment
+9ebd2b7b-16ed-4487-b7d6-3a0706281fa8,70,Female,2024-02-15,2024-02-25,Diabetes,Diabetes,390199.77,No Fraud
+1cda5019-61b0-481e-af66-1db9f75fc2b3,65,Female,2023-10-15,2023-10-18,Diabetes,Diabetes,313669.96,No Fraud
+f4cc0724-85e0-41c2-ba31-d0d74fb1e88c,47,Male,2022-12-24,2022-12-28,Appendectomy,Fake Appendectomy,91172.14,Fake Treatment
+22f09e78-2651-4648-9d0c-bd6b2a331d94,69,Female,2024-08-20,2024-08-22,Peptic Ulcer,Fake Peptic Ulcer,494095.72,Fake Treatment
+6514498b-e2d9-41b8-8b17-b17dfcda8c86,99,Male,2023-03-07,2023-03-21,Tuberculosis,Fake Tuberculosis,259690.03,Fake Treatment
+6571f6db-e24f-4d67-912c-20e07499d0e6,83,Female,2024-06-16,2024-06-17,Organ Transplant,Phantom Procedure,570880.49,Phantom Billing
+1d31bc59-b67b-4c62-87a2-64b1ac21eeed,9,Male,2024-02-17,2024-02-18,Pneumonia,Pneumonia,438011.46,Ghost Enrollee
+d0a49fa8-5693-40f6-9c45-34ed952c30a8,26,Male,2023-08-12,2023-08-12,Asthma,Asthma,58389.26,No Fraud
+31f38882-323f-47a1-a68c-a1f05467deaa,74,Female,2023-11-11,2023-11-22,Peptic Ulcer,Peptic Ulcer,315745.54,No Fraud
+2b462a6b-c96f-4739-8304-50bfbdede86a,76,Female,2023-09-20,2023-09-20,HIV/AIDS,HIV/AIDS,118154.16,No Fraud
+1ef3a3db-5a02-41a3-ad98-432f6dbbcd74,92,Male,2023-12-06,2023-12-06,Asthma,Asthma,331317.19,No Fraud
+a66630bb-cd63-44d0-b394-09e27df7256b,11,Female,2023-03-15,2023-03-19,Diabetes,Diabetes,186853.77,No Fraud
+57115b99-c716-4b70-aba9-4a5ad96e06c9,96,Female,2023-03-15,2023-03-25,Cancer Treatment,Phantom Procedure,841278.67,Phantom Billing
+fb0a713e-778e-4081-8831-22af1c11667a,35,Male,2024-06-02,2024-06-02,Kidney Disease,Kidney Disease,158913.23,No Fraud
+52f3ccb3-d8cd-453c-8ca5-f14b1626f8fe,28,Male,2024-05-11,2024-05-12,Appendectomy,Appendectomy,123198.82,No Fraud
+514b97a7-3c84-43f0-af31-e111f3d45903,50,Male,2023-03-07,2023-03-09,Peptic Ulcer,Peptic Ulcer,331869.49,No Fraud
+62952ddc-ea41-48b8-914c-5418d2b9ad6d,73,Male,2023-11-02,2023-11-04,Appendectomy,Appendectomy,283489.39,Ghost Enrollee
+1a030e44-ecca-473c-8a26-15ead91e35dd,96,Male,2023-08-18,2023-08-19,Cataract Surgery,Cataract Surgery,185402.05,No Fraud
+0196a9e6-5034-42a9-829d-40b909b74614,59,Female,2023-12-28,2023-12-29,Pneumonia,Fake Pneumonia,565100.04,Fake Treatment
+eaaf644e-f359-4362-95b8-059eacdef827,71,Female,2023-10-07,2023-10-15,HIV/AIDS,HIV/AIDS,332190.62,No Fraud
+5a4ad3c6-c4ad-4ddd-87e8-d2a08510d48c,69,Female,2024-02-28,2024-03-03,HIV/AIDS,HIV/AIDS,279539.86,No Fraud
+65cf18a6-3429-424a-bd87-842ecd2b597b,42,Female,2024-01-19,2024-01-20,Stroke,Stroke,320288.0,No Fraud
+d54eea9c-797c-45bb-beb1-244de5283988,93,Female,2022-09-01,2022-09-19,Complex Heart Surgery,Phantom Procedure,606830.23,Phantom Billing
+8a2beb40-a627-4425-a2af-c2c68d2ef163,28,Female,2023-09-15,2023-09-16,Appendectomy,Appendectomy,134503.67,No Fraud
+4f8ba92e-a40d-416b-af82-af80cdf76c43,58,Female,2024-04-27,2024-04-28,Diabetes,Diabetes,365893.51,Ghost Enrollee
+7f57ee64-d1b3-4978-bf45-5b364ee7c758,37,Male,2023-01-23,2023-02-04,Pneumonia,Pneumonia,496771.88,No Fraud
+a0a80636-9c8f-4da1-be54-ee4a9845833b,39,Male,2024-01-11,2024-01-18,Asthma,Asthma,115263.18,No Fraud
+4047905f-7019-4838-ba3f-6db8e59355ca,41,Male,2024-06-16,2024-06-20,Peptic Ulcer,Fake Peptic Ulcer,382326.47,Fake Treatment
+9934e311-139e-4c10-83ec-3667ac31eb21,74,Male,2023-07-30,2023-07-31,Cancer Treatment,Phantom Procedure,514332.83,Phantom Billing
+35f65944-25f7-433b-90b9-611dc954cc06,20,Male,2022-12-03,2022-12-03,HIV/AIDS,HIV/AIDS,445916.42,Ghost Enrollee
+61c3f794-4cbd-4f1e-bfa0-a58aea48351a,32,Male,2024-04-28,2024-05-04,Stroke,Fake Stroke,245196.58,Fake Treatment
+bfec2279-fc8b-4342-9dfb-9e7b97f63bea,74,Female,2023-12-06,2023-12-21,Asthma,Fake Asthma,527272.87,Fake Treatment
+547abfc7-70ba-46cc-9688-183c0c41e7b8,93,Female,2023-09-11,2023-09-14,Cosmetic Surgery,Phantom Procedure,539448.76,Phantom Billing
+1c25275a-a54f-4911-ba6c-70b4ca0a7ae8,89,Male,2023-08-04,2023-08-04,Infertility Treatment (IVF),Phantom Procedure,133634.44,Phantom Billing
+d3c0df70-757b-46e0-be1f-dc5d9ccd36f0,74,Female,2022-11-18,2022-11-18,Stroke,Stroke,37402.13,Ghost Enrollee
+1cb5ff70-899f-4fbd-8f7a-d2aca5babe43,99,Female,2023-01-23,2023-01-28,Kidney Disease,Kidney Disease,222809.15,Ghost Enrollee
+e4998010-4783-45b8-8181-3ab6256f2f24,16,Male,2024-02-23,2024-02-27,Kidney Disease,Kidney Disease,305127.8,Ghost Enrollee
+75a37699-189d-4101-84ac-f4f9a6361b8a,2,Female,2023-08-30,2023-08-30,Infertility Treatment (IVF),Phantom Procedure,571945.02,Phantom Billing
+48ba7a19-62b3-4f87-b3c2-c5cca597f316,41,Male,2023-10-02,2023-10-04,Peptic Ulcer,Peptic Ulcer,351906.64,No Fraud
+5f8a0a38-df23-4801-a017-8a02e121db06,20,Male,2024-04-15,2024-04-18,Hepatitis B,Fake Hepatitis B,539346.13,Fake Treatment
+32be2f8c-d229-4f61-aa40-a4c903ae59a7,74,Male,2023-02-10,2023-02-13,Gastroenteritis,Fake Gastroenteritis,238358.97,Fake Treatment
+507d1d6d-19aa-4de4-83fa-7a21849d4ded,51,Male,2024-04-05,2024-04-08,HIV/AIDS,HIV/AIDS,50447.11,No Fraud
+babfc337-eba6-4c60-82d1-4458b2714afa,74,Male,2023-10-22,2023-11-05,Advanced Spinal Surgery,Phantom Procedure,336302.18,Phantom Billing
+76eef5d5-33e6-4984-88b0-408587ba71ff,52,Female,2022-09-17,2022-09-20,Stroke,Stroke,76086.67,No Fraud
+d816bb5e-de6a-42bd-9439-3bed8b978fef,72,Male,2022-11-19,2022-11-25,Gastroenteritis,Gastroenteritis,329601.74,No Fraud
+48c0acef-7f20-4f3d-9e4a-b489aaf77660,26,Male,2022-11-17,2022-11-17,Organ Transplant,Phantom Procedure,339631.38,Phantom Billing
+2ca9c625-a529-408a-8f47-d39bd6050233,56,Female,2024-08-17,2024-08-21,Hypertension,Hypertension,65139.64,No Fraud
+821255bd-c97b-4668-9bfa-bbc64d710d32,53,Female,2023-07-06,2023-07-07,Neurosurgery,Phantom Procedure,271440.77,Phantom Billing
+0702cfc9-d400-4c6a-b297-81d09b7faf26,45,Male,2023-03-29,2023-04-04,Cosmetic Surgery,Phantom Procedure,988886.73,Phantom Billing
+1a710cba-4ba4-4df2-b96b-4f1f76a4a25a,79,Female,2024-06-30,2024-07-11,Pneumonia,Pneumonia,225827.08,No Fraud
+144e42fa-8817-458c-a1ff-fbb10a6caedc,30,Male,2023-05-19,2023-05-27,Pneumonia,Pneumonia,381289.55,No Fraud
+ea593091-abbd-4900-83e1-b280f44d9ffa,11,Male,2023-07-02,2023-07-02,Asthma,Asthma,474981.05,No Fraud
+92aea113-0a5a-4932-9489-5d64863d6f17,19,Female,2024-01-10,2024-01-10,HIV/AIDS,HIV/AIDS,349959.66,Ghost Enrollee
+a230c7e6-4db5-4016-91b8-3dbd094f6287,15,Female,2024-04-04,2024-04-16,Hepatitis B,Fake Hepatitis B,64786.27,Fake Treatment
+634843ed-3dd3-440e-8bba-2489a2b15767,27,Male,2023-02-07,2023-02-07,Peptic Ulcer,Peptic Ulcer,266400.28,Ghost Enrollee
+a8949245-a74a-4769-88b6-89a0e955639e,34,Female,2023-12-28,2024-01-08,Appendectomy,Appendectomy,496228.04,No Fraud
+ba614a0d-e7ca-451e-b25b-5449eb1df564,89,Male,2024-04-09,2024-04-14,Cataract Surgery,Cataract Surgery,453959.74,Ghost Enrollee
+d4fd274b-11f8-4064-bb57-d63bda329b75,68,Male,2023-04-19,2023-04-23,Pneumonia,Pneumonia,39453.92,No Fraud
+75474aaa-500b-4392-8f01-40f22fd6fa7e,26,Female,2022-09-18,2022-09-18,Epilepsy Surgery,Phantom Procedure,689282.08,Phantom Billing
+1c83f829-0a80-4ef8-a695-dc8da88e93ab,2,Male,2023-07-21,2023-07-30,Cesarean Section,Cesarean Section,142942.09,No Fraud
+a1ba9ec7-1354-4ae6-84f3-7b53f080e1d7,85,Female,2024-04-16,2024-04-16,Cancer Treatment,Phantom Procedure,363246.02,Phantom Billing
+d50c3c78-1dac-4d36-b376-4b578dc6c886,84,Female,2023-07-01,2023-07-01,Gastroenteritis,Gastroenteritis,259184.76,No Fraud
+fb60808d-e754-428f-b676-c90ea99ea241,91,Male,2024-03-19,2024-03-19,Hepatitis B,Fake Hepatitis B,613402.28,Fake Treatment
+ea8f6a42-803a-47a1-9916-58fcd9ee6150,69,Male,2024-06-08,2024-06-08,Asthma,Asthma,255318.9,No Fraud
+6b7005ed-3331-42b6-a928-74734fbdd48e,59,Male,2023-07-03,2023-07-03,Asthma,Asthma,461912.36,Ghost Enrollee
+b95610e6-313f-4470-99a4-023ca87384ff,40,Female,2024-06-25,2024-06-30,Gastroenteritis,Fake Gastroenteritis,533853.97,Fake Treatment
+452e7ae7-ede6-47b8-8bb5-35994b100da2,3,Female,2024-08-09,2024-08-15,HIV/AIDS,HIV/AIDS,316363.18,No Fraud
+1e23b370-beae-4676-a2e4-d4dc1b658fc8,31,Female,2024-03-23,2024-03-23,Cesarean Section,Fake Cesarean Section,217491.59,Fake Treatment
+9409cd5e-5478-44e9-a620-db8be846d2e2,50,Male,2023-09-14,2023-09-15,Tuberculosis,Tuberculosis,120535.52,Ghost Enrollee
+4b0fe74a-2319-4338-9e3e-4e1a79d9dc6e,44,Female,2023-11-27,2023-11-27,Hypertension,Hypertension,367645.94,No Fraud
+9f838e55-9f1d-4acc-9555-7b0cf6154126,67,Male,2024-07-13,2024-07-15,Asthma,Asthma,290720.29,No Fraud
+7e49f023-031d-445a-8994-e6e31d4e532f,55,Female,2023-11-04,2023-11-21,Neurosurgery,Phantom Procedure,504252.27,Phantom Billing
+14a19ba6-653b-4fd5-b46d-ccaed8830e8a,17,Male,2023-05-27,2023-06-15,Pneumonia,Pneumonia,294705.04,No Fraud
+1243413a-ea7c-434c-8569-c2aed16b8c26,88,Male,2023-11-30,2023-12-03,Tuberculosis,Tuberculosis,347380.72,No Fraud
+cb45d60a-f439-41ae-9055-e10575c1e99f,68,Male,2023-08-28,2023-08-29,Stroke,Stroke,81124.67,No Fraud
+c8271007-5fd2-4632-8f55-c69bdca32e98,73,Male,2023-07-04,2023-07-05,Hypertension,Hypertension,283096.75,Ghost Enrollee
+fbc39286-b11d-49ee-a4b9-8e1a35eb40b7,93,Male,2023-04-15,2023-04-18,HIV/AIDS,HIV/AIDS,421366.03,No Fraud
+fa5aad0b-cceb-4494-a9c4-0c6a77445043,19,Male,2023-12-18,2023-12-27,Gastroenteritis,Fake Gastroenteritis,674777.52,Fake Treatment
+7ad2f1ee-ad22-4602-b5b4-71bbbcb0a546,39,Female,2024-07-04,2024-07-18,Appendectomy,Fake Appendectomy,227967.51,Fake Treatment
+39f2d500-fc5a-4c9d-8a04-8008d133a39c,100,Male,2023-07-23,2023-07-23,Pneumonia,Fake Pneumonia,170085.22,Fake Treatment
+ff527918-d5c7-44b4-a73e-9784d70aa5f4,98,Female,2024-02-26,2024-03-01,Complex Heart Surgery,Phantom Procedure,636724.62,Phantom Billing
+4062ea7c-e4c5-484b-a3de-7e866b9bfa90,30,Male,2024-04-28,2024-05-05,Hypertension,Hypertension,347189.23,No Fraud
+e98efe30-42b5-4a2b-9ca7-ec66a68b6eca,62,Male,2024-01-10,2024-01-19,Epilepsy Surgery,Phantom Procedure,740817.22,Phantom Billing
+f9cb1899-cc01-4018-9818-8eaea91bffd3,48,Male,2022-11-30,2022-12-04,Hepatitis B,Hepatitis B,242184.99,No Fraud
+540e97fe-5f4e-434b-8db3-fd313a740b7f,21,Male,2023-01-31,2023-02-05,Diabetes,Diabetes,210208.69,No Fraud
+6d2889fa-06e0-42d8-965e-2b71027c5899,2,Female,2022-10-06,2022-10-17,Asthma,Asthma,373759.66,No Fraud
+c1e93fe2-86f9-47cb-8705-4361c8c3247b,26,Male,2022-11-09,2022-11-10,Pneumonia,Pneumonia,464280.57,No Fraud
+533f3178-19f1-4757-a50c-72db35581a15,57,Female,2023-11-13,2023-11-21,Epilepsy Surgery,Phantom Procedure,898828.22,Phantom Billing
+c02f2e11-6a70-4b78-ada1-e0190b3d5672,55,Female,2022-09-30,2022-09-30,Cataract Surgery,Cataract Surgery,370312.57,Ghost Enrollee
+be48cc37-02b0-4866-bd0a-6d9afeaa5adc,49,Female,2024-02-11,2024-02-16,Cataract Surgery,Cataract Surgery,470178.18,No Fraud
+3c24a0e5-0488-4479-8f36-6f33ea4ff32a,74,Male,2024-01-27,2024-02-09,Hypertension,Hypertension,231288.7,No Fraud
+2f5740c2-cc47-4d39-869e-35b082efdbb8,6,Male,2024-02-14,2024-02-15,Peptic Ulcer,Fake Peptic Ulcer,307147.28,Fake Treatment
+84e7dc6f-39b8-491d-98fd-ddc5ba564579,95,Male,2023-09-12,2023-09-17,Gastroenteritis,Gastroenteritis,262902.07,No Fraud
+5e768092-686b-4110-aa5e-25a55b5dda26,81,Male,2023-01-17,2023-01-17,Tuberculosis,Tuberculosis,225381.4,No Fraud
+1fb7608c-a06d-44c0-8157-0819444da32c,39,Female,2024-03-21,2024-03-27,Pneumonia,Pneumonia,217006.47,No Fraud
+02fd3d5f-85a4-4274-ba4d-9766d601b00d,79,Male,2022-12-03,2022-12-06,Cosmetic Surgery,Phantom Procedure,517221.06,Phantom Billing
+9e2124a5-9092-4339-9e4b-e06c41a03ded,83,Female,2023-03-29,2023-03-29,Appendectomy,Appendectomy,255322.32,Ghost Enrollee
+53687272-1298-4717-b501-96c93505eb33,24,Male,2023-04-17,2023-04-27,Gastroenteritis,Gastroenteritis,168495.86,No Fraud
+0a629393-a10e-4006-8d9e-50e42bc33565,4,Male,2023-07-06,2023-07-14,Cataract Surgery,Cataract Surgery,449342.58,No Fraud
+177f6e91-d7bd-440f-b035-8066f304f5e2,26,Female,2024-05-09,2024-05-10,Tuberculosis,Tuberculosis,168796.64,Ghost Enrollee
+4bf9ec02-1307-4881-8730-ad0abcd4f082,84,Male,2023-11-13,2023-11-14,Hypertension,Hypertension,65940.82,Ghost Enrollee
+e18830d9-0f48-492e-a0fe-0b7a6a26930a,58,Female,2023-01-16,2023-01-17,Peptic Ulcer,Peptic Ulcer,356566.77,No Fraud
+80878ccf-d0dc-481d-81a8-a7a5fe001c6b,94,Male,2023-12-30,2023-12-30,Peptic Ulcer,Fake Peptic Ulcer,297394.56,Fake Treatment
+07be271d-7f9e-46ab-bd1f-ad80886c0d07,99,Male,2023-02-14,2023-02-14,Cataract Surgery,Cataract Surgery,436939.65,No Fraud
+1e7dd787-797a-48b9-820a-376851d78ca0,20,Male,2024-02-07,2024-02-10,Pneumonia,Pneumonia,386886.83,No Fraud
+ee5ab0a8-8f21-4109-8312-975c0fe7b402,7,Female,2024-03-15,2024-03-22,Tuberculosis,Fake Tuberculosis,524605.14,Fake Treatment
+292e2b5f-d32d-49d8-8a44-8d5b66908cd8,58,Female,2022-10-18,2022-10-18,Pneumonia,Pneumonia,67601.45,No Fraud
+9c0530e4-6fe0-4921-bd5c-6490b2b12606,17,Male,2022-11-28,2022-11-28,Cataract Surgery,Cataract Surgery,385043.95,Ghost Enrollee
+fbbf10ce-bb8e-4958-86ac-7e99b4a16020,2,Female,2022-10-13,2022-10-14,Kidney Disease,Kidney Disease,254334.7,No Fraud
+9d920947-bc0f-49e6-bf3e-7212c26b9d3c,1,Female,2023-02-12,2023-02-13,Asthma,Asthma,298542.54,No Fraud
+209454cf-0be5-4a68-a3ff-023331cd47d2,61,Female,2024-04-14,2024-04-20,Hepatitis B,Fake Hepatitis B,101613.2,Fake Treatment
+6e2fda44-cbae-4dc5-9bdf-361479eecdff,77,Male,2023-03-21,2023-03-27,Peptic Ulcer,Peptic Ulcer,146275.34,No Fraud
+d8e00220-9f07-42f9-97ed-d7e1bd0a62c9,81,Male,2023-06-04,2023-06-04,Pneumonia,Fake Pneumonia,146366.51,Fake Treatment
+ce138e17-7e3c-4ce2-8603-792f2fa5cdfd,84,Female,2023-09-18,2023-09-18,Pneumonia,Pneumonia,428376.35,No Fraud
+d718e282-f953-4d30-ae90-07fa55efd6a1,86,Female,2023-09-26,2023-10-05,Hypertension,Hypertension,34025.37,No Fraud
+6875b428-af40-4e28-a053-c221e8628d65,54,Male,2023-01-31,2023-02-03,Cesarean Section,Cesarean Section,149346.47,No Fraud
+20634397-9155-430b-a7c3-615558e4a785,85,Male,2023-03-15,2023-03-16,Appendectomy,Appendectomy,293693.48,Ghost Enrollee
+3d159fb2-d948-4cb1-8437-40563c5ff407,5,Male,2023-12-24,2023-12-28,HIV/AIDS,HIV/AIDS,190599.02,No Fraud
+29226529-af4b-4113-bac7-e16818ead31c,49,Male,2022-11-01,2022-11-05,Kidney Disease,Fake Kidney Disease,407806.2,Fake Treatment
+b7604a47-0faa-4840-b429-5fee15e456b2,38,Female,2024-03-13,2024-03-15,Hypertension,Hypertension,350363.52,No Fraud
+8a8aa9f6-e232-4f9f-b6b0-04df55b5e8e8,36,Female,2024-08-05,2024-08-05,Gastroenteritis,Fake Gastroenteritis,391020.04,Fake Treatment
+51b0fd0e-9a59-48b6-a187-bf17fd850420,90,Male,2023-06-16,2023-07-04,Diabetes,Diabetes,63558.09,No Fraud
+5b6caddc-d14a-4069-b474-396787ed928d,94,Male,2024-02-12,2024-02-14,Appendectomy,Fake Appendectomy,497625.28,Fake Treatment
+298204e5-8152-4a5f-93c9-51acdb5bce07,91,Female,2023-10-08,2023-10-16,Neurosurgery,Phantom Procedure,333694.04,Phantom Billing
+a205c26a-429b-4aa6-8cc2-82e974fca8e8,74,Female,2023-10-02,2023-10-05,Epilepsy Surgery,Phantom Procedure,567735.22,Phantom Billing
+723d32ae-9102-4145-af89-12b50cff68c9,81,Female,2024-01-31,2024-02-13,Cosmetic Surgery,Phantom Procedure,895297.31,Phantom Billing
+ac6f906c-26ba-4784-a1db-3dcaa85bd26f,30,Female,2022-11-27,2022-11-30,Cancer Treatment,Phantom Procedure,206386.42,Phantom Billing
+b3a595f1-352f-452c-a8e8-bea30cd463e8,60,Male,2023-07-03,2023-07-06,Stroke,Stroke,311500.92,Ghost Enrollee
+bbdf98d2-4070-404d-9ed4-31c87d5cbcb9,54,Female,2024-03-14,2024-03-14,HIV/AIDS,HIV/AIDS,181328.52,No Fraud
+163c1379-9754-4ad4-b3e6-794fa0606669,82,Male,2022-11-30,2022-11-30,Cesarean Section,Cesarean Section,108581.7,No Fraud
+1cfac9a5-fec7-4483-9978-7eee8add45db,37,Female,2023-01-23,2023-01-24,Tuberculosis,Fake Tuberculosis,245184.6,Fake Treatment
+cd388b20-b6ca-426c-ab2a-5f95f7dc3f9e,71,Female,2023-06-15,2023-06-15,Hypertension,Hypertension,346059.54,Ghost Enrollee
+2bafaac0-e8e3-4729-b4f8-26b815ca958d,44,Female,2023-08-18,2023-08-19,Cancer Treatment,Phantom Procedure,848838.49,Phantom Billing
+d40bd871-b731-427c-9041-c56b34852c62,25,Female,2023-11-11,2023-11-20,Cesarean Section,Cesarean Section,244763.05,No Fraud
+20a2a084-a9ba-42c4-863d-846eba693679,61,Male,2023-09-03,2023-09-06,Pneumonia,Pneumonia,245932.81,No Fraud
+b16b0027-619d-491d-98d8-17cf375c9f4f,81,Female,2023-12-30,2024-01-10,HIV/AIDS,HIV/AIDS,236610.34,No Fraud
+89b66045-ed00-48c0-ba8e-25d869af3c8d,53,Male,2023-12-31,2024-01-14,Tuberculosis,Tuberculosis,286821.89,Ghost Enrollee
+63a37883-06b1-4917-b6ff-662c453c5052,87,Female,2023-10-21,2023-10-22,Peptic Ulcer,Peptic Ulcer,19172.03,No Fraud
+36de4e1d-3bb6-4bce-adb9-70a3f2de530a,74,Female,2024-08-07,2024-08-11,Hypertension,Hypertension,485110.51,No Fraud
+3d4b7897-9153-4dfa-afe3-94d6e2093c2a,36,Male,2022-12-04,2022-12-09,Gastroenteritis,Gastroenteritis,316990.32,No Fraud
+ddd29ca9-ba10-4d58-a308-6d405e1e36eb,22,Female,2023-02-01,2023-02-02,Cataract Surgery,Cataract Surgery,67253.87,No Fraud
+f12cc544-3d44-4653-a64a-0ecde63dd6a2,97,Female,2023-07-08,2023-07-12,Appendectomy,Appendectomy,25497.83,No Fraud
+0ff21219-601a-4967-8f85-592f09c93d71,53,Male,2024-02-29,2024-03-05,Asthma,Asthma,192075.95,No Fraud
+8505596a-edb3-43a7-b200-2539c7c1f1d2,39,Male,2023-05-13,2023-05-18,Infertility Treatment (IVF),Phantom Procedure,257511.47,Phantom Billing
+4fbbaf4b-cd43-409c-80b1-5039b4902b52,48,Male,2023-08-21,2023-08-24,Hypertension,Hypertension,227449.31,No Fraud
+4f8a4202-5ac0-42c7-a852-5310e586e940,4,Female,2024-07-18,2024-07-22,Pneumonia,Pneumonia,103203.72,No Fraud
+ad512053-d1ab-409a-a1bd-54e315908fab,62,Female,2023-02-15,2023-02-19,Pneumonia,Pneumonia,387045.88,No Fraud
+f34f6cb9-f63b-4f52-a960-89e5fa5ecc6b,13,Male,2024-07-18,2024-07-19,Appendectomy,Appendectomy,27910.74,No Fraud
+819ea77d-eec9-45d5-b2dd-6f5018d7293f,50,Male,2022-10-14,2022-10-14,Tuberculosis,Tuberculosis,466845.3,No Fraud
+c5b84be4-9b94-4d85-bafc-7376fcac0e5d,88,Male,2022-11-20,2022-11-22,Hepatitis B,Hepatitis B,445701.08,No Fraud
+5a60c2a8-8808-46e6-8030-5d0500098dc1,14,Female,2023-12-11,2023-12-11,Cataract Surgery,Cataract Surgery,381661.97,Ghost Enrollee
+581ff6c3-92cc-4710-ae0f-354ec7ab3bb8,82,Male,2024-06-10,2024-06-18,Asthma,Asthma,104347.36,No Fraud
+a212bdb7-6ab7-4b98-a9e6-c461d0159081,36,Female,2024-08-16,2024-08-28,Cesarean Section,Cesarean Section,67648.91,Ghost Enrollee
+daa67a32-0610-456c-ae39-a218f66d2f01,20,Male,2024-03-01,2024-03-03,Hypertension,Fake Hypertension,59916.87,Fake Treatment
+ac433b2f-65da-47e4-804b-4568d3b06a60,80,Male,2022-11-11,2022-11-14,Neurosurgery,Phantom Procedure,594429.09,Phantom Billing
+c445c27e-4066-4f91-8c85-2e08660a5d4a,35,Male,2023-06-19,2023-06-25,Cataract Surgery,Cataract Surgery,129964.29,No Fraud
+2e583a25-6bd5-40da-b138-237cfe20bfc3,10,Female,2023-07-04,2023-07-05,HIV/AIDS,HIV/AIDS,274882.78,No Fraud
+4e74f010-9902-4012-98fd-39616c650145,7,Male,2023-12-29,2023-12-29,Hepatitis B,Hepatitis B,452613.28,No Fraud
+b13ea21d-89c7-4d8c-a019-06fc65361dd6,7,Male,2023-06-12,2023-06-23,Diabetes,Diabetes,52198.59,No Fraud
+045420c4-4edb-49e6-ae65-02c60b756ce4,51,Male,2024-02-22,2024-03-05,Cataract Surgery,Fake Cataract Surgery,459155.95,Fake Treatment
+60539065-adce-4a11-ab58-a6baa3735f9a,89,Female,2024-06-05,2024-06-17,HIV/AIDS,HIV/AIDS,163095.92,No Fraud
+94009148-0cc3-4605-a174-1384d4fd28a5,26,Male,2022-10-29,2022-10-31,Cataract Surgery,Cataract Surgery,74579.69,No Fraud
+f44e7be6-8fbf-4e11-8e53-444fafb3d31b,90,Female,2024-08-24,2024-08-24,Hepatitis B,Hepatitis B,162091.93,Ghost Enrollee
+35bca7f9-e1e9-4135-be46-2be8db5cedd9,83,Female,2023-03-01,2023-03-10,Complex Heart Surgery,Phantom Procedure,952703.44,Phantom Billing
+d44551d2-e349-43e5-a953-eac7fe9f8518,19,Female,2024-07-09,2024-07-19,Gastroenteritis,Gastroenteritis,99843.01,No Fraud
+dfe34154-c2d9-463e-b0b7-b922eee526f7,86,Female,2023-07-31,2023-08-02,Hepatitis B,Hepatitis B,248878.3,No Fraud
+e67d0199-bbe6-4a3c-ae97-d9f6d19f50c7,9,Female,2024-01-21,2024-01-21,HIV/AIDS,HIV/AIDS,244539.52,No Fraud
+38f52aa9-a902-432b-916c-cef9b862ba6b,22,Female,2023-09-21,2023-09-22,Cataract Surgery,Cataract Surgery,291592.35,No Fraud
+35bec354-a751-4b7e-bc05-0e799a00428e,66,Male,2023-10-27,2023-11-05,Kidney Disease,Kidney Disease,359993.81,No Fraud
+922dcc81-8032-47b8-9b9a-2201f9f3dfb1,14,Female,2023-03-05,2023-03-21,Cesarean Section,Cesarean Section,44752.76,No Fraud
+27c35e4f-8e2d-414e-91ea-142e7a5d4150,39,Female,2022-10-11,2022-10-13,Cataract Surgery,Cataract Surgery,212586.53,No Fraud
+d1d03121-3b4a-4a5f-9926-dc7d5e8a5736,80,Male,2022-10-16,2022-10-23,Pneumonia,Pneumonia,487206.95,No Fraud
+e7ecdae1-74f0-4e37-8c2f-aced68942cb3,50,Male,2024-07-31,2024-08-08,Asthma,Asthma,408818.7,No Fraud
+4a8d3aa2-3b33-4c52-8ed2-4a0a62ef25e6,76,Female,2023-09-15,2023-09-25,Cataract Surgery,Cataract Surgery,395790.12,No Fraud
+982bcce0-67ed-4529-a6ee-b9e81861d6ff,70,Male,2023-09-16,2023-09-18,Cesarean Section,Cesarean Section,338106.55,No Fraud
+2ba3739e-3437-4767-ae57-8989f5213880,95,Female,2024-05-10,2024-05-11,Cataract Surgery,Cataract Surgery,302076.99,Ghost Enrollee
+e8ef28ee-09f2-404b-a937-b463ed6fe485,42,Male,2023-04-08,2023-04-15,Cosmetic Surgery,Phantom Procedure,377232.15,Phantom Billing
+9c4e43b1-b42f-44bd-a997-dcc93ade9890,52,Male,2023-02-14,2023-02-23,Hypertension,Hypertension,345899.25,No Fraud
+d9d122bf-4240-43be-9ece-1d4b57984fdb,77,Female,2023-10-18,2023-10-19,Hepatitis B,Hepatitis B,326044.67,No Fraud
+11bb8497-2ccf-4e11-b132-4439d451db44,8,Male,2023-06-18,2023-06-21,Kidney Disease,Kidney Disease,78069.2,No Fraud
+b9960f65-c84d-4648-92da-7580a7851b5d,75,Male,2023-01-15,2023-01-17,Cesarean Section,Cesarean Section,83116.05,Ghost Enrollee
+8cf27938-424e-462b-bf69-91992e8c5f4b,69,Female,2023-10-19,2023-10-29,Epilepsy Surgery,Phantom Procedure,276099.96,Phantom Billing
+3e5666a6-8d1a-4056-ae36-07cf1a58a133,88,Female,2022-12-19,2022-12-19,Cataract Surgery,Cataract Surgery,399229.86,No Fraud
+290cca0e-5c44-4348-a538-19cef7c4f89d,87,Female,2024-06-26,2024-07-06,Appendectomy,Fake Appendectomy,688677.2,Fake Treatment
+d71c1350-13a2-46f5-8c94-8d2321aba3bd,45,Male,2023-02-17,2023-02-24,Diabetes,Diabetes,309630.47,No Fraud
+86fb8354-c66b-4492-b3f6-d9bf69b169e5,66,Female,2023-05-31,2023-05-31,Kidney Disease,Kidney Disease,154150.48,No Fraud
+885049e4-2c93-4387-9bbc-e104c752b7f9,48,Male,2024-01-02,2024-01-02,Neurosurgery,Phantom Procedure,198728.49,Phantom Billing
+318338a0-c295-41d5-b6df-5aa85afe6138,37,Male,2024-08-06,2024-08-12,Gastroenteritis,Fake Gastroenteritis,506444.22,Fake Treatment
+67e4ed73-08c6-4b09-aff0-5a040e201ba7,51,Female,2023-01-05,2023-01-12,Advanced Spinal Surgery,Phantom Procedure,443408.54,Phantom Billing
+746d8342-f714-4302-8c6f-53e0e6aae706,70,Male,2024-03-17,2024-03-21,Epilepsy Surgery,Phantom Procedure,225161.98,Phantom Billing
+ae2f7604-b91b-4609-afb2-f3d26685e453,72,Female,2024-01-21,2024-01-25,Kidney Disease,Kidney Disease,214445.39,No Fraud
+b77da0ba-88d8-4143-a06b-0d81de90b231,37,Male,2023-04-24,2023-04-25,Cancer Treatment,Phantom Procedure,164571.4,Phantom Billing
+17d21b36-0241-49c1-9eed-1d6fb598820a,3,Male,2023-11-21,2023-12-03,Cesarean Section,Cesarean Section,224000.21,No Fraud
+ea64edfa-e532-4a72-b868-4e0a03fc13ff,18,Male,2023-03-15,2023-03-17,Cesarean Section,Fake Cesarean Section,573862.05,Fake Treatment
+88b3b55f-5214-4a6d-9c17-da0a093bacfb,59,Female,2023-10-10,2023-10-13,Pneumonia,Pneumonia,232653.24,No Fraud
+c43a8c87-e952-46a6-8cc0-c4ec8fd4efa9,55,Female,2023-08-23,2023-08-27,Neurosurgery,Phantom Procedure,303166.83,Phantom Billing
+519e6414-106a-4e88-8cfe-d3bfc6312055,55,Male,2022-10-31,2022-11-07,Hepatitis B,Hepatitis B,424933.9,No Fraud
+9f543f04-a585-4835-8c5b-1dde4a5dc7e1,31,Female,2023-10-08,2023-10-11,Peptic Ulcer,Peptic Ulcer,292412.65,Ghost Enrollee
+047a85e3-b9e2-4ee5-8051-017db1ebf0b3,5,Male,2023-10-16,2023-10-20,Hepatitis B,Hepatitis B,355392.45,No Fraud
+a4670da2-ce7a-49cb-a058-a7a15540724e,15,Female,2023-02-24,2023-02-25,Cosmetic Surgery,Phantom Procedure,757166.92,Phantom Billing
+f06df320-6940-4514-b0e6-e464b605e023,68,Female,2023-10-16,2023-10-18,Peptic Ulcer,Peptic Ulcer,48334.95,No Fraud
+8848ed66-55a7-44d2-a6c8-fcc9514cf8cb,79,Male,2023-07-24,2023-07-24,Hepatitis B,Hepatitis B,319024.8,No Fraud
+82e53a36-f125-4fa0-8af3-24768b9508e2,85,Male,2024-06-05,2024-06-21,Peptic Ulcer,Peptic Ulcer,401068.14,No Fraud
+813fd7be-0ac5-4fa9-9fd9-387b99347f54,40,Male,2023-06-11,2023-06-16,Peptic Ulcer,Peptic Ulcer,391478.3,No Fraud
+e2627365-ef59-447b-a647-9b59b67eeefd,61,Female,2023-01-04,2023-01-15,Hepatitis B,Fake Hepatitis B,423077.45,Fake Treatment
+afba3abc-99a5-4c65-ad61-5ecb27110a0c,43,Female,2024-08-11,2024-08-20,Stroke,Stroke,154362.79,No Fraud
+1c1cb23e-8910-4615-8f28-e63763468773,22,Male,2022-09-10,2022-09-17,Appendectomy,Fake Appendectomy,247646.05,Fake Treatment
+d19aeb02-308d-4850-8b70-9ea9983c1b30,73,Female,2024-03-06,2024-03-06,Cesarean Section,Cesarean Section,241848.66,No Fraud
+353e3afe-2855-4c97-a0ae-f065b784424f,22,Male,2023-09-15,2023-09-19,Stroke,Stroke,371316.24,No Fraud
+7a0a115f-98e0-40e2-a9d3-7f791523a02e,4,Female,2023-07-11,2023-07-19,Organ Transplant,Phantom Procedure,214139.2,Phantom Billing
+33462688-9f2b-4ffb-a4e2-bfe1a6acac9d,10,Female,2024-08-19,2024-08-23,Pneumonia,Pneumonia,311740.9,Ghost Enrollee
+0f77d6cc-6450-4ed8-a180-9ca37dd42969,36,Female,2023-11-30,2023-11-30,Appendectomy,Appendectomy,64659.21,No Fraud
+c23c5e03-b999-4047-b4d3-1af338e3dd6f,23,Male,2024-07-15,2024-07-18,HIV/AIDS,HIV/AIDS,405841.94,No Fraud
+74ec9739-1233-4807-a5ee-74b13f549851,34,Male,2023-01-22,2023-01-30,Cosmetic Surgery,Phantom Procedure,819434.81,Phantom Billing
+11527d96-a130-4ddb-998a-0c9cdf20c1d3,5,Female,2023-12-13,2023-12-13,Pneumonia,Pneumonia,301816.61,No Fraud
+5f52d2eb-93f1-443c-9843-d3e9cb0627ce,20,Female,2023-03-31,2023-04-10,Stroke,Fake Stroke,299058.55,Fake Treatment
+dfeea06d-a662-40bc-9874-2e0f50e28920,85,Female,2023-03-23,2023-04-07,Pneumonia,Fake Pneumonia,187056.89,Fake Treatment
+6a86223b-0d56-423e-ba27-52df7f65430c,94,Female,2023-10-31,2023-10-31,Cesarean Section,Cesarean Section,139553.79,Ghost Enrollee
+5591011b-770b-484c-b67a-ae87ceb8ef4d,15,Male,2022-10-29,2022-11-02,Hepatitis B,Hepatitis B,205384.95,No Fraud
+68e544c5-7e95-47bb-a80a-5da6ab9dba9b,39,Female,2023-09-06,2023-09-17,Asthma,Asthma,196102.39,Ghost Enrollee
+57c7ce1e-2a91-4e5a-b1a8-59f4ab6025ed,91,Female,2023-11-20,2023-11-27,Tuberculosis,Tuberculosis,81123.42,No Fraud
+d5571614-acb8-4d10-83d4-4cf3b8aa6432,56,Male,2023-07-13,2023-07-16,Stroke,Stroke,229922.11,No Fraud
+a154ae92-b168-48dd-b21e-71c00df34ae4,87,Female,2024-03-17,2024-04-01,Cesarean Section,Cesarean Section,478376.67,No Fraud
+2944ff62-c581-4551-877e-a84a8812a972,13,Female,2024-08-01,2024-08-13,Cataract Surgery,Cataract Surgery,459840.59,No Fraud
+260727a9-9eed-4e84-b36d-fef5fa832f72,35,Female,2024-08-16,2024-08-20,Tuberculosis,Fake Tuberculosis,571505.63,Fake Treatment
+57c4bdcd-071d-4967-8bae-2092a4492647,33,Female,2022-09-18,2022-09-22,Complex Heart Surgery,Phantom Procedure,760882.11,Phantom Billing
+0c6efe1e-d02a-4463-a93f-40ec8feca764,76,Male,2023-11-09,2023-11-11,Neurosurgery,Phantom Procedure,709946.34,Phantom Billing
+3dd6532e-7d80-41e1-9d44-492205113986,24,Female,2024-05-18,2024-05-25,Diabetes,Diabetes,339672.91,No Fraud
+511612e3-ad47-4cc5-8299-06193dfded74,9,Male,2023-08-28,2023-09-04,Hypertension,Hypertension,267379.49,No Fraud
+4942111c-6fdd-442f-8d38-f57737cd27e5,88,Female,2023-09-01,2023-09-01,Asthma,Asthma,365372.82,No Fraud
+2b92377f-6beb-4b18-ac0c-e3f04c04beb7,33,Male,2023-11-12,2023-11-12,Diabetes,Fake Diabetes,452608.2,Fake Treatment
+43b0ee76-0606-47ce-b010-6a246cb67ac7,8,Male,2023-09-21,2023-10-03,Cesarean Section,Cesarean Section,69677.16,No Fraud
+8c62ba93-273a-42d1-a6e5-9c9b36e39f98,16,Male,2024-06-30,2024-07-02,Pneumonia,Fake Pneumonia,294372.99,Fake Treatment
+9a1e5f6b-d6c2-4251-aab8-601160ce53a6,98,Male,2024-07-28,2024-07-30,Appendectomy,Appendectomy,100288.87,No Fraud
+dcaa9f7c-4b5e-42f4-a787-70dcd4f31975,38,Female,2023-12-05,2023-12-05,Cesarean Section,Cesarean Section,232187.44,No Fraud
+6eab85fb-e7a1-451d-a807-2b15a4d72c74,36,Female,2024-06-29,2024-07-06,Infertility Treatment (IVF),Phantom Procedure,245769.43,Phantom Billing
+1ad20b29-ded2-4a25-a8f6-8a774c4b1085,10,Female,2022-11-14,2022-11-14,Gastroenteritis,Gastroenteritis,200409.31,No Fraud
+2026e696-ecc1-4e79-b183-23f9a91853a7,8,Female,2024-07-03,2024-07-05,Pneumonia,Fake Pneumonia,336373.64,Fake Treatment
+f80d5894-8c3a-4cf4-88a7-94b4c603e4d0,63,Male,2023-06-01,2023-06-12,Gastroenteritis,Fake Gastroenteritis,165987.41,Fake Treatment
+4d37ff67-a01f-4a7e-9534-7e00510e41dc,63,Male,2024-07-29,2024-07-30,Peptic Ulcer,Peptic Ulcer,386666.59,No Fraud
+a87be169-b237-4689-9b09-205970d55303,28,Male,2023-11-12,2023-11-18,Appendectomy,Appendectomy,136908.17,No Fraud
+4955c22c-04ae-4a44-ae38-2418f5462c39,5,Male,2024-04-16,2024-04-17,Cataract Surgery,Cataract Surgery,366497.12,No Fraud
+f067a548-f167-436a-a867-c7b8162c2277,100,Female,2024-03-25,2024-03-25,Hepatitis B,Fake Hepatitis B,146755.28,Fake Treatment
+9eb6a6ea-e96d-4abd-bd18-8ab26efd133f,82,Male,2024-04-04,2024-04-04,Cesarean Section,Cesarean Section,201337.07,No Fraud
+0c11821c-01f8-4cb4-bf18-e02d60ee607b,20,Female,2024-03-02,2024-03-10,Cataract Surgery,Cataract Surgery,11814.84,Ghost Enrollee
+6e6751bb-4cae-41a6-9374-2733e6f693b7,91,Female,2024-04-27,2024-05-05,Gastroenteritis,Gastroenteritis,207917.25,Ghost Enrollee
+6a5f4fa5-3365-453d-b39e-284582760ec8,94,Male,2024-08-18,2024-09-01,Complex Heart Surgery,Phantom Procedure,102976.62,Phantom Billing
+df6d08b0-f44b-4826-a189-6aa558732990,89,Female,2024-05-17,2024-05-19,Cataract Surgery,Cataract Surgery,272299.0,No Fraud
+0a878e8f-059c-4baf-af49-abe2a07bc673,46,Female,2022-12-25,2022-12-26,Advanced Spinal Surgery,Phantom Procedure,149675.21,Phantom Billing
+0e08bbc8-4d66-4df1-947b-da76409feab4,83,Male,2022-09-27,2022-10-02,Peptic Ulcer,Fake Peptic Ulcer,604672.35,Fake Treatment
+4de37284-ba9c-4578-aa28-eef5ec9ddc0f,44,Male,2024-05-26,2024-06-04,Stroke,Stroke,385588.96,No Fraud
+808e7b1d-8e4d-4114-9565-a2ffd37fa734,83,Male,2024-04-03,2024-04-06,Peptic Ulcer,Peptic Ulcer,29272.28,No Fraud
+70ab42ad-f1dc-4164-8809-21cd0f30033d,50,Male,2023-09-22,2023-09-30,Appendectomy,Fake Appendectomy,303568.07,Fake Treatment
+a9af3584-39c7-49da-bf44-f241a567d44e,14,Female,2023-07-02,2023-07-05,Hypertension,Hypertension,443754.94,No Fraud
+4453d77a-7b5c-4c48-abbc-6215d35696f9,57,Male,2023-09-08,2023-09-09,Diabetes,Fake Diabetes,175510.27,Fake Treatment
+23990da6-b56c-4152-9b29-c9e429694112,93,Male,2024-07-10,2024-07-14,Gastroenteritis,Gastroenteritis,40866.39,No Fraud
+0dd02773-d70e-4dfb-b484-5fc14f3fcc6e,70,Female,2024-05-29,2024-06-06,Peptic Ulcer,Peptic Ulcer,482827.38,No Fraud
+f66a544b-75e1-4516-9474-61ccfaa1cab7,58,Male,2024-01-18,2024-01-18,HIV/AIDS,Fake HIV/AIDS,86435.39,Fake Treatment
+a7f8c7a6-dbf4-472a-9a48-0694df142874,93,Male,2023-03-24,2023-03-26,Hypertension,Hypertension,113722.31,No Fraud
+c9567aa8-dff1-4d1a-99b1-5dbbad83d53e,84,Female,2023-05-18,2023-05-31,Pneumonia,Pneumonia,373115.23,No Fraud
+ff1db61d-0d41-4b91-b8ee-34286df16850,30,Male,2023-03-14,2023-03-14,Appendectomy,Appendectomy,79379.33,No Fraud
+ce153373-caf9-4219-8cc7-bc4a24ad1e16,84,Male,2022-10-09,2022-10-16,Cataract Surgery,Cataract Surgery,32442.83,No Fraud
+579e4793-fd46-4643-8e40-9dce96f44f9c,90,Male,2023-05-30,2023-05-30,Pneumonia,Pneumonia,320004.11,No Fraud
+a57142a4-6cee-48fd-99d6-93dc529ce984,40,Male,2022-12-06,2022-12-15,Cataract Surgery,Cataract Surgery,93637.8,No Fraud
+d125364c-6b3f-49f0-9912-528803934659,76,Male,2023-09-06,2023-09-07,Hypertension,Fake Hypertension,373143.27,Fake Treatment
+0f499a18-6f1a-472c-9a8a-0ff2fb6a0dc1,79,Male,2024-06-16,2024-06-16,Stroke,Stroke,109294.16,No Fraud
+c4fb60ca-5be9-4cc6-a8bb-03c9b5b5a6fa,44,Female,2022-10-08,2022-10-12,Hypertension,Hypertension,488168.1,Ghost Enrollee
+7d1c2edf-b7a2-41ec-8454-0a1fd61ac0d1,74,Male,2023-09-25,2023-10-04,Kidney Disease,Kidney Disease,482699.27,No Fraud
+fe57197d-098f-4c1a-bbba-9a54725cb115,28,Male,2023-01-05,2023-01-19,Cosmetic Surgery,Phantom Procedure,401953.35,Phantom Billing
+3e17ffef-63e3-4918-bb02-17ec7118ad78,16,Female,2024-02-20,2024-02-23,Stroke,Stroke,213425.62,No Fraud
+1ea993d2-c16a-4dfc-a740-060387888b54,90,Female,2023-02-16,2023-02-28,Pneumonia,Fake Pneumonia,335129.79,Fake Treatment
+c71723d5-dd84-4f54-b5c9-27f94f59643f,75,Male,2024-02-16,2024-02-18,Hypertension,Hypertension,397615.62,No Fraud
+a8ddde18-4886-4bf2-83d6-b609f313e17e,81,Female,2023-03-02,2023-03-05,Diabetes,Diabetes,441017.2,No Fraud
+00d932b8-7219-42a8-954a-f190aabe905a,11,Male,2023-08-22,2023-08-22,Pneumonia,Pneumonia,463807.11,No Fraud
+59d6ef7a-c3a6-499d-b4ad-ce493c6095aa,91,Female,2023-07-30,2023-07-31,Appendectomy,Appendectomy,405631.78,No Fraud
+b7368d34-f5e3-49e6-92ce-c5a66c1bc562,99,Female,2024-04-25,2024-04-27,Asthma,Asthma,80113.05,No Fraud
+9affe1e3-6d93-4adb-a01c-1983749ac838,35,Female,2023-03-24,2023-04-03,Asthma,Asthma,469663.91,No Fraud
+905ed1da-df59-4b1a-8afc-9ca58622b2fe,79,Male,2024-03-25,2024-04-06,Cosmetic Surgery,Phantom Procedure,745478.88,Phantom Billing
+ea5c442f-775e-48c0-ae08-2cc65bb653b4,79,Male,2023-11-22,2023-12-02,Kidney Disease,Kidney Disease,393465.68,No Fraud
+5e7b7adb-2653-4f35-b6ce-121180869ca9,45,Female,2023-09-06,2023-09-06,Peptic Ulcer,Peptic Ulcer,125463.11,No Fraud
+3819266a-d24d-487e-a60b-b886a2ad34fe,16,Male,2023-08-04,2023-08-15,HIV/AIDS,HIV/AIDS,432738.22,Ghost Enrollee
+c1f4ad61-5dce-496d-8634-f1446b6e5861,70,Male,2023-07-07,2023-07-19,Complex Heart Surgery,Phantom Procedure,348783.93,Phantom Billing
+7311a333-6255-4b6a-8aa4-a9c5d7077c46,25,Male,2024-08-04,2024-08-07,Cesarean Section,Cesarean Section,423453.03,No Fraud
+0fe4eda2-a972-4c6f-b4e4-179ed7df66ee,61,Female,2023-10-23,2023-10-26,Pneumonia,Pneumonia,338369.89,No Fraud
+7111f7ab-19f7-4c27-a396-dc5e729a2813,6,Male,2023-07-15,2023-07-17,HIV/AIDS,HIV/AIDS,149681.61,No Fraud
+291cf750-bb18-4d91-ba20-157739c509a8,56,Female,2022-11-04,2022-11-07,Epilepsy Surgery,Phantom Procedure,138985.73,Phantom Billing
+b19f05f4-0d6a-456a-adae-d8a1b3b0e2b1,95,Male,2023-09-04,2023-09-14,Pneumonia,Pneumonia,87442.35,Ghost Enrollee
+1ca46737-da2a-4a7f-8bf3-5a981c958d9d,4,Female,2024-05-16,2024-05-28,Hypertension,Hypertension,44721.15,No Fraud
+1987629f-02e9-490c-8853-af4074949cea,31,Female,2023-12-19,2024-01-05,Neurosurgery,Phantom Procedure,477159.65,Phantom Billing
+f2b54ffb-7e88-43a0-82b2-95127b76dd67,96,Female,2024-06-24,2024-06-30,Organ Transplant,Phantom Procedure,393519.0,Phantom Billing
+6be73676-949c-42e4-9ea0-356fe8e9abb8,13,Male,2022-11-30,2022-12-04,Kidney Disease,Kidney Disease,107978.36,No Fraud
+d64045df-da16-4c28-9cb7-1da034b40e50,29,Male,2023-09-30,2023-10-10,Cataract Surgery,Fake Cataract Surgery,364865.02,Fake Treatment
+7490b168-6fcb-4187-ba0d-7158dfa3f850,56,Male,2022-09-20,2022-09-24,Cataract Surgery,Cataract Surgery,232945.53,No Fraud
+9eb03a4a-4f74-467f-9332-7a8fb52dab30,50,Female,2024-02-12,2024-02-14,Hepatitis B,Hepatitis B,362712.4,No Fraud
+3f284c19-50c8-476a-8b6e-1daea5a3f3ad,81,Female,2023-06-11,2023-06-14,Asthma,Asthma,174586.76,No Fraud
+9b6afba5-ad35-47a5-9835-72e6058e565f,5,Male,2023-12-12,2023-12-19,Pneumonia,Pneumonia,64443.54,No Fraud
+36a6c047-5733-4edb-a9fd-cf828e1259a7,60,Female,2024-02-24,2024-03-07,Pneumonia,Pneumonia,382566.4,No Fraud
+af3fdd8d-c35b-4c80-8e41-e2cdb1471c15,29,Female,2024-06-18,2024-07-01,Pneumonia,Fake Pneumonia,563205.53,Fake Treatment
+4667dc62-9e55-409b-b3e1-f77571bee8d5,82,Male,2023-07-26,2023-08-08,Peptic Ulcer,Peptic Ulcer,428951.97,No Fraud
+77cdba1a-5afe-4ea1-af1d-28f5a112d281,12,Female,2023-05-20,2023-06-01,Hepatitis B,Hepatitis B,432477.54,No Fraud
+6b82ee4d-42f0-40a6-828a-24081ea682bc,28,Female,2024-07-12,2024-07-23,Tuberculosis,Tuberculosis,17106.89,No Fraud
+afd44201-a091-4bfd-88f7-48f0149b8798,55,Male,2023-09-05,2023-09-11,HIV/AIDS,Fake HIV/AIDS,332261.67,Fake Treatment
+8ac07a8e-4352-4609-a40a-fe6c2ac4bcad,29,Male,2022-11-25,2022-12-07,Diabetes,Diabetes,214708.21,No Fraud
+89db2aa8-9eb1-46bf-bb86-142d80b5a49a,6,Male,2023-05-19,2023-05-21,Appendectomy,Appendectomy,386617.13,No Fraud
+80f60907-3811-4a1e-9676-2d79dce44a19,5,Female,2024-03-27,2024-04-06,Gastroenteritis,Gastroenteritis,244841.98,No Fraud
+b0f3ea8b-1be2-4656-bfe0-293de0b95ada,90,Male,2023-08-01,2023-08-10,Hepatitis B,Hepatitis B,127850.63,No Fraud
+89f09fe7-a548-4e34-baea-de518844562d,72,Male,2023-03-26,2023-04-04,Asthma,Fake Asthma,136262.8,Fake Treatment
+597b2749-27e2-48aa-bea8-19ca0bf0b70f,38,Male,2024-03-17,2024-04-05,Hypertension,Fake Hypertension,60354.61,Fake Treatment
+5e86d16a-d979-4c74-9014-97fa6607638f,86,Female,2024-07-20,2024-07-21,Appendectomy,Appendectomy,235048.59,No Fraud
+fa21705f-3ac9-4a6d-84ac-9007bb2c4906,74,Male,2023-05-23,2023-06-01,Hepatitis B,Fake Hepatitis B,551692.76,Fake Treatment
+4bee3d6f-ea21-4bd2-b183-c1e9389a5784,91,Female,2024-03-07,2024-03-10,Stroke,Stroke,437060.38,Ghost Enrollee
+801418af-534c-422d-bd8b-04f7fe565d0c,81,Female,2023-04-12,2023-04-21,Diabetes,Fake Diabetes,609248.72,Fake Treatment
+07f75e1c-2011-482a-8441-55b1c490ec62,10,Female,2023-08-19,2023-08-28,Peptic Ulcer,Peptic Ulcer,26029.95,No Fraud
+1b10f558-2d22-44bb-995b-0176100a8bae,55,Female,2024-02-12,2024-02-28,Peptic Ulcer,Peptic Ulcer,291862.39,No Fraud
+786d475d-98c3-4006-8885-00803c97eadd,27,Male,2022-10-06,2022-10-16,HIV/AIDS,HIV/AIDS,370522.78,No Fraud
+3a621942-93d7-4f53-903c-6ae72dbe6765,8,Female,2023-01-10,2023-01-10,Hypertension,Hypertension,197647.95,Ghost Enrollee
+d547c967-c152-41b3-8fc8-11d7cd01b71a,60,Male,2023-02-01,2023-02-11,HIV/AIDS,HIV/AIDS,95881.03,No Fraud
+48f2606a-5211-4c4d-b00d-5c82b777c271,72,Male,2023-09-24,2023-10-04,Appendectomy,Appendectomy,389052.0,No Fraud
+9c75902a-eefd-4423-b3f5-8572068e517b,18,Female,2023-05-11,2023-05-16,Peptic Ulcer,Peptic Ulcer,65643.26,No Fraud
+d4fdf3a1-f3f4-494f-91aa-cebb028ae16e,62,Male,2022-12-11,2022-12-12,Neurosurgery,Phantom Procedure,417440.5,Phantom Billing
+e19705cf-33cf-40f1-b1bb-a462d203f406,35,Female,2023-10-10,2023-10-11,Diabetes,Diabetes,41050.9,No Fraud
+60ecbf98-40b0-41c1-acff-80d89d32f0d1,45,Female,2024-01-06,2024-01-10,Peptic Ulcer,Peptic Ulcer,268074.47,Ghost Enrollee
+2f083e99-70f4-421f-9cbd-10e40e8d0df5,16,Female,2024-02-25,2024-02-25,Cesarean Section,Fake Cesarean Section,586496.36,Fake Treatment
+9ba8b589-1e34-4e4a-8323-3f50bfd01bfb,38,Female,2024-03-10,2024-03-14,HIV/AIDS,HIV/AIDS,401952.89,No Fraud
+b309561e-d0d6-42e5-ad24-0f3676541972,89,Male,2024-08-16,2024-08-19,Hepatitis B,Hepatitis B,52781.29,Ghost Enrollee
+84d37923-07d2-4eed-8b93-f5ea8dc72148,51,Male,2024-08-28,2024-09-02,Hypertension,Hypertension,63588.81,No Fraud
+592f109e-991a-40bd-9797-09a4f810b775,36,Male,2024-02-23,2024-02-24,Hepatitis B,Fake Hepatitis B,147823.74,Fake Treatment
+29429fca-b54b-46b5-85b7-5660cac061f1,27,Male,2023-12-17,2023-12-19,Gastroenteritis,Gastroenteritis,485091.56,No Fraud
+16aff562-2670-481e-82a8-f398048acdbc,70,Male,2023-03-25,2023-04-05,HIV/AIDS,HIV/AIDS,215863.69,Ghost Enrollee
+d8b9484f-6024-44f5-94c4-6e7702873978,95,Male,2023-08-13,2023-08-14,Complex Heart Surgery,Phantom Procedure,156654.56,Phantom Billing
+666439ea-cc45-4c5f-9e29-aebeaf30c232,30,Female,2023-03-29,2023-04-02,Cataract Surgery,Fake Cataract Surgery,272815.11,Fake Treatment
+ddba0fc3-16e0-4606-b3d2-4342bda0f362,83,Female,2023-02-03,2023-02-14,Cataract Surgery,Cataract Surgery,336269.12,Ghost Enrollee
+f13156b7-6dca-4076-a34d-a112c60412fb,68,Female,2023-12-10,2023-12-14,Tuberculosis,Tuberculosis,287953.31,No Fraud
+c7656d47-e21b-410d-99be-681bf712315f,40,Male,2023-07-12,2023-07-13,Asthma,Asthma,247279.13,Ghost Enrollee
+429aa331-96f5-4e3d-b176-276606c1ae53,37,Male,2024-04-29,2024-05-01,HIV/AIDS,Fake HIV/AIDS,234848.32,Fake Treatment
+f7e27175-c8e4-43d0-81cb-8dd41f5fb425,22,Male,2022-11-16,2022-11-25,Tuberculosis,Tuberculosis,99317.45,No Fraud
+30094165-7f83-4ea5-967e-c09a49e9d2ed,23,Male,2022-10-16,2022-10-19,Asthma,Asthma,67289.49,No Fraud
+9eda2180-3f55-4c08-a126-36a42d94c86f,41,Male,2023-08-01,2023-08-05,Tuberculosis,Fake Tuberculosis,290286.89,Fake Treatment
+523878cc-c5a0-442f-90e7-abadf9e036a2,27,Male,2022-10-31,2022-11-02,HIV/AIDS,HIV/AIDS,82492.67,Ghost Enrollee
+e560b0aa-5268-4bf1-b6e7-2cd0e65ea917,58,Male,2023-04-07,2023-04-10,Tuberculosis,Tuberculosis,69530.11,Ghost Enrollee
+2e7f025f-596e-4f2e-afea-ab6dbdf6580d,4,Female,2023-11-07,2023-11-16,Stroke,Stroke,81238.1,No Fraud
+3a26b576-e176-4adf-acc7-bc2d554725ad,59,Female,2024-01-19,2024-01-22,Diabetes,Diabetes,485373.58,Ghost Enrollee
+7e0d9fdf-6e47-4bbc-a745-d3971fac4450,70,Female,2024-02-14,2024-02-22,Appendectomy,Appendectomy,154822.87,No Fraud
+f8e1f2a3-420a-4772-bef9-b4b0bec94fde,38,Male,2023-07-01,2023-07-02,Appendectomy,Appendectomy,454371.59,Ghost Enrollee
+eb3edc2b-2777-49eb-9f5d-bea2df684f28,57,Female,2023-10-14,2023-10-15,Appendectomy,Appendectomy,244700.8,No Fraud
+aec61b21-d3b3-4be5-98d7-dc999e07660b,6,Male,2023-07-10,2023-07-18,Hypertension,Hypertension,160960.28,Ghost Enrollee
+7ce2a264-fa6f-4fef-804b-dfe3ccf1a144,52,Male,2024-04-23,2024-05-05,HIV/AIDS,Fake HIV/AIDS,110112.74,Fake Treatment
+8efecb61-f978-47c2-b30f-cc981dc42e4f,8,Male,2024-02-28,2024-02-28,Peptic Ulcer,Peptic Ulcer,118850.49,No Fraud
+6f0a5caa-4767-42ac-840c-2c183cff264b,99,Female,2024-03-18,2024-03-21,Diabetes,Fake Diabetes,104333.21,Fake Treatment
+75feaa5e-d056-4f56-a629-e03e4bbd361c,58,Male,2023-06-25,2023-07-08,Gastroenteritis,Gastroenteritis,105280.52,No Fraud
+610c1079-cda7-45be-ae3d-2b7161616b40,41,Male,2024-01-16,2024-01-16,Gastroenteritis,Fake Gastroenteritis,146164.86,Fake Treatment
+83cb9e66-0403-4c6c-bba8-acd6d82c5a8b,55,Female,2024-03-28,2024-04-05,Neurosurgery,Phantom Procedure,110971.71,Phantom Billing
+fcc3b8a6-e9de-4b64-a333-2422f30e5322,45,Female,2023-12-16,2023-12-22,Hepatitis B,Hepatitis B,438407.85,No Fraud
+2d3acf69-d6c6-4167-8cf5-0f8e21893869,12,Male,2022-11-17,2022-11-27,Advanced Spinal Surgery,Phantom Procedure,823316.95,Phantom Billing
+88d5e568-8659-42e5-985f-08ae9953dbe1,37,Male,2024-08-21,2024-08-25,Appendectomy,Fake Appendectomy,632678.74,Fake Treatment
+41f58b36-4d5b-414a-91f7-5c25a9bcc279,18,Male,2022-10-11,2022-10-11,Asthma,Asthma,158583.26,No Fraud
+b881b2db-b2d1-4e9a-83b1-2d0fecc564fe,68,Female,2024-08-15,2024-08-16,Cataract Surgery,Cataract Surgery,380495.89,No Fraud
+2570edd5-8a8f-4836-80f5-454d60d97a2b,12,Male,2023-08-17,2023-08-25,Cesarean Section,Cesarean Section,458061.14,Ghost Enrollee
+1bc8846a-a723-4f41-a108-537c004f4a10,54,Male,2022-10-16,2022-10-26,Epilepsy Surgery,Phantom Procedure,739222.31,Phantom Billing
+19d8234c-4e36-4f4b-9b4a-347932f0336e,97,Male,2023-08-31,2023-09-04,Cosmetic Surgery,Phantom Procedure,849055.35,Phantom Billing
+f55c2144-b501-4601-a0f3-313d892070d9,38,Female,2024-07-25,2024-07-25,Infertility Treatment (IVF),Phantom Procedure,851126.68,Phantom Billing
+d5dc765d-f5b1-454a-ac70-a472db770ba0,39,Female,2023-12-19,2023-12-26,Appendectomy,Appendectomy,237091.4,No Fraud
+77634cd9-13af-4d9c-b5bc-7f5225d04543,4,Male,2024-08-11,2024-08-12,Infertility Treatment (IVF),Phantom Procedure,370152.47,Phantom Billing
+16f4e57d-b137-4536-94cf-d0dc89a4c4d7,82,Female,2023-10-07,2023-10-07,Cesarean Section,Cesarean Section,336297.6,No Fraud
+bddc747b-0c9e-4c25-95d5-3ee7355cf8ec,37,Female,2023-10-18,2023-10-20,Hepatitis B,Hepatitis B,454328.67,No Fraud
+29814891-b010-41db-9851-7aec10476dc4,83,Male,2024-07-22,2024-07-22,Hypertension,Hypertension,384711.99,No Fraud
+704c20c8-963b-4f4c-a446-e1dd2c6c33e8,64,Male,2022-12-29,2023-01-12,Appendectomy,Appendectomy,187262.16,No Fraud
+3aca7aff-8a81-4a6a-a377-f02d5b57ba35,62,Female,2023-02-13,2023-02-15,Cesarean Section,Cesarean Section,346097.29,No Fraud
+f24ed089-7c75-4f58-9e4b-b59b41909c7b,89,Male,2024-08-28,2024-08-28,Peptic Ulcer,Peptic Ulcer,369149.06,No Fraud
+12fdb6bc-8610-4e25-b6c1-00d14b862a29,3,Female,2023-03-12,2023-03-12,Cataract Surgery,Cataract Surgery,38670.09,Ghost Enrollee
+6d8543fb-c819-4205-a8d4-fd3d00894ddd,41,Female,2024-05-03,2024-05-06,HIV/AIDS,HIV/AIDS,90021.34,No Fraud
+7161a0a4-99b7-4433-9a8b-f8c234907e6b,35,Female,2024-05-25,2024-05-26,Cesarean Section,Cesarean Section,456931.26,No Fraud
+064ea0f6-9050-4e27-9ca9-3715866cc074,46,Male,2024-06-16,2024-06-24,Tuberculosis,Tuberculosis,269510.04,No Fraud
+086d710e-b491-43bc-aca1-9f716ceeafa6,10,Male,2022-10-26,2022-11-05,Pneumonia,Pneumonia,384697.8,No Fraud
+4b0ee849-c530-4127-b509-a686b2a3b2e6,77,Male,2023-07-17,2023-07-28,HIV/AIDS,HIV/AIDS,437497.14,No Fraud
+6fb72a8f-30ef-49ff-b255-e5f969c27b46,88,Female,2023-12-19,2023-12-21,Cesarean Section,Cesarean Section,352004.08,No Fraud
+980113ad-4fe0-4850-8b03-56cc174ae8bb,47,Male,2023-05-20,2023-06-02,Cataract Surgery,Cataract Surgery,182298.39,Ghost Enrollee
+7451a2b9-a318-4449-b411-7d17b1b72fa9,19,Male,2024-01-30,2024-01-30,Peptic Ulcer,Peptic Ulcer,147894.7,Ghost Enrollee
+29300ff5-1aef-418d-9f06-9b1717ccb6b2,100,Female,2023-12-30,2024-01-05,HIV/AIDS,HIV/AIDS,461244.61,Ghost Enrollee
+a75108fa-64fb-480f-8c73-392b6fc0c953,21,Male,2024-01-20,2024-01-21,Pneumonia,Pneumonia,256657.62,No Fraud
+8c638d95-5e6b-4ece-b320-9fc5e5a26f24,25,Male,2023-02-19,2023-02-21,Hepatitis B,Hepatitis B,458855.27,No Fraud
+1b698a2e-5f73-42d1-8b38-a11d75b9a4df,15,Male,2022-09-02,2022-09-02,Hepatitis B,Fake Hepatitis B,276336.44,Fake Treatment
