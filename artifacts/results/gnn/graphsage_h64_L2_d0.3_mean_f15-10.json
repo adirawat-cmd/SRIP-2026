@@ -1,0 +1,114 @@
+{
+  "created_at_utc": "2026-06-11T10:03:16.457241+00:00",
+  "primary_metric": "auprc",
+  "model_name": "graphsage_h64_L2_d0.3_mean_f15-10",
+  "config": {
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "dropout": 0.3,
+    "aggregator": "mean",
+    "fanout": [
+      15,
+      10
+    ],
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 100,
+    "patience": 15,
+    "min_delta": 0.0001,
+    "seed": 42,
+    "schema_name": "v1.1",
+    "config_id": "h64_L2_d0.3_mean_f15-10"
+  },
+  "summary": {
+    "auprc": {
+      "mean": 0.6369480957815228,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "f1": {
+      "mean": 0.5547945205479452,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "precision": {
+      "mean": 0.42408376963350786,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "recall": {
+      "mean": 0.801980198019802,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "roc_auc": {
+      "mean": 0.9126674135303438,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "recall_at_k": {
+      "mean": 0.6138613861386139,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "precision_at_k": {
+      "mean": 0.6138613861386139,
+      "std": 0.0,
+      "n_folds": 1.0
+    }
+  },
+  "per_fold_scores": {
+    "auprc": [
+      0.6369480957815228
+    ],
+    "f1": [
+      0.5547945205479452
+    ],
+    "precision": [
+      0.42408376963350786
+    ],
+    "recall": [
+      0.801980198019802
+    ],
+    "roc_auc": [
+      0.9126674135303438
+    ],
+    "recall_at_k": [
+      0.6138613861386139
+    ],
+    "precision_at_k": [
+      0.6138613861386139
+    ]
+  },
+  "folds": [
+    {
+      "fold_id": 0,
+      "metrics": {
+        "auprc": 0.6369480957815228,
+        "f1": 0.5547945205479452,
+        "precision": 0.42408376963350786,
+        "recall": 0.801980198019802,
+        "roc_auc": 0.9126674135303438,
+        "recall_at_k": 0.6138613861386139,
+        "precision_at_k": 0.6138613861386139,
+        "k": 101,
+        "threshold": 0.5,
+        "n_samples": 1082,
+        "n_positive": 101
+      },
+      "confusion_matrix": [
+        [
+          871,
+          110
+        ],
+        [
+          20,
+          81
+        ]
+      ],
+      "best_epoch": 4,
+      "best_val_auprc": 0.6369480957815228
+    }
+  ]
+}

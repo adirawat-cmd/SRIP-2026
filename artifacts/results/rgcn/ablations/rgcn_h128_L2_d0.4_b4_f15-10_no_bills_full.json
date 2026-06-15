@@ -1,0 +1,178 @@
+{
+  "created_at_utc": "2026-06-11T13:26:05.950811+00:00",
+  "primary_metric": "auprc",
+  "model_name": "rgcn_h128_L2_d0.4_b4_f15-10_no_bills_full",
+  "config": {
+    "hidden_dim": 128,
+    "num_layers": 2,
+    "dropout": 0.4,
+    "num_bases": 4,
+    "fanout": [
+      15,
+      10
+    ],
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 100,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "seed": 42,
+    "schema_name": "v1.1",
+    "relation_ablation": "no_bills",
+    "feature_ablation": "full",
+    "config_id": "h128_L2_d0.4_b4_f15-10_no_bills_full"
+  },
+  "summary": {
+    "auprc": {
+      "mean": 0.6357762304739701,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "f1": {
+      "mean": 0.5342019543973942,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "precision": {
+      "mean": 0.39805825242718446,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "recall": {
+      "mean": 0.8118811881188119,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "roc_auc": {
+      "mean": 0.9069347301702647,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "recall_at_k": {
+      "mean": 0.5643564356435643,
+      "std": 0.0,
+      "n_folds": 1.0
+    },
+    "precision_at_k": {
+      "mean": 0.5643564356435643,
+      "std": 0.0,
+      "n_folds": 1.0
+    }
+  },
+  "per_fold_scores": {
+    "auprc": [
+      0.6357762304739701
+    ],
+    "f1": [
+      0.5342019543973942
+    ],
+    "precision": [
+      0.39805825242718446
+    ],
+    "recall": [
+      0.8118811881188119
+    ],
+    "roc_auc": [
+      0.9069347301702647
+    ],
+    "recall_at_k": [
+      0.5643564356435643
+    ],
+    "precision_at_k": [
+      0.5643564356435643
+    ]
+  },
+  "folds": [
+    {
+      "fold_id": 0,
+      "metrics": {
+        "auprc": 0.6357762304739701,
+        "f1": 0.5342019543973942,
+        "precision": 0.39805825242718446,
+        "recall": 0.8118811881188119,
+        "roc_auc": 0.9069347301702647,
+        "recall_at_k": 0.5643564356435643,
+        "precision_at_k": 0.5643564356435643,
+        "k": 101,
+        "threshold": 0.5,
+        "n_samples": 1082,
+        "n_positive": 101
+      },
+      "confusion_matrix": [
+        [
+          857,
+          124
+        ],
+        [
+          19,
+          82
+        ]
+      ],
+      "best_epoch": 2,
+      "best_val_auprc": 0.6357762304739701,
+      "history": [
+        {
+          "epoch": 1.0,
+          "train_loss": 1.0557523159419788,
+          "val_auprc": 0.603367805473028
+        },
+        {
+          "epoch": 2.0,
+          "train_loss": 0.7390252702376422,
+          "val_auprc": 0.6357762304739701
+        },
+        {
+          "epoch": 3.0,
+          "train_loss": 0.6043002430130454,
+          "val_auprc": 0.6025772014614558
+        },
+        {
+          "epoch": 4.0,
+          "train_loss": 0.5735866690383238,
+          "val_auprc": 0.6194129906013514
+        },
+        {
+          "epoch": 5.0,
+          "train_loss": 0.5318235106327954,
+          "val_auprc": 0.6106620686161204
+        },
+        {
+          "epoch": 6.0,
+          "train_loss": 0.5118966295438654,
+          "val_auprc": 0.6119952640840338
+        },
+        {
+          "epoch": 7.0,
+          "train_loss": 0.4529024029479307,
+          "val_auprc": 0.6051328563135531
+        },
+        {
+          "epoch": 8.0,
+          "train_loss": 0.43383622695417967,
+          "val_auprc": 0.6075478941495518
+        },
+        {
+          "epoch": 9.0,
+          "train_loss": 0.427046760040171,
+          "val_auprc": 0.5986147632288709
+        },
+        {
+          "epoch": 10.0,
+          "train_loss": 0.38321566406418295,
+          "val_auprc": 0.6067926023383721
+        },
+        {
+          "epoch": 11.0,
+          "train_loss": 0.3534969231661628,
+          "val_auprc": 0.6016415793767156
+        },
+        {
+          "epoch": 12.0,
+          "train_loss": 0.32037923265905943,
+          "val_auprc": 0.5656150289979064
+        }
+      ]
+    }
+  ]
+}

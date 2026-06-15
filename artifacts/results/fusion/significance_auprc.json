@@ -1,0 +1,101 @@
+[
+  {
+    "metric": "auprc",
+    "model_a": "catboost",
+    "model_b": "fusion_weighted",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 1.0,
+    "mean_diff": 0.0,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_rank",
+    "model_b": "fusion_weighted",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 4.0,
+    "p_value": 0.4375,
+    "mean_diff": -0.007884710703865094,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_stack_logistic",
+    "model_b": "fusion_weighted",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 2.0,
+    "p_value": 0.1875,
+    "mean_diff": 0.005637648682534979,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "graphsage",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 2.0,
+    "p_value": 0.1875,
+    "mean_diff": 0.00908249216983823,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "if_graphsage",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.21385905853154735,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "if_rgcn",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.2542337916764882,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "if_tabular",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.29952590122039907,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "logistic_regression",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 1.0,
+    "p_value": 0.125,
+    "mean_diff": -0.019462515052581498,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "fusion_weighted",
+    "model_b": "rgcn",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 5.0,
+    "p_value": 0.625,
+    "mean_diff": 0.007465608798281842,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  }
+]

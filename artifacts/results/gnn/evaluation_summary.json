@@ -1,0 +1,10 @@
+{
+  "search_mode": "eval",
+  "n_configs": 12,
+  "top_config": "h32_L2_d0.3_mean_f15-10",
+  "top_auprc_fold0": 0.6412738366457518,
+  "benchmark_auprc_mean": 0.6530433684331662,
+  "beats_lr": false,
+  "recommend_rgcn": true,
+  "report": "D:\\docs\\hgad-cms-fraud\\docs\\graphsage_diagnosis.md"
+}

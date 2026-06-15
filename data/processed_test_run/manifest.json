@@ -1,0 +1,35 @@
+{
+  "created_at_utc": "2026-06-11T10:05:31.577898+00:00",
+  "raw_dir": "D:\\docs\\datasets\\Healthcare Provider Fraud Detection Analysis",
+  "processed_dir": "D:\\docs\\hgad-cms-fraud\\data\\processed_test_run",
+  "source_files": {
+    "providers": {
+      "path": "D:\\docs\\datasets\\Healthcare Provider Fraud Detection Analysis\\Train-1542865627584.csv",
+      "sha256": "09315a0e0c262ddfb91df15df76b196a80de2ff1001fad46b362b562df2e7e43"
+    },
+    "beneficiaries": {
+      "path": "D:\\docs\\datasets\\Healthcare Provider Fraud Detection Analysis\\Train_Beneficiarydata-1542865627584.csv",
+      "sha256": "1fb7fb14efeaae04b970bfeb3176cdf938c755748217377109081d6dae01ecfd"
+    },
+    "inpatient": {
+      "path": "D:\\docs\\datasets\\Healthcare Provider Fraud Detection Analysis\\Train_Inpatientdata-1542865627584.csv",
+      "sha256": "395bc2d01a102bf44a26ba4b36c63e7086943eaf2d5d1489c776bf47d1613ac0"
+    },
+    "outpatient": {
+      "path": "D:\\docs\\datasets\\Healthcare Provider Fraud Detection Analysis\\Train_Outpatientdata-1542865627584.csv",
+      "sha256": "f532ed7e25f50d6abf3ba89ceeb2a23e2a352792f90d086b13999a561fd23889"
+    }
+  },
+  "row_counts": {
+    "claims": 558211,
+    "providers": 5410,
+    "beneficiaries": 138556,
+    "fraud_providers": 506
+  },
+  "outputs": {
+    "claims": "D:\\docs\\hgad-cms-fraud\\data\\processed_test_run\\claims.parquet",
+    "providers": "D:\\docs\\hgad-cms-fraud\\data\\processed_test_run\\providers.parquet",
+    "beneficiaries": "D:\\docs\\hgad-cms-fraud\\data\\processed_test_run\\beneficiaries.parquet"
+  },
+  "gate_g1_passed": true
+}

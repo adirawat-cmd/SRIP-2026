@@ -1,0 +1,161 @@
+{
+  "models": [
+    "catboost",
+    "logistic_regression",
+    "random_forest",
+    "rf_centrality"
+  ],
+  "comparison_table": "D:\\docs\\hgad-cms-fraud\\artifacts\\results\\baselines\\baseline_comparison.csv",
+  "significance_table": "D:\\docs\\hgad-cms-fraud\\artifacts\\results\\baselines\\significance_auprc.json",
+  "gate_g3_passed": true,
+  "results": {
+    "catboost": {
+      "auprc": {
+        "mean": 0.6614969372643806,
+        "std": 0.050719072906900746,
+        "n_folds": 5.0
+      },
+      "f1": {
+        "mean": 0.6047906759272963,
+        "std": 0.038271716596312406,
+        "n_folds": 5.0
+      },
+      "precision": {
+        "mean": 0.5649654010799807,
+        "std": 0.027462561572951915,
+        "n_folds": 5.0
+      },
+      "recall": {
+        "mean": 0.6522811104639875,
+        "std": 0.0614871639311235,
+        "n_folds": 5.0
+      },
+      "roc_auc": {
+        "mean": 0.9265744395072346,
+        "std": 0.011994616365252156,
+        "n_folds": 5.0
+      },
+      "recall_at_k": {
+        "mean": 0.6048145991069696,
+        "std": 0.04391674685766663,
+        "n_folds": 5.0
+      },
+      "precision_at_k": {
+        "mean": 0.6048145991069696,
+        "std": 0.04391674685766663,
+        "n_folds": 5.0
+      }
+    },
+    "logistic_regression": {
+      "auprc": {
+        "mean": 0.6809594523169622,
+        "std": 0.03888609773858962,
+        "n_folds": 5.0
+      },
+      "f1": {
+        "mean": 0.5354544441359856,
+        "std": 0.011559905417080678,
+        "n_folds": 5.0
+      },
+      "precision": {
+        "mean": 0.3921042859521003,
+        "std": 0.012613278406088165,
+        "n_folds": 5.0
+      },
+      "recall": {
+        "mean": 0.8457969326344399,
+        "std": 0.035655849127475735,
+        "n_folds": 5.0
+      },
+      "roc_auc": {
+        "mean": 0.9273909704978669,
+        "std": 0.009339224273543764,
+        "n_folds": 5.0
+      },
+      "recall_at_k": {
+        "mean": 0.6086973403222675,
+        "std": 0.03321236328888507,
+        "n_folds": 5.0
+      },
+      "precision_at_k": {
+        "mean": 0.6086973403222675,
+        "std": 0.03321236328888507,
+        "n_folds": 5.0
+      }
+    },
+    "random_forest": {
+      "auprc": {
+        "mean": 0.6516560630341971,
+        "std": 0.05561532956928081,
+        "n_folds": 5.0
+      },
+      "f1": {
+        "mean": 0.5408180939709953,
+        "std": 0.07985333725995387,
+        "n_folds": 5.0
+      },
+      "precision": {
+        "mean": 0.7624362767140795,
+        "std": 0.08280931885801096,
+        "n_folds": 5.0
+      },
+      "recall": {
+        "mean": 0.4210444573869152,
+        "std": 0.07681064151206635,
+        "n_folds": 5.0
+      },
+      "roc_auc": {
+        "mean": 0.9295401818340805,
+        "std": 0.008805348440386652,
+        "n_folds": 5.0
+      },
+      "recall_at_k": {
+        "mean": 0.5988351776354106,
+        "std": 0.053817755643615184,
+        "n_folds": 5.0
+      },
+      "precision_at_k": {
+        "mean": 0.5988351776354106,
+        "std": 0.053817755643615184,
+        "n_folds": 5.0
+      }
+    },
+    "rf_centrality": {
+      "auprc": {
+        "mean": 0.6561193941502974,
+        "std": 0.059091432851270914,
+        "n_folds": 5.0
+      },
+      "f1": {
+        "mean": 0.5008199322535372,
+        "std": 0.05147061425116914,
+        "n_folds": 5.0
+      },
+      "precision": {
+        "mean": 0.7750085684028112,
+        "std": 0.053887288252668884,
+        "n_folds": 5.0
+      },
+      "recall": {
+        "mean": 0.3716754028344011,
+        "std": 0.05031165964086898,
+        "n_folds": 5.0
+      },
+      "roc_auc": {
+        "mean": 0.931171354513889,
+        "std": 0.01015673688632235,
+        "n_folds": 5.0
+      },
+      "recall_at_k": {
+        "mean": 0.6048145991069696,
+        "std": 0.05208567455727063,
+        "n_folds": 5.0
+      },
+      "precision_at_k": {
+        "mean": 0.6048145991069696,
+        "std": 0.05208567455727063,
+        "n_folds": 5.0
+      }
+    }
+  }
+}

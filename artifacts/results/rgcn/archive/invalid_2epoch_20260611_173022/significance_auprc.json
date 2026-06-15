@@ -1,0 +1,35 @@
+[
+  {
+    "metric": "auprc",
+    "model_a": "catboost",
+    "model_b": "rgcn_h64_L2_d0.3_b4_f15-10",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.0455895031935988,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "graphsage",
+    "model_b": "rgcn_h64_L2_d0.3_b4_f15-10",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.03713593436238431,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "logistic_regression",
+    "model_b": "rgcn_h64_L2_d0.3_b4_f15-10",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.0650520182461803,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  }
+]

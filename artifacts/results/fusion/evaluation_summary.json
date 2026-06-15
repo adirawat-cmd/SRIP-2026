@@ -1,0 +1,7 @@
+{
+  "best_model": "logistic_regression",
+  "benchmark_auprc": 0.6809594523169622,
+  "benchmark_auprc_std": 0.03888609773858962,
+  "beats_lr": false,
+  "report": "D:\\docs\\hgad-cms-fraud\\docs\\fusion_diagnosis.md"
+}

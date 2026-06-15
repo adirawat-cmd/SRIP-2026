@@ -1,0 +1,8 @@
+{
+  "best_config": "h64_L2_d0.3_b4_f15-10",
+  "benchmark_auprc": 0.6159074340707817,
+  "beats_lr": false,
+  "beats_graphsage": false,
+  "gate_g5_passed": null,
+  "report": "D:\\docs\\hgad-cms-fraud\\docs\\rgcn_diagnosis.md"
+}

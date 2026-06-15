@@ -1,0 +1,68 @@
+[
+  {
+    "metric": "auprc",
+    "model_a": "catboost",
+    "model_b": "logistic_regression",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 1.0,
+    "p_value": 0.125,
+    "mean_diff": -0.019462515052581498,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "catboost",
+    "model_b": "random_forest",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 0.0,
+    "p_value": 0.0625,
+    "mean_diff": 0.009840874230183516,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "catboost",
+    "model_b": "rf_centrality",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 6.0,
+    "p_value": 0.8125,
+    "mean_diff": 0.005377543114083094,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "logistic_regression",
+    "model_b": "random_forest",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 1.0,
+    "p_value": 0.125,
+    "mean_diff": 0.029303389282765012,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "logistic_regression",
+    "model_b": "rf_centrality",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 1.0,
+    "p_value": 0.125,
+    "mean_diff": 0.02484005816666459,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  },
+  {
+    "metric": "auprc",
+    "model_a": "random_forest",
+    "model_b": "rf_centrality",
+    "test": "wilcoxon_signed_rank",
+    "statistic": 6.0,
+    "p_value": 0.8125,
+    "mean_diff": -0.004463331116100422,
+    "n_pairs": 5,
+    "significant_at_0_05": false
+  }
+]
