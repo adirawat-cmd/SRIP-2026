@@ -59,15 +59,15 @@
 
 ## Training curves
 
-- `artifacts/results/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png`
-- `artifacts/results/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png`
-- `artifacts/results/gnn/plots/curve_top_configs_overlay.png`
-- `artifacts/results/gnn/plots/compare_aggregator.png`
-- `artifacts/results/gnn/plots/compare_hidden_dim.png`
-- `artifacts/results/gnn/plots/compare_num_layers.png`
+- `artifacts/diagnostics/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png`
+- `artifacts/diagnostics/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png`
+- `artifacts/diagnostics/gnn/plots/curve_top_configs_overlay.png`
+- `artifacts/diagnostics/gnn/plots/compare_aggregator.png`
+- `artifacts/diagnostics/gnn/plots/compare_hidden_dim.png`
+- `artifacts/diagnostics/gnn/plots/compare_num_layers.png`
 
 ## Diagnosis
 

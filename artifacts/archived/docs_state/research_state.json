@@ -15,7 +15,7 @@
       "date": "2026-06-11",
       "phase": "Phase 2 \u2014 Graph Construction",
       "observation": "schema_v1.1 reference graph: 363K treats, 109K bills_with, 76K collaborates edges.",
-      "evidence": "artifacts/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.",
+      "evidence": "artifacts/published/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.",
       "impact": "Confirms fold-safe heterogeneous graph artifacts for GNN training.",
       "follow_up_action": "Proceed to tabular and graph baselines.",
       "experiment_id": "graph_construct_v1_1"
@@ -25,7 +25,7 @@
       "date": "2026-06-11",
       "phase": "Phase 3 \u2014 Baselines",
       "observation": "Logistic Regression outperformed CatBoost, RF, and RF+Centrality on mean AUPRC.",
-      "evidence": "LR AUPRC 0.6810\u00b10.0389 vs CatBoost 0.6615\u00b10.0507 (artifacts/results/baselines/).",
+      "evidence": "LR AUPRC 0.6810\u00b10.0389 vs CatBoost 0.6615\u00b10.0507 (artifacts/published/baselines/).",
       "impact": "LR becomes primary tabular benchmark; Gate G3 passed.",
       "follow_up_action": "Test whether graph structure adds value beyond tabular features.",
       "experiment_id": "baselines_v1"
@@ -35,7 +35,7 @@
       "date": "2026-06-11",
       "phase": "Phase 4 \u2014 GraphSAGE",
       "observation": "GraphSAGE failed to beat Logistic Regression (5-fold AUPRC 0.6530 vs 0.6810).",
-      "evidence": "docs/graphsage_diagnosis.md; artifacts/results/gnn/graphsage_benchmark.json.",
+      "evidence": "docs/graphsage_diagnosis.md; artifacts/published/gnn/graphsage_benchmark.json.",
       "impact": "Gate G4 failed; homophilic GraphSAGE insufficient for fraud heterophily.",
       "follow_up_action": "Proceed to relation-aware R-GCN (Phase 5).",
       "experiment_id": "graphsage_eval"
@@ -75,17 +75,17 @@
       "date": "2026-06-11",
       "phase": "Phase 5 \u2014 R-GCN",
       "observation": "R-GCN eval benchmark AUPRC 0.6542; does not beat LR.",
-      "evidence": "artifacts/results/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md",
+      "evidence": "artifacts/published/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md",
       "impact": "Gate G5 failed.",
       "follow_up_action": "Fusion model or richer edge features.",
-      "experiment_id": "rgcn_v1"
+      "experiment_id": "rgcn_pub_v2"
     },
     {
       "finding_id": "F009",
       "date": "2026-06-11",
       "phase": "Phase 5 \u2014 R-GCN",
       "observation": "Prior rgcn_benchmark.json (AUPRC 0.6159) used max_epochs=2 and is invalid for baseline comparison.",
-      "evidence": "artifacts/results/rgcn/archive/invalid_2epoch_*",
+      "evidence": "artifacts/archived/rgcn_invalid_2epoch_20260611/",
       "impact": "Withdrawn from publication narrative until republication-grade benchmark completes.",
       "follow_up_action": "Run rgcn_pub_v2 with max_epochs=100, patience=10, full HPO grid.",
       "experiment_id": "rgcn_audit"
@@ -95,7 +95,7 @@
       "date": "2026-06-11",
       "phase": "Phase 5 \u2014 R-GCN",
       "observation": "Publication-grade R-GCN (rgcn_pub_v2): h128_L2_d0.4 AUPRC 0.6542\u00b10.0464; beats GraphSAGE (0.6530) but not LR (0.6810).",
-      "evidence": "artifacts/results/rgcn/rgcn_benchmark.json; max_epochs=100, patience=10, 12-config HPO.",
+      "evidence": "artifacts/published/rgcn/rgcn_benchmark.json; max_epochs=100, patience=10, 12-config HPO.",
       "impact": "Gate G5 still failed vs LR; marginal lift over GraphSAGE not significant (p=1.0).",
       "follow_up_action": "Phase 6 fusion model; do not cite invalid 2-epoch benchmark.",
       "experiment_id": "rgcn_pub_v2"
@@ -115,7 +115,7 @@
       "date": "2026-06-11",
       "phase": "Phase 6 \u2014 Hybrid Fusion",
       "observation": "logistic_regression 5-fold AUPRC 0.6810\u00b10.0389; does not beat LR baseline.",
-      "evidence": "experiment_id=fusion_v1; artifacts/results/",
+      "evidence": "experiment_id=fusion_v1; artifacts/published/fusion/fusion_benchmark.json",
       "impact": "Updates best-model ranking and publication story.",
       "follow_up_action": "Sync research docs; compare significance tests.",
       "experiment_id": "fusion_v1"
@@ -187,37 +187,37 @@
     }
   ],
   "project_status": {
-    "updated_utc": "2026-06-11T14:15:38.185547+00:00",
-    "current_phase": "Phase 6 \u2014 Fusion / Explainability (planned)",
-    "last_completed_gate": "G5 (failed)",
+    "updated_utc": "2026-06-21T15:04:07.874447+00:00",
+    "current_phase": "Phase 6 \u2014 Fusion complete; Explainability (planned)",
+    "last_completed_gate": "G6 (failed)",
     "current_best_model": "logistic_regression",
     "current_best_auprc": "0.6810",
-    "pending_experiments": "Fusion model (tabular + graph); GNNExplainer case studies; optional R-GCN full HPO if eval-mode results insufficient",
+    "pending_experiments": "GNNExplainer case studies; optional richer edge features or ensemble tuning",
     "known_risks": "Tabular LR dominates GNNs; class imbalance drives high recall/low precision; 4GB GPU limits model depth; val providers require inductive inference graphs",
-    "next_action": "Implement fusion or richer edge features; document why GNNs underperform LR"
+    "next_action": "Document negative GNN/fusion results for publication; pursue explainability case studies"
   },
   "paper_assets": {
     "tables_generated": [
-      "artifacts/results/baselines/baseline_comparison.csv",
-      "artifacts/results/baselines/baseline_comparison.json",
-      "artifacts/results/gnn/hpo_leaderboard.csv"
+      "artifacts/published/baselines/baseline_comparison.csv",
+      "artifacts/published/baselines/baseline_comparison.json",
+      "artifacts/published/gnn/hpo_leaderboard.csv"
     ],
     "figures_generated": [
-      "artifacts/results/gnn/plots/compare_aggregator.png",
-      "artifacts/results/gnn/plots/compare_hidden_dim.png",
-      "artifacts/results/gnn/plots/compare_num_layers.png",
-      "artifacts/results/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png",
-      "artifacts/results/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png",
-      "artifacts/results/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png",
-      "artifacts/results/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png",
-      "artifacts/results/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png",
-      "artifacts/results/gnn/plots/curve_top_configs_overlay.png",
-      "artifacts/results/rgcn/plots/curve_h128_L2_d0.2_b4_f15-10.png",
-      "artifacts/results/rgcn/plots/curve_h128_L2_d0.4_b4_f15-10.png",
-      "artifacts/results/rgcn/plots/curve_h128_L3_d0.4_b4_f15-10-5.png",
-      "artifacts/results/rgcn/plots/curve_h32_L3_d0.2_b4_f15-10-5.png",
-      "artifacts/results/rgcn/plots/curve_h64_L2_d0.4_b4_f15-10.png",
-      "artifacts/results/rgcn/plots/curve_top_configs_overlay.png"
+      "artifacts/diagnostics/gnn/plots/compare_aggregator.png",
+      "artifacts/diagnostics/gnn/plots/compare_hidden_dim.png",
+      "artifacts/diagnostics/gnn/plots/compare_num_layers.png",
+      "artifacts/diagnostics/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png",
+      "artifacts/diagnostics/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png",
+      "artifacts/diagnostics/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png",
+      "artifacts/diagnostics/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png",
+      "artifacts/diagnostics/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png",
+      "artifacts/diagnostics/gnn/plots/curve_top_configs_overlay.png",
+      "artifacts/diagnostics/rgcn/plots/curve_h128_L2_d0.2_b4_f15-10.png",
+      "artifacts/diagnostics/rgcn/plots/curve_h128_L2_d0.4_b4_f15-10.png",
+      "artifacts/diagnostics/rgcn/plots/curve_h128_L3_d0.4_b4_f15-10-5.png",
+      "artifacts/diagnostics/rgcn/plots/curve_h32_L3_d0.2_b4_f15-10-5.png",
+      "artifacts/diagnostics/rgcn/plots/curve_h64_L2_d0.4_b4_f15-10.png",
+      "artifacts/diagnostics/rgcn/plots/curve_top_configs_overlay.png"
     ],
     "ablations_completed": [
       "graphsage_hpo:graphsage_h128_L2_d0.3_max_f15-10",
@@ -254,9 +254,9 @@
     "research_problem": "Detect fraudulent Medicare providers using heterogeneous relational data (providers, beneficiaries, physicians) with explainable graph-based models.",
     "literature_gap": "Prior CMS fraud work relies on tabular features or homogeneous graphs; relation-specific heterogeneous modeling under provider-disjoint CV is under-tested.",
     "hypotheses": "H1: Graph structure improves AUPRC beyond tabular LR. H2: Relation-aware R-GCN beats homophilic GraphSAGE. H3: PP collaborates edges carry fraud signal beyond treats/bills_with.",
-    "experimental_evidence": "G3: LR AUPRC 0.6810 beats CatBoost/RF. G4 failed: GraphSAGE AUPRC 0.6530. G5 failed: R-GCN AUPRC 0.6542. Mean aggregation and 2-layer depth preferred for GraphSAGE.",
-    "current_conclusions": "Strong tabular baseline (LR) sets high bar. GraphSAGE homophilic message passing does not overcome feature dominance. R-GCN under initial benchmark also below LR; fusion or explainability may be required for publication-grade lift.",
-    "updated_utc": "2026-06-11T14:15:38.185547+00:00"
+    "experimental_evidence": "G3: LR AUPRC 0.6810 beats CatBoost/RF. G4 failed: GraphSAGE AUPRC 0.6530. G5 failed: R-GCN AUPRC 0.6542. G6 failed: LR remains best overall; best fusion fusion_stack_logistic AUPRC 0.6671. Mean aggregation and 2-layer depth preferred for GraphSAGE.",
+    "current_conclusions": "Strong tabular baseline (LR) sets high bar. GraphSAGE homophilic message passing does not overcome feature dominance. R-GCN and hybrid fusion also fail to beat LR under provider-disjoint CV; explainability case studies remain the primary path to publication-grade contribution.",
+    "updated_utc": "2026-06-21T15:04:07.874831+00:00"
   },
-  "last_synced_utc": "2026-06-11T14:15:38.185547+00:00"
+  "last_synced_utc": "2026-06-21T15:04:07.875235+00:00"
 }

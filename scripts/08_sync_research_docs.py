@@ -18,14 +18,14 @@ from hgad_cms.tracking.logger import setup_logging  # noqa: E402
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync research documentation markdown files.")
     parser.add_argument(
-        "--results-dir",
+        "--published-dir",
         type=Path,
-        default=Path("artifacts/results"),
-        help="Root directory for experiment results (default: artifacts/results).",
+        default=Path("artifacts/published"),
+        help="Publication-grade artifact root (default: artifacts/published).",
     )
     args = parser.parse_args()
     setup_logging()
-    sync_all(results_dir=args.results_dir)
+    sync_all(published_dir=args.published_dir)
     logging.getLogger(__name__).info(
         "Updated docs/research_findings.md, research_decisions.md, "
         "project_status.md, paper_assets.md, publication_story.md"

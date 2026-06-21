@@ -1,0 +1,9 @@
+# 9. Conclusion
+
+We presented a reproducible pipeline for hybrid heterogeneous graph anomaly detection on the CMS Healthcare Provider Fraud Detection Analysis dataset, spanning fold-safe graph construction (schema_v1.1), tabular baselines, GraphSAGE, R-GCN, and hybrid fusion with isolation-forest anomaly towers—all evaluated under provider-disjoint stratified 5-fold cross-validation with AUPRC as the primary metric.
+
+**The central empirical finding is that logistic regression achieves the best performance (AUPRC = 0.6810 ± 0.0389)** and neither relation-aware graph convolution nor stacked fusion improves this ranking metric on the published benchmarks. GraphSAGE (0.6530) and R-GCN (0.6542) perform similarly to each other; the best fusion variant (stacked logistic, 0.6671) narrows but does not close the gap to LR. Isolation-forest anomaly scores on graph embeddings remain substantially weaker (AUPRC < 0.45). R-GCN ablations indicate that treatment and billing relations contribute more than provider–provider collaboration edges, yet provider tabular features already capture most predictive signal.
+
+These results challenge the assumption that graph structure must improve Medicare provider fraud detection under strict evaluation. They emphasize **feature dominance, heterophily, and protocol rigor** as first-order considerations before adopting GNN complexity. For program integrity research, we recommend treating strong tabular baselines as gates for graph investment, reporting provider-disjoint AUPRC with significance tests, and pursuing explainability where models demonstrate measurable complementarity.
+
+All artifacts, figures, and reproduction commands are frozen in the open repository (`artifacts/published/`, `docs/reproducibility.md`). Rather than overstating graph novelty, this work contributes a **verified negative result** with implications for benchmark design and future explainable relational modeling in healthcare fraud.

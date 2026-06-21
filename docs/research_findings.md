@@ -2,7 +2,7 @@
 
 Automated record of scientific findings. Updated after each benchmark, ablation, and gate event.
 
-Last synced: 2026-06-11T14:15:38.185547+00:00
+Last synced: 2026-06-21T15:04:07.875235+00:00
 
 ---
 
@@ -36,7 +36,7 @@ Use stratified provider-disjoint CV.
 schema_v1.1 reference graph: 363K treats, 109K bills_with, 76K collaborates edges.
 
 **Evidence:**
-artifacts/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.
+artifacts/published/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.
 
 **Impact:**
 Confirms fold-safe heterogeneous graph artifacts for GNN training.
@@ -56,7 +56,7 @@ Proceed to tabular and graph baselines.
 Logistic Regression outperformed CatBoost, RF, and RF+Centrality on mean AUPRC.
 
 **Evidence:**
-LR AUPRC 0.6810±0.0389 vs CatBoost 0.6615±0.0507 (artifacts/results/baselines/).
+LR AUPRC 0.6810±0.0389 vs CatBoost 0.6615±0.0507 (artifacts/published/baselines/).
 
 **Impact:**
 LR becomes primary tabular benchmark; Gate G3 passed.
@@ -76,7 +76,7 @@ Test whether graph structure adds value beyond tabular features.
 GraphSAGE failed to beat Logistic Regression (5-fold AUPRC 0.6530 vs 0.6810).
 
 **Evidence:**
-docs/graphsage_diagnosis.md; artifacts/results/gnn/graphsage_benchmark.json.
+docs/graphsage_diagnosis.md; artifacts/published/gnn/graphsage_benchmark.json.
 
 **Impact:**
 Gate G4 failed; homophilic GraphSAGE insufficient for fraud heterophily.
@@ -150,13 +150,13 @@ Prioritize h32/h64 in R-GCN HPO.
 
 **Date:** 2026-06-11  
 **Phase:** Phase 5 — R-GCN  
-**Experiment ID:** rgcn_v1
+**Experiment ID:** rgcn_pub_v2
 
 **Observation:**
 R-GCN eval benchmark AUPRC 0.6542; does not beat LR.
 
 **Evidence:**
-artifacts/results/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md
+artifacts/published/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md
 
 **Impact:**
 Gate G5 failed.
@@ -176,7 +176,7 @@ Fusion model or richer edge features.
 Prior rgcn_benchmark.json (AUPRC 0.6159) used max_epochs=2 and is invalid for baseline comparison.
 
 **Evidence:**
-artifacts/results/rgcn/archive/invalid_2epoch_*
+artifacts/archived/rgcn_invalid_2epoch_20260611/
 
 **Impact:**
 Withdrawn from publication narrative until republication-grade benchmark completes.
@@ -196,7 +196,7 @@ Run rgcn_pub_v2 with max_epochs=100, patience=10, full HPO grid.
 Publication-grade R-GCN (rgcn_pub_v2): h128_L2_d0.4 AUPRC 0.6542±0.0464; beats GraphSAGE (0.6530) but not LR (0.6810).
 
 **Evidence:**
-artifacts/results/rgcn/rgcn_benchmark.json; max_epochs=100, patience=10, 12-config HPO.
+artifacts/published/rgcn/rgcn_benchmark.json; max_epochs=100, patience=10, 12-config HPO.
 
 **Impact:**
 Gate G5 still failed vs LR; marginal lift over GraphSAGE not significant (p=1.0).
@@ -236,7 +236,7 @@ See project_status.md next_action.
 logistic_regression 5-fold AUPRC 0.6810±0.0389; does not beat LR baseline.
 
 **Evidence:**
-experiment_id=fusion_v1; artifacts/results/
+experiment_id=fusion_v1; artifacts/published/fusion/fusion_benchmark.json
 
 **Impact:**
 Updates best-model ranking and publication story.

@@ -2,31 +2,31 @@
 
 Automatically tracked tables, figures, and completed experiments for publication.
 
-Last synced: 2026-06-11T14:15:38.185547+00:00
+Last synced: 2026-06-21T15:04:07.875235+00:00
 
 ## Tables Generated
 
-- `artifacts/results/baselines/baseline_comparison.csv`
-- `artifacts/results/baselines/baseline_comparison.json`
-- `artifacts/results/gnn/hpo_leaderboard.csv`
+- `artifacts/published/baselines/baseline_comparison.csv`
+- `artifacts/published/baselines/baseline_comparison.json`
+- `artifacts/published/gnn/hpo_leaderboard.csv`
 
 ## Figures Generated
 
-- `artifacts/results/gnn/plots/compare_aggregator.png`
-- `artifacts/results/gnn/plots/compare_hidden_dim.png`
-- `artifacts/results/gnn/plots/compare_num_layers.png`
-- `artifacts/results/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png`
-- `artifacts/results/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png`
-- `artifacts/results/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png`
-- `artifacts/results/gnn/plots/curve_top_configs_overlay.png`
-- `artifacts/results/rgcn/plots/curve_h128_L2_d0.2_b4_f15-10.png`
-- `artifacts/results/rgcn/plots/curve_h128_L2_d0.4_b4_f15-10.png`
-- `artifacts/results/rgcn/plots/curve_h128_L3_d0.4_b4_f15-10-5.png`
-- `artifacts/results/rgcn/plots/curve_h32_L3_d0.2_b4_f15-10-5.png`
-- `artifacts/results/rgcn/plots/curve_h64_L2_d0.4_b4_f15-10.png`
-- `artifacts/results/rgcn/plots/curve_top_configs_overlay.png`
+- `artifacts/diagnostics/gnn/plots/compare_aggregator.png`
+- `artifacts/diagnostics/gnn/plots/compare_hidden_dim.png`
+- `artifacts/diagnostics/gnn/plots/compare_num_layers.png`
+- `artifacts/diagnostics/gnn/plots/curve_h128_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h128_L3_d0.3_mean_f15-10-5.png`
+- `artifacts/diagnostics/gnn/plots/curve_h32_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h64_L2_d0.3_mean_f15-10.png`
+- `artifacts/diagnostics/gnn/plots/curve_h64_L3_d0.3_mean_f15-10-5.png`
+- `artifacts/diagnostics/gnn/plots/curve_top_configs_overlay.png`
+- `artifacts/diagnostics/rgcn/plots/curve_h128_L2_d0.2_b4_f15-10.png`
+- `artifacts/diagnostics/rgcn/plots/curve_h128_L2_d0.4_b4_f15-10.png`
+- `artifacts/diagnostics/rgcn/plots/curve_h128_L3_d0.4_b4_f15-10-5.png`
+- `artifacts/diagnostics/rgcn/plots/curve_h32_L3_d0.2_b4_f15-10-5.png`
+- `artifacts/diagnostics/rgcn/plots/curve_h64_L2_d0.4_b4_f15-10.png`
+- `artifacts/diagnostics/rgcn/plots/curve_top_configs_overlay.png`
 
 ## Ablations Completed
 

@@ -1,0 +1,52 @@
+{
+  "frozen_at_utc": "2026-06-21T00:00:00+00:00",
+  "cv_protocol": "provider-disjoint stratified 5-fold (seed=42)",
+  "primary_metric": "auprc",
+  "best_model": "logistic_regression",
+  "experiments": [
+    {
+      "phase": "G2",
+      "run_id": "graph_construct_v1_1",
+      "path": "graphs/v1.1/reference/graph_manifest.json",
+      "gate": "G2_PASS"
+    },
+    {
+      "phase": "G3",
+      "run_id": "baselines_v1",
+      "path": "baselines/baseline_manifest.json",
+      "best_model": "logistic_regression",
+      "auprc_mean": 0.6810,
+      "auprc_std": 0.0389,
+      "gate": "G3_PASS"
+    },
+    {
+      "phase": "G4",
+      "run_id": "graphsage_eval",
+      "path": "gnn/graphsage_benchmark.json",
+      "best_config": "h32_L2_d0.3_mean_f15-10",
+      "auprc_mean": 0.6530,
+      "auprc_std": 0.0429,
+      "gate": "G4_FAIL"
+    },
+    {
+      "phase": "G5",
+      "run_id": "rgcn_pub_v2",
+      "path": "rgcn/rgcn_benchmark.json",
+      "best_config": "h128_L2_d0.4_b4_f15-10",
+      "auprc_mean": 0.6542,
+      "auprc_std": 0.0464,
+      "max_epochs": 100,
+      "gate": "G5_FAIL"
+    },
+    {
+      "phase": "G6",
+      "run_id": "fusion_v1",
+      "path": "fusion/fusion_benchmark.json",
+      "best_fusion": "fusion_stack_logistic",
+      "best_fusion_auprc": 0.6671,
+      "overall_best": "logistic_regression",
+      "overall_auprc": 0.6810,
+      "gate": "G6_FAIL"
+    }
+  ]
+}

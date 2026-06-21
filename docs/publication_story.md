@@ -2,7 +2,7 @@
 
 Living narrative for the CMS provider fraud detection paper.
 
-Last updated: 2026-06-11T14:15:38.185547+00:00
+Last updated: 2026-06-21T15:04:07.874831+00:00
 
 ## Research Problem
 
@@ -21,10 +21,10 @@ H1: Graph structure improves AUPRC beyond tabular LR. H2: Relation-aware R-GCN b
 
 ## Experimental Evidence
 
-G3: LR AUPRC 0.6810 beats CatBoost/RF. G4 failed: GraphSAGE AUPRC 0.6530. G5 failed: R-GCN AUPRC 0.6542. Mean aggregation and 2-layer depth preferred for GraphSAGE.
+G3: LR AUPRC 0.6810 beats CatBoost/RF. G4 failed: GraphSAGE AUPRC 0.6530. G5 failed: R-GCN AUPRC 0.6542. G6 failed: LR remains best overall; best fusion fusion_stack_logistic AUPRC 0.6671. Mean aggregation and 2-layer depth preferred for GraphSAGE.
 
 
 ## Current Conclusions
 
-Strong tabular baseline (LR) sets high bar. GraphSAGE homophilic message passing does not overcome feature dominance. R-GCN under initial benchmark also below LR; fusion or explainability may be required for publication-grade lift.
+Strong tabular baseline (LR) sets high bar. GraphSAGE homophilic message passing does not overcome feature dominance. R-GCN and hybrid fusion also fail to beat LR under provider-disjoint CV; explainability case studies remain the primary path to publication-grade contribution.
 

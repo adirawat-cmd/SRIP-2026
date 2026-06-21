@@ -17,7 +17,10 @@ from typing import Any
 logger = logging.getLogger(__name__)
 
 DOCS_DIR = Path("docs")
-STATE_DIR = Path("artifacts/docs_state")
+PUBLISHED_DIR = Path("artifacts/published")
+DIAGNOSTICS_DIR = Path("artifacts/diagnostics")
+ARCHIVED_DIR = Path("artifacts/archived")
+STATE_DIR = ARCHIVED_DIR / "docs_state"
 STATE_PATH = STATE_DIR / "research_state.json"
 
 FINDINGS_PATH = DOCS_DIR / "research_findings.md"
@@ -133,7 +136,7 @@ def _bootstrap_state() -> ResearchState:
             date="2026-06-11",
             phase="Phase 2 — Graph Construction",
             observation="schema_v1.1 reference graph: 363K treats, 109K bills_with, 76K collaborates edges.",
-            evidence="artifacts/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.",
+            evidence="artifacts/published/graphs/v1.1/reference/graph_manifest.json; Gate G2 passed.",
             impact="Confirms fold-safe heterogeneous graph artifacts for GNN training.",
             follow_up_action="Proceed to tabular and graph baselines.",
             experiment_id="graph_construct_v1_1",
@@ -143,7 +146,7 @@ def _bootstrap_state() -> ResearchState:
             date="2026-06-11",
             phase="Phase 3 — Baselines",
             observation="Logistic Regression outperformed CatBoost, RF, and RF+Centrality on mean AUPRC.",
-            evidence="LR AUPRC 0.6810±0.0389 vs CatBoost 0.6615±0.0507 (artifacts/results/baselines/).",
+            evidence="LR AUPRC 0.6810±0.0389 vs CatBoost 0.6615±0.0507 (artifacts/published/baselines/).",
             impact="LR becomes primary tabular benchmark; Gate G3 passed.",
             follow_up_action="Test whether graph structure adds value beyond tabular features.",
             experiment_id="baselines_v1",
@@ -153,7 +156,7 @@ def _bootstrap_state() -> ResearchState:
             date="2026-06-11",
             phase="Phase 4 — GraphSAGE",
             observation="GraphSAGE failed to beat Logistic Regression (5-fold AUPRC 0.6530 vs 0.6810).",
-            evidence="docs/graphsage_diagnosis.md; artifacts/results/gnn/graphsage_benchmark.json.",
+            evidence="docs/graphsage_diagnosis.md; artifacts/published/gnn/graphsage_benchmark.json.",
             impact="Gate G4 failed; homophilic GraphSAGE insufficient for fraud heterophily.",
             follow_up_action="Proceed to relation-aware R-GCN (Phase 5).",
             experiment_id="graphsage_eval",
@@ -192,11 +195,11 @@ def _bootstrap_state() -> ResearchState:
             finding_id="F008",
             date="2026-06-11",
             phase="Phase 5 — R-GCN",
-            observation="R-GCN eval-mode benchmark did not beat LR or GraphSAGE (AUPRC 0.6159±0.0445).",
-            evidence="artifacts/results/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md; Gate G5 failed.",
+            observation="R-GCN eval benchmark AUPRC 0.6542; does not beat LR.",
+            evidence="artifacts/published/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md; Gate G5 failed.",
             impact="Gate G5 failed; relation-specific convolutions alone insufficient.",
-            follow_up_action="Run full HPO; evaluate relation ablations; consider fusion.",
-            experiment_id="rgcn_v1",
+            follow_up_action="Fusion model or richer edge features.",
+            experiment_id="rgcn_pub_v2",
         ),
     ]
 
@@ -266,12 +269,17 @@ def _bootstrap_state() -> ResearchState:
     return state
 
 
-def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts/results")) -> None:
-    """Refresh project status and paper assets from artifact directories."""
-    baselines_dir = results_dir / "baselines"
-    gnn_dir = results_dir / "gnn"
-    rgcn_dir = results_dir / "rgcn"
-    fusion_dir = results_dir / "fusion"
+def _scan_artifacts(
+    state: ResearchState,
+    *,
+    published_dir: Path = PUBLISHED_DIR,
+    diagnostics_dir: Path = DIAGNOSTICS_DIR,
+) -> None:
+    """Refresh project status and paper assets from publication-grade artifact directories."""
+    baselines_dir = published_dir / "baselines"
+    gnn_dir = published_dir / "gnn"
+    rgcn_dir = published_dir / "rgcn"
+    fusion_dir = published_dir / "fusion"
 
     tables: list[str] = []
     figures: list[str] = []
@@ -284,13 +292,13 @@ def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts
         ("**/*.csv", tables),
         ("**/*.json", tables),
     ]:
-        for path in results_dir.glob(pattern):
+        for path in published_dir.glob(pattern):
             rel = path.as_posix()
             if "comparison" in path.name or "leaderboard" in path.name:
                 if rel not in tables:
                     tables.append(rel)
 
-    plot_dirs = [gnn_dir / "plots", rgcn_dir / "plots"]
+    plot_dirs = [diagnostics_dir / "gnn" / "plots", diagnostics_dir / "rgcn" / "plots"]
     for plot_dir in plot_dirs:
         if plot_dir.is_dir():
             for png in sorted(plot_dir.glob("*.png")):
@@ -306,12 +314,12 @@ def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts
     if (fusion_dir / "fusion_benchmark.json").is_file():
         models.append("fusion")
 
-    abl_dir = rgcn_dir / "ablations"
+    abl_dir = diagnostics_dir / "rgcn" / "ablations"
     if abl_dir.is_dir():
         for p in abl_dir.glob("*.json"):
             ablations.append(p.stem)
 
-    gnn_hpo = gnn_dir / "hpo_search"
+    gnn_hpo = ARCHIVED_DIR / "gnn_hpo_search"
     if gnn_hpo.is_dir():
         ablations.extend([f"graphsage_hpo:{p.stem}" for p in gnn_hpo.glob("*.json")])
 
@@ -367,14 +375,20 @@ def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts
                     f"R-GCN eval benchmark AUPRC {rg_auprc:.4f}; "
                     f"{'beats' if rg.get('beats_lr') else 'does not beat'} LR."
                 ),
-                evidence="artifacts/results/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md",
+                evidence="artifacts/published/rgcn/rgcn_benchmark.json; docs/rgcn_diagnosis.md",
                 impact="Gate G5 failed." if not rg.get("beats_lr") else "Gate G5 passed.",
                 follow_up_action="Fusion model or richer edge features.",
-                experiment_id="rgcn_v1",
+                experiment_id="rgcn_pub_v2",
             ),
         )
 
     current_phase = "Phase 5 — R-GCN Benchmark"
+    pending = (
+        "R-GCN eval HPO (6 configs); relation ablations; fusion model; "
+        "GNNExplainer case studies"
+    )
+    next_action = "Complete R-GCN benchmark and ablations"
+
     if (rgcn_dir / "evaluation_summary.json").is_file():
         with (rgcn_dir / "evaluation_summary.json").open(encoding="utf-8") as handle:
             rg = json.load(handle)
@@ -395,12 +409,39 @@ def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts
             next_action = (
                 "Complete R-GCN full HPO and ablations; if G5 fails, implement fusion"
             )
-    else:
-        pending = (
-            "R-GCN eval HPO (6 configs); relation ablations; fusion model; "
-            "GNNExplainer case studies"
+
+    fusion_auprc_str = ""
+    if (fusion_dir / "evaluation_summary.json").is_file():
+        with (fusion_dir / "evaluation_summary.json").open(encoding="utf-8") as handle:
+            fu = json.load(handle)
+        last_gate = "G6 (failed)" if not fu.get("beats_lr", True) else "G6 (passed)"
+        current_phase = "Phase 6 — Fusion complete; Explainability (planned)"
+        pending = "GNNExplainer case studies; optional richer edge features or ensemble tuning"
+        next_action = (
+            "Document negative GNN/fusion results for publication; "
+            "pursue explainability case studies"
         )
-        next_action = "Complete R-GCN benchmark and ablations"
+        best_fusion_name = "fusion_stack_logistic"
+        best_fusion_auprc = 0.0
+        bench_path = fusion_dir / "fusion_benchmark.json"
+        if bench_path.is_file():
+            with bench_path.open(encoding="utf-8") as handle:
+                bench = json.load(handle)
+            summaries = bench.get("model_summaries", {})
+            if best_fusion_name in summaries:
+                best_fusion_auprc = float(summaries[best_fusion_name]["auprc"]["mean"])
+            else:
+                fusion_models = [
+                    (name, float(m["auprc"]["mean"]))
+                    for name, m in summaries.items()
+                    if name.startswith("fusion_")
+                ]
+                if fusion_models:
+                    best_fusion_name, best_fusion_auprc = max(fusion_models, key=lambda x: x[1])
+        fusion_auprc_str = (
+            f" G6 failed: LR remains best overall; "
+            f"best fusion {best_fusion_name} AUPRC {best_fusion_auprc:.4f}."
+        )
 
     state.project_status = {
         "updated_utc": _utc_now(),
@@ -448,13 +489,15 @@ def _scan_artifacts(state: ResearchState, *, results_dir: Path = Path("artifacts
         "experimental_evidence": (
             f"G3: LR AUPRC {LR_BASELINE_AUPRC:.4f} beats CatBoost/RF. "
             f"G4 failed: GraphSAGE AUPRC {GRAPHSAGE_BENCHMARK_AUPRC:.4f}. "
-            f"G5 failed: R-GCN AUPRC {rg_auprc_str}. "
+            f"G5 failed: R-GCN AUPRC {rg_auprc_str}."
+            f"{fusion_auprc_str} "
             "Mean aggregation and 2-layer depth preferred for GraphSAGE."
         ),
         "current_conclusions": (
             "Strong tabular baseline (LR) sets high bar. GraphSAGE homophilic message passing "
-            "does not overcome feature dominance. R-GCN under initial benchmark also below LR; "
-            "fusion or explainability may be required for publication-grade lift."
+            "does not overcome feature dominance. R-GCN and hybrid fusion also fail to beat LR "
+            "under provider-disjoint CV; explainability case studies remain the primary path to "
+            "publication-grade contribution."
         ),
         "updated_utc": _utc_now(),
     }
@@ -573,7 +616,7 @@ def on_benchmark_complete(
             date=_utc_date(),
             phase=phase,
             observation=obs,
-            evidence=f"experiment_id={experiment_id}; artifacts/results/",
+            evidence=f"experiment_id={experiment_id}; artifacts/published/",
             impact="Updates best-model ranking and publication story.",
             follow_up_action="Sync research docs; compare significance tests.",
             experiment_id=experiment_id,
@@ -585,10 +628,10 @@ def on_benchmark_complete(
     write_all_docs(state)
 
 
-def sync_all(*, results_dir: Path = Path("artifacts/results")) -> None:
-    """Full sync from artifacts and rewrite all documentation files."""
+def sync_all(*, published_dir: Path = PUBLISHED_DIR) -> None:
+    """Full sync from published artifacts and rewrite all documentation files."""
     state = _load_state()
-    _scan_artifacts(state, results_dir=results_dir)
+    _scan_artifacts(state, published_dir=published_dir)
     state.last_synced_utc = _utc_now()
     _save_state(state)
     write_all_docs(state)

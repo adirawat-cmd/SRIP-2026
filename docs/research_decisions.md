@@ -2,7 +2,7 @@
 
 Automated record of major design decisions.
 
-Last synced: 2026-06-11T14:15:38.185547+00:00
+Last synced: 2026-06-21T15:04:07.875235+00:00
 
 ---
 
